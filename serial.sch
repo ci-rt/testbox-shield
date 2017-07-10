@@ -1,0 +1,325 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MAX3232 U201
+U 1 1 595EBA2A
+P 5500 3400
+F 0 "U201" H 5400 4525 50  0000 R CNN
+F 1 "MAX3232" H 5400 4450 50  0000 R CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 5550 2350 50  0001 L CNN
+F 3 "" H 5500 3500 50  0001 C CNN
+	1    5500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C201
+U 1 1 595EBA8C
+P 4500 2650
+F 0 "C201" H 4525 2750 50  0000 L CNN
+F 1 "10µ" H 4525 2550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4538 2500 50  0001 C CNN
+F 3 "" H 4500 2650 50  0001 C CNN
+	1    4500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C202
+U 1 1 595EBAEC
+P 6500 2650
+F 0 "C202" H 6525 2750 50  0000 L CNN
+F 1 "10µ" H 6525 2550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6538 2500 50  0001 C CNN
+F 3 "" H 6500 2650 50  0001 C CNN
+	1    6500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR012
+U 1 1 595EBB26
+P 5500 2100
+F 0 "#PWR012" H 5500 1950 50  0001 C CNN
+F 1 "+3.3V" H 5500 2240 50  0000 C CNN
+F 2 "" H 5500 2100 50  0001 C CNN
+F 3 "" H 5500 2100 50  0001 C CNN
+	1    5500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C203
+U 1 1 595EBB41
+P 6650 3000
+F 0 "C203" H 6675 3100 50  0000 L CNN
+F 1 "10µ" H 6675 2900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6688 2850 50  0001 C CNN
+F 3 "" H 6650 3000 50  0001 C CNN
+	1    6650 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L C C204
+U 1 1 595EBB79
+P 6650 3300
+F 0 "C204" H 6675 3400 50  0000 L CNN
+F 1 "10µ" H 6675 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6688 3150 50  0001 C CNN
+F 3 "" H 6650 3300 50  0001 C CNN
+	1    6650 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 3000 6500 3000
+Wire Wire Line
+	6300 3300 6500 3300
+Wire Wire Line
+	6300 2800 6500 2800
+Wire Wire Line
+	6300 2500 6500 2500
+Wire Wire Line
+	4500 2500 4700 2500
+Wire Wire Line
+	4500 2800 4700 2800
+Wire Wire Line
+	5500 2100 5500 2200
+$Comp
+L +3.3V #PWR013
+U 1 1 595EBBE6
+P 6900 2900
+F 0 "#PWR013" H 6900 2750 50  0001 C CNN
+F 1 "+3.3V" H 6900 3040 50  0000 C CNN
+F 2 "" H 6900 2900 50  0001 C CNN
+F 3 "" H 6900 2900 50  0001 C CNN
+	1    6900 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3000 6900 3000
+Wire Wire Line
+	6900 3000 6900 2900
+$Comp
+L GND #PWR014
+U 1 1 595EBC0B
+P 6900 3400
+F 0 "#PWR014" H 6900 3150 50  0001 C CNN
+F 1 "GND" H 6900 3250 50  0000 C CNN
+F 2 "" H 6900 3400 50  0001 C CNN
+F 3 "" H 6900 3400 50  0001 C CNN
+	1    6900 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3300 6900 3300
+Wire Wire Line
+	6900 3300 6900 3400
+$Comp
+L RJ45 J202
+U 1 1 595EBD51
+P 2450 5050
+F 0 "J202" H 2650 5550 50  0000 C CNN
+F 1 "serial" H 2300 5550 50  0000 C CNN
+F 2 "Connect:RJ45_8" H 2450 5050 50  0001 C CNN
+F 3 "" H 2450 5050 50  0001 C CNN
+	1    2450 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 595EBDB1
+P 5500 4700
+F 0 "#PWR015" H 5500 4450 50  0001 C CNN
+F 1 "GND" H 5500 4550 50  0000 C CNN
+F 2 "" H 5500 4700 50  0001 C CNN
+F 3 "" H 5500 4700 50  0001 C CNN
+	1    5500 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4600 5500 4700
+Text HLabel 6300 3500 2    60   Input ~ 0
+TX1
+Text HLabel 6300 3700 2    60   Input ~ 0
+TX2
+Text HLabel 6300 3900 2    60   Output ~ 0
+RX1
+Text HLabel 6300 4100 2    60   Output ~ 0
+RX2
+$Comp
+L GND #PWR016
+U 1 1 595EEDE5
+P 3000 5500
+F 0 "#PWR016" H 3000 5250 50  0001 C CNN
+F 1 "GND" H 3000 5350 50  0000 C CNN
+F 2 "" H 3000 5500 50  0001 C CNN
+F 3 "" H 3000 5500 50  0001 C CNN
+	1    3000 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5100 3000 5100
+Wire Wire Line
+	2900 5000 3000 5000
+Connection ~ 3000 5100
+Connection ~ 3000 5000
+NoConn ~ 2900 4700
+NoConn ~ 2900 4800
+NoConn ~ 2900 5300
+NoConn ~ 2900 5400
+$Comp
+L GS3 J203
+U 1 1 595EEF53
+P 3350 3600
+F 0 "J203" H 3200 3600 50  0000 C CNN
+F 1 "GS3" H 3500 3450 50  0000 C CNN
+F 2 "Connectors:GS3" V 3438 3526 50  0001 C CNN
+F 3 "" H 3350 3600 50  0001 C CNN
+	1    3350 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L GS3 J204
+U 1 1 595EF10E
+P 3350 3900
+F 0 "J204" H 3200 3900 50  0000 C CNN
+F 1 "GS3" H 3500 3750 50  0000 C CNN
+F 2 "Connectors:GS3" V 3438 3826 50  0001 C CNN
+F 3 "" H 3350 3900 50  0001 C CNN
+	1    3350 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L GS3 J205
+U 1 1 595EF3C5
+P 3350 4900
+F 0 "J205" H 3200 4900 50  0000 C CNN
+F 1 "GS3" H 3500 4750 50  0000 C CNN
+F 2 "Connectors:GS3" V 3438 4826 50  0001 C CNN
+F 3 "" H 3350 4900 50  0001 C CNN
+	1    3350 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L GS3 J206
+U 1 1 595EF3CB
+P 3350 5200
+F 0 "J206" H 3200 5200 50  0000 C CNN
+F 1 "GS3" H 3500 5050 50  0000 C CNN
+F 2 "Connectors:GS3" V 3438 5126 50  0001 C CNN
+F 3 "" H 3350 5200 50  0001 C CNN
+	1    3350 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2800 3900 3200 3900
+Wire Wire Line
+	2900 4900 3200 4900
+Wire Wire Line
+	2900 5200 3200 5200
+Wire Wire Line
+	3500 3500 4700 3500
+Wire Wire Line
+	3500 3800 3600 3800
+Wire Wire Line
+	3600 3800 3600 3500
+Connection ~ 3600 3500
+Wire Wire Line
+	4700 3900 3700 3900
+Wire Wire Line
+	3700 3700 3700 4000
+Wire Wire Line
+	3700 3700 3500 3700
+Wire Wire Line
+	3700 4000 3500 4000
+Connection ~ 3700 3900
+Wire Wire Line
+	4700 3700 3800 3700
+Wire Wire Line
+	3800 3700 3800 5100
+Wire Wire Line
+	3800 4800 3500 4800
+Wire Wire Line
+	3800 5100 3500 5100
+Connection ~ 3800 4800
+Wire Wire Line
+	3500 5000 3900 5000
+Wire Wire Line
+	3900 4100 3900 5300
+Wire Wire Line
+	3900 4100 4700 4100
+Wire Wire Line
+	3900 5300 3500 5300
+Connection ~ 3900 5000
+Wire Wire Line
+	2100 4500 2100 4400
+Wire Wire Line
+	3000 4200 3000 5500
+Wire Wire Line
+	2800 3800 2800 3900
+NoConn ~ 2400 3500
+NoConn ~ 2400 3700
+NoConn ~ 2400 3900
+NoConn ~ 2400 4100
+$Comp
+L DB9_FEMALE_MountingHoles J201
+U 1 1 595FCC27
+P 2100 3800
+F 0 "J201" H 2100 4450 50  0000 C CNN
+F 1 "console" H 2100 4375 50  0000 C CNN
+F 2 "Connectors:DB9FD" H 2100 3800 50  0001 C CNN
+F 3 "" H 2100 3800 50  0001 C CNN
+	1    2100 3800
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 2400 4000
+Wire Wire Line
+	2400 3600 3200 3600
+Wire Wire Line
+	2400 3800 2800 3800
+Wire Wire Line
+	2400 4200 3000 4200
+NoConn ~ 2400 3400
+Wire Wire Line
+	2100 4450 3000 4450
+Connection ~ 3000 4450
+Connection ~ 2100 4450
+$EndSCHEMATC

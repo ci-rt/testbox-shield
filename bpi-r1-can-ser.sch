@@ -1,0 +1,355 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 6000 2100 600  1000
+U 595EBA0C
+F0 "serial" 60
+F1 "serial.sch" 60
+F2 "TX1" I L 6000 2300 60 
+F3 "TX2" I L 6000 2700 60 
+F4 "RX1" O L 6000 2500 60 
+F5 "RX2" O L 6000 2900 60 
+$EndSheet
+$Comp
+L CONN_02X04 J101
+U 1 1 595EFECC
+P 4350 2250
+F 0 "J101" H 4350 2500 50  0000 C CNN
+F 1 "GPIO J12" H 4350 2000 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x04_Pitch2.54mm" H 4350 1050 50  0001 C CNN
+F 3 "" H 4350 1050 50  0001 C CNN
+	1    4350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X01 J102
+U 1 1 595EFEFF
+P 4350 2900
+F 0 "J102" H 4350 3000 50  0000 C CNN
+F 1 "GPIO J13" H 4350 2800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x01_Pitch2.54mm" H 4350 1700 50  0001 C CNN
+F 3 "" H 4350 1700 50  0001 C CNN
+	1    4350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_02X13 J103
+U 1 1 595EFF3E
+P 4350 4000
+F 0 "J103" H 4350 4700 50  0000 C CNN
+F 1 "GPIO CON3" V 4350 4000 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x13_Pitch2.54mm" H 4350 2850 50  0001 C CNN
+F 3 "" H 4350 2850 50  0001 C CNN
+	1    4350 4000
+	1    0    0    -1  
+$EndComp
+Text Label 4700 2900 0    60   ~ 0
+UART0-TX
+Text Label 4000 2900 2    60   ~ 0
+UART0-RX
+Text Label 5900 2300 2    60   ~ 0
+UART0-TX
+Text Label 5900 2500 2    60   ~ 0
+UART0-RX
+Wire Wire Line
+	5900 2300 6000 2300
+Wire Wire Line
+	5900 2500 6000 2500
+$Comp
+L +3.3V #PWR01
+U 1 1 595F05F5
+P 4700 2000
+F 0 "#PWR01" H 4700 1850 50  0001 C CNN
+F 1 "+3.3V" H 4700 2140 50  0000 C CNN
+F 2 "" H 4700 2000 50  0001 C CNN
+F 3 "" H 4700 2000 50  0001 C CNN
+	1    4700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 595F0627
+P 4700 2500
+F 0 "#PWR02" H 4700 2250 50  0001 C CNN
+F 1 "GND" H 4700 2350 50  0000 C CNN
+F 2 "" H 4700 2500 50  0001 C CNN
+F 3 "" H 4700 2500 50  0001 C CNN
+	1    4700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR03
+U 1 1 595F0659
+P 4000 2000
+F 0 "#PWR03" H 4000 1850 50  0001 C CNN
+F 1 "+5V" H 4000 2140 50  0000 C CNN
+F 2 "" H 4000 2000 50  0001 C CNN
+F 3 "" H 4000 2000 50  0001 C CNN
+	1    4000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 595F06B7
+P 4000 2500
+F 0 "#PWR04" H 4000 2250 50  0001 C CNN
+F 1 "GND" H 4000 2350 50  0000 C CNN
+F 2 "" H 4000 2500 50  0001 C CNN
+F 3 "" H 4000 2500 50  0001 C CNN
+	1    4000 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2400 4000 2400
+Wire Wire Line
+	4000 2400 4000 2500
+Wire Wire Line
+	4600 2400 4700 2400
+Wire Wire Line
+	4700 2400 4700 2500
+Wire Wire Line
+	4100 2100 4000 2100
+Wire Wire Line
+	4000 2100 4000 2000
+Wire Wire Line
+	4600 2100 4700 2100
+Wire Wire Line
+	4700 2100 4700 2000
+Wire Wire Line
+	4000 2900 4100 2900
+Wire Wire Line
+	4700 2900 4600 2900
+Wire Wire Line
+	4700 2200 4600 2200
+Wire Wire Line
+	4700 2300 4600 2300
+Wire Wire Line
+	4000 2200 4100 2200
+Wire Wire Line
+	4000 2300 4100 2300
+Text Label 4000 2200 2    60   ~ 0
+GPIO_PH5
+Text Label 4000 2300 2    60   ~ 0
+GPIO_PH3
+Text Label 4700 2200 0    60   ~ 0
+UART7-RX
+Text Label 4700 2300 0    60   ~ 0
+UART7-TX
+Text Label 5900 2900 2    60   ~ 0
+UART7-RX
+Text Label 5900 2700 2    60   ~ 0
+UART7-TX
+Wire Wire Line
+	5900 2700 6000 2700
+Wire Wire Line
+	5900 2900 6000 2900
+$Comp
+L +3.3V #PWR05
+U 1 1 595F0BEC
+P 4000 3300
+F 0 "#PWR05" H 4000 3150 50  0001 C CNN
+F 1 "+3.3V" H 4000 3440 50  0000 C CNN
+F 2 "" H 4000 3300 50  0001 C CNN
+F 3 "" H 4000 3300 50  0001 C CNN
+	1    4000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR06
+U 1 1 595F0C76
+P 4700 3300
+F 0 "#PWR06" H 4700 3150 50  0001 C CNN
+F 1 "+5V" H 4700 3440 50  0000 C CNN
+F 2 "" H 4700 3300 50  0001 C CNN
+F 3 "" H 4700 3300 50  0001 C CNN
+	1    4700 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3500 4700 3500
+Wire Wire Line
+	4700 3500 4700 3300
+Wire Wire Line
+	4600 3400 5000 3400
+Connection ~ 4700 3400
+Wire Wire Line
+	3700 3400 4100 3400
+Wire Wire Line
+	4000 3300 4000 4200
+Wire Wire Line
+	4000 4200 4100 4200
+Connection ~ 4000 3400
+$Comp
+L GND #PWR07
+U 1 1 595F0E30
+P 4700 4700
+F 0 "#PWR07" H 4700 4450 50  0001 C CNN
+F 1 "GND" H 4700 4550 50  0000 C CNN
+F 2 "" H 4700 4700 50  0001 C CNN
+F 3 "" H 4700 4700 50  0001 C CNN
+	1    4700 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 3600 4700 3600
+Wire Wire Line
+	4700 3600 4700 4700
+Wire Wire Line
+	4600 4300 4700 4300
+Connection ~ 4700 4300
+$Comp
+L GND #PWR08
+U 1 1 595F0EB5
+P 3900 4700
+F 0 "#PWR08" H 3900 4450 50  0001 C CNN
+F 1 "GND" H 3900 4550 50  0000 C CNN
+F 2 "" H 3900 4700 50  0001 C CNN
+F 3 "" H 3900 4700 50  0001 C CNN
+	1    3900 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4600 4100 4600
+Wire Wire Line
+	3900 3800 3900 4700
+Wire Wire Line
+	4100 3800 3900 3800
+Connection ~ 3900 4600
+Text Label 4800 4100 0    60   ~ 0
+CAN_TX
+Text Label 4800 4200 0    60   ~ 0
+CAN_RX
+Wire Wire Line
+	4600 4100 4800 4100
+Wire Wire Line
+	4600 4200 4800 4200
+NoConn ~ 4100 3500
+NoConn ~ 4100 3600
+NoConn ~ 4100 3700
+NoConn ~ 4100 3900
+NoConn ~ 4100 4000
+NoConn ~ 4100 4100
+NoConn ~ 4100 4300
+NoConn ~ 4100 4400
+NoConn ~ 4100 4500
+NoConn ~ 4600 4400
+NoConn ~ 4600 4500
+NoConn ~ 4600 4600
+NoConn ~ 4600 3700
+NoConn ~ 4600 3800
+NoConn ~ 4600 3900
+NoConn ~ 4600 4000
+$Sheet
+S 6000 3700 600  1000
+U 595F1C2F
+F0 "CAN" 60
+F1 "can.sch" 60
+F2 "CAN_RX" O L 6000 4300 60 
+F3 "CAN_TX" I L 6000 4100 60 
+$EndSheet
+Text Label 5900 4100 2    60   ~ 0
+CAN_TX
+Text Label 5900 4300 2    60   ~ 0
+CAN_RX
+Wire Wire Line
+	5900 4100 6000 4100
+Wire Wire Line
+	5900 4300 6000 4300
+$Comp
+L PWR_FLAG #FLG09
+U 1 1 595FDB4B
+P 3700 3300
+F 0 "#FLG09" H 3700 3375 50  0001 C CNN
+F 1 "PWR_FLAG" H 3700 3450 50  0000 C CNN
+F 2 "" H 3700 3300 50  0001 C CNN
+F 3 "" H 3700 3300 50  0001 C CNN
+	1    3700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG010
+U 1 1 595FDB8A
+P 5000 3300
+F 0 "#FLG010" H 5000 3375 50  0001 C CNN
+F 1 "PWR_FLAG" H 5000 3450 50  0000 C CNN
+F 2 "" H 5000 3300 50  0001 C CNN
+F 3 "" H 5000 3300 50  0001 C CNN
+	1    5000 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3400 3700 3300
+Wire Wire Line
+	5000 3400 5000 3300
+$Comp
+L PWR_FLAG #FLG011
+U 1 1 595FDDBA
+P 3700 4500
+F 0 "#FLG011" H 3700 4575 50  0001 C CNN
+F 1 "PWR_FLAG" H 3700 4650 50  0000 C CNN
+F 2 "" H 3700 4500 50  0001 C CNN
+F 3 "" H 3700 4500 50  0001 C CNN
+	1    3700 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4600 3700 4500
+$Sheet
+S 7600 2100 600  1000
+U 595FE349
+F0 "GPIO" 60
+F1 "gpio.sch" 60
+F2 "GPIO1" I L 7600 2400 60 
+F3 "GPIO2" I L 7600 2800 60 
+$EndSheet
+Wire Wire Line
+	7500 2400 7600 2400
+Wire Wire Line
+	7500 2800 7600 2800
+Text Label 7500 2400 2    60   ~ 0
+GPIO_PH5
+Text Label 7500 2800 2    60   ~ 0
+GPIO_PH3
+$EndSCHEMATC

@@ -1,0 +1,13 @@
+# KiCad 
+*.bak
+*.bck
+*cache.lib 
+*.kicad_pcb-bak 
+
+bri-r1-rack.dsn
+bri-r1-rack.net
+bri-r1-rack.xml
+
+# other backup files
+*~
+\#*#
