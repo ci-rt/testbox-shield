@@ -1,0 +1,24 @@
+[submodule "modules/Capacitors_SMD.pretty"]
+	path = modules/Capacitors_SMD.pretty
+	url = https://github.com/KiCad/Capacitors_SMD.pretty.git
+[submodule "modules/Connectors.pretty"]
+	path = modules/Connectors.pretty
+	url = https://github.com/KiCad/Connectors.pretty.git
+[submodule "modules/Housings_DIP.pretty"]
+	path = modules/Housings_DIP.pretty
+	url = https://github.com/KiCad/Housings_DIP.pretty
+[submodule "modules/Housings_SOIC.pretty"]
+	path = modules/Housings_SOIC.pretty
+	url = https://github.com/KiCad/Housings_SOIC.pretty.git
+[submodule "modules/Pin_Headers.pretty"]
+	path = modules/Pin_Headers.pretty
+	url = https://github.com/KiCad/Pin_Headers.pretty.git
+[submodule "modules/Resistors_SMD.pretty"]
+	path = modules/Resistors_SMD.pretty
+	url = https://github.com/KiCad/Resistors_SMD.pretty.git
+[submodule "modules/Socket_Strips.pretty"]
+	path = modules/Socket_Strips.pretty
+	url = https://github.com/KiCad/Socket_Strips.pretty.git
+[submodule "modules/packages3D"]
+	path = modules/packages3D
+	url = https://github.com/KiCad/packages3D.git
