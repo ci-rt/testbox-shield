@@ -1,33 +1,9 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
 LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
+LIBS:device
 LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
 LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+LIBS:power
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -114,7 +90,7 @@ F 1 "GPIO" V 5500 2900 50  0000 C CNN
 F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol" H 5400 2900 50  0001 C CNN
 F 3 "" H 5400 2900 50  0001 C CNN
 	1    5400 2900
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4900 2600 5100 2600
