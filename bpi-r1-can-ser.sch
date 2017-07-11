@@ -257,7 +257,6 @@ NoConn ~ 4600 4600
 NoConn ~ 4600 3700
 NoConn ~ 4600 3800
 NoConn ~ 4600 3900
-NoConn ~ 4600 4000
 $Sheet
 S 6000 3700 600  1000
 U 595F1C2F
@@ -329,4 +328,7 @@ Text Label 7500 2400 2    60   ~ 0
 GPIO_PH5
 Text Label 7500 2800 2    60   ~ 0
 GPIO_PH3
+Wire Wire Line
+	4600 4000 4700 4000
+Connection ~ 4700 4000
 $EndSCHEMATC
