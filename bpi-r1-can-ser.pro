@@ -1,4 +1,4 @@
-update=Mo 10 Jul 2017 21:42:47 CEST
+update=11.07.2017 07:04:33
 version=1
 last_client=kicad
 [cvpcb]
@@ -15,16 +15,6 @@ LibName2=library/device
 LibName3=library/interface
 LibName4=library/opto
 LibName5=library/power
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -44,3 +34,13 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[schematic_editor]
+version=1
+PageLayoutDescrFile=bpi-r1-can-ser.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

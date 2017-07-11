@@ -4,19 +4,20 @@ LIBS:device
 LIBS:interface
 LIBS:opto
 LIBS:power
+LIBS:bpi-r1-can-ser-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Title "Banana Pi CAN serial extension board"
+Date "2017-07-08"
+Rev "0.1"
+Comp "Benedikt Spranger"
+Comment1 "Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kopie dieser"
+Comment2 "Lizenz zu sehen, besuchen Sie http://creativecommons.org/licenses/by-sa/4.0/."
+Comment3 "\"Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kopie dieser"
+Comment4 "Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung -"
 $EndDescr
 $Comp
 L HCPL063 U401
