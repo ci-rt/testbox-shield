@@ -26,7 +26,16 @@ P 5500 3400
 F 0 "U201" H 5400 4525 50  0000 R CNN
 F 1 "MAX3232" H 5400 4450 50  0000 R CNN
 F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 5550 2350 50  0001 L CNN
-F 3 "" H 5500 3500 50  0001 C CNN
+F 3 "docs/max3232e.pdf" H 5500 3500 50  0001 C CNN
+F 4 "IC RS232 3V5.5V 15KVESD 16-SOIC" H 5500 3400 60  0001 C CNN "Description"
+F 5 "Texas Instruments" H 5500 3400 60  0001 C CNN "Manufacture"
+F 6 "MAX3232ECDR" H 5500 3400 60  0001 C CNN "ManuPart#"
+F 7 "16-SOIC" H 5500 3400 60  0001 C CNN "PackageID"
+F 8 "Digi" H 5500 3400 60  0001 C CNN "Source"
+F 9 "N" H 5500 3400 60  0001 C CNN "Critical"
+F 10 "296-19851-1-ND" H 5500 3400 60  0001 C CNN "DigiPart#"
+F 11 "https://www.digikey.de/product-detail/de/texas-instruments/MAX3232ECDR/296-19851-1-ND/1120592" H 5500 3400 60  0001 C CNN "DigiLink"
+F 12 "Y" H 5500 3400 60  0001 C CNN "assemble"
 	1    5500 3400
 	1    0    0    -1  
 $EndComp
@@ -37,19 +46,17 @@ P 4500 2650
 F 0 "C201" H 4525 2750 50  0000 L CNN
 F 1 "10µ" H 4525 2550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4538 2500 50  0001 C CNN
-F 3 "" H 4500 2650 50  0001 C CNN
+F 3 "docs/GRM188R6YA106MA73#.pdf" H 4500 2650 50  0001 C CNN
+F 4 "CAP CER 10UF 35V X5R 0603" H 4500 2650 60  0001 C CNN "Description"
+F 5 "Murata Electronics North America" H 4500 2650 60  0001 C CNN "Manufacture"
+F 6 "GRM188R6YA106MA73D" H 4500 2650 60  0001 C CNN "ManuPart#"
+F 7 "0603" H 4500 2650 60  0001 C CNN "PackageID"
+F 8 "Digi" H 4500 2650 60  0001 C CNN "Source"
+F 9 "N" H 4500 2650 60  0001 C CNN "Critical"
+F 10 "490-13248-1-ND" H 4500 2650 60  0001 C CNN "DigiPart#"
+F 11 "https://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM188R6YA106MA73D/490-13248-1-ND/5877456" H 4500 2650 60  0001 C CNN "DigiLink"
+F 12 "Y" H 4500 2650 60  0001 C CNN "assemble"
 	1    4500 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C202
-U 1 1 595EBAEC
-P 6500 2650
-F 0 "C202" H 6525 2750 50  0000 L CNN
-F 1 "10µ" H 6525 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6538 2500 50  0001 C CNN
-F 3 "" H 6500 2650 50  0001 C CNN
-	1    6500 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -62,28 +69,6 @@ F 2 "" H 5500 2100 50  0001 C CNN
 F 3 "" H 5500 2100 50  0001 C CNN
 	1    5500 2100
 	1    0    0    -1  
-$EndComp
-$Comp
-L C C203
-U 1 1 595EBB41
-P 6650 3000
-F 0 "C203" H 6675 3100 50  0000 L CNN
-F 1 "10µ" H 6675 2900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6688 2850 50  0001 C CNN
-F 3 "" H 6650 3000 50  0001 C CNN
-	1    6650 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L C C204
-U 1 1 595EBB79
-P 6650 3300
-F 0 "C204" H 6675 3400 50  0000 L CNN
-F 1 "10µ" H 6675 3200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6688 3150 50  0001 C CNN
-F 3 "" H 6650 3300 50  0001 C CNN
-	1    6650 3300
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6300 3000 6500 3000
@@ -136,7 +121,15 @@ P 8550 5050
 F 0 "J202" H 8750 5550 50  0000 C CNN
 F 1 "serial" H 8400 5550 50  0000 C CNN
 F 2 "Connect:RJ45_8" H 8550 5050 50  0001 C CNN
-F 3 "" H 8550 5050 50  0001 C CNN
+F 3 "docs/c-bmj-0102.pdf" H 8550 5050 50  0001 C CNN
+F 4 "CONN MOD JACK 8P8C R/A UNSHLD" H 8550 5050 60  0001 C CNN "Description"
+F 5 "Amphenol FCI" H 8550 5050 60  0001 C CNN "Manufacture"
+F 6 "54602-908LF" H 8550 5050 60  0001 C CNN "ManuPart#"
+F 7 "Digi" H 8550 5050 60  0001 C CNN "Source"
+F 8 "N" H 8550 5050 60  0001 C CNN "Critical"
+F 9 "609-1046-ND" H 8550 5050 60  0001 C CNN "DigiPart#"
+F 10 "https://www.digikey.de/product-detail/de/amphenol-fci/54602-908LF/609-1046-ND/1001360" H 8550 5050 60  0001 C CNN "DigiLink"
+F 11 "Y" H 8550 5050 60  0001 C CNN "assemble"
 	1    8550 5050
 	0    1    -1   0   
 $EndComp
@@ -190,6 +183,8 @@ F 0 "J203" H 7500 3600 50  0000 C CNN
 F 1 "GS3" H 7800 3450 50  0000 C CNN
 F 2 "Connectors:GS3" V 7738 3526 50  0001 C CNN
 F 3 "" H 7650 3600 50  0001 C CNN
+F 4 "N" H 7650 3600 60  0001 C CNN "Critical"
+F 5 "N" H 7650 3600 60  0001 C CNN "assemble"
 	1    7650 3600
 	1    0    0    1   
 $EndComp
@@ -201,6 +196,8 @@ F 0 "J204" H 7500 3900 50  0000 C CNN
 F 1 "GS3" H 7800 3750 50  0000 C CNN
 F 2 "Connectors:GS3" V 7738 3826 50  0001 C CNN
 F 3 "" H 7650 3900 50  0001 C CNN
+F 4 "N" H 7650 3900 60  0001 C CNN "Critical"
+F 5 "N" H 7650 3900 60  0001 C CNN "assemble"
 	1    7650 3900
 	1    0    0    1   
 $EndComp
@@ -212,6 +209,8 @@ F 0 "J205" H 7500 4900 50  0000 C CNN
 F 1 "GS3" H 7800 4750 50  0000 C CNN
 F 2 "Connectors:GS3" V 7738 4826 50  0001 C CNN
 F 3 "" H 7650 4900 50  0001 C CNN
+F 4 "N" H 7650 4900 60  0001 C CNN "Critical"
+F 5 "N" H 7650 4900 60  0001 C CNN "assemble"
 	1    7650 4900
 	1    0    0    1   
 $EndComp
@@ -223,6 +222,8 @@ F 0 "J206" H 7500 5200 50  0000 C CNN
 F 1 "GS3" H 7800 5050 50  0000 C CNN
 F 2 "Connectors:GS3" V 7738 5126 50  0001 C CNN
 F 3 "" H 7650 5200 50  0001 C CNN
+F 4 "N" H 7650 5200 60  0001 C CNN "Critical"
+F 5 "N" H 7650 5200 60  0001 C CNN "assemble"
 	1    7650 5200
 	1    0    0    1   
 $EndComp
@@ -283,7 +284,15 @@ P 8900 3800
 F 0 "J201" H 8900 4450 50  0000 C CNN
 F 1 "console" H 8900 4375 50  0000 C CNN
 F 2 "Connectors:DB9FD" H 8900 3800 50  0001 C CNN
-F 3 "" H 8900 3800 50  0001 C CNN
+F 3 "docs/ASS_4885_CO.pdf" H 8900 3800 50  0001 C CNN
+F 4 "CONN D-SUB RCPT 9POS VERT SOLDER" H 8900 3800 60  0001 C CNN "Description"
+F 5 "Assmann WSW Components" H 8900 3800 60  0001 C CNN "Manufacture"
+F 6 "A-DF 09 PP/Z" H 8900 3800 60  0001 C CNN "ManuPart#"
+F 7 "Digi" H 8900 3800 60  0001 C CNN "Source"
+F 8 "N" H 8900 3800 60  0001 C CNN "Critical"
+F 9 "AE10928-ND" H 8900 3800 60  0001 C CNN "DigiPart#"
+F 10 "https://www.digikey.de/product-detail/de/assmann-wsw-components/A-DF-09-PP-Z/AE10928-ND/1241790" H 8900 3800 60  0001 C CNN "DigiLink"
+F 11 "Y" H 8900 3800 60  0001 C CNN "assemble"
 	1    8900 3800
 	1    0    0    -1  
 $EndComp
@@ -299,4 +308,64 @@ Wire Wire Line
 	8900 4450 8000 4450
 Connection ~ 8000 4450
 Connection ~ 8900 4450
+$Comp
+L C C202
+U 1 1 59654047
+P 6500 2650
+F 0 "C202" H 6525 2750 50  0000 L CNN
+F 1 "10µ" H 6525 2550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6538 2500 50  0001 C CNN
+F 3 "docs/GRM188R6YA106MA73#.pdf" H 6500 2650 50  0001 C CNN
+F 4 "CAP CER 10UF 35V X5R 0603" H 6500 2650 60  0001 C CNN "Description"
+F 5 "Murata Electronics North America" H 6500 2650 60  0001 C CNN "Manufacture"
+F 6 "GRM188R6YA106MA73D" H 6500 2650 60  0001 C CNN "ManuPart#"
+F 7 "0603" H 6500 2650 60  0001 C CNN "PackageID"
+F 8 "Digi" H 6500 2650 60  0001 C CNN "Source"
+F 9 "N" H 6500 2650 60  0001 C CNN "Critical"
+F 10 "490-13248-1-ND" H 6500 2650 60  0001 C CNN "DigiPart#"
+F 11 "https://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM188R6YA106MA73D/490-13248-1-ND/5877456" H 6500 2650 60  0001 C CNN "DigiLink"
+F 12 "Y" H 6500 2650 60  0001 C CNN "assemble"
+	1    6500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C203
+U 1 1 59654125
+P 6650 3000
+F 0 "C203" H 6675 3100 50  0000 L CNN
+F 1 "10µ" H 6675 2900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6688 2850 50  0001 C CNN
+F 3 "docs/GRM188R6YA106MA73#.pdf" H 6650 3000 50  0001 C CNN
+F 4 "CAP CER 10UF 35V X5R 0603" H 6650 3000 60  0001 C CNN "Description"
+F 5 "Murata Electronics North America" H 6650 3000 60  0001 C CNN "Manufacture"
+F 6 "GRM188R6YA106MA73D" H 6650 3000 60  0001 C CNN "ManuPart#"
+F 7 "0603" H 6650 3000 60  0001 C CNN "PackageID"
+F 8 "Digi" H 6650 3000 60  0001 C CNN "Source"
+F 9 "N" H 6650 3000 60  0001 C CNN "Critical"
+F 10 "490-13248-1-ND" H 6650 3000 60  0001 C CNN "DigiPart#"
+F 11 "https://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM188R6YA106MA73D/490-13248-1-ND/5877456" H 6650 3000 60  0001 C CNN "DigiLink"
+F 12 "Y" H 6650 3000 60  0001 C CNN "assemble"
+	1    6650 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C204
+U 1 1 5965421B
+P 6650 3300
+F 0 "C204" H 6675 3400 50  0000 L CNN
+F 1 "10µ" H 6675 3200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6688 3150 50  0001 C CNN
+F 3 "docs/GRM188R6YA106MA73#.pdf" H 6650 3300 50  0001 C CNN
+F 4 "CAP CER 10UF 35V X5R 0603" H 6650 3300 60  0001 C CNN "Description"
+F 5 "Murata Electronics North America" H 6650 3300 60  0001 C CNN "Manufacture"
+F 6 "GRM188R6YA106MA73D" H 6650 3300 60  0001 C CNN "ManuPart#"
+F 7 "0603" H 6650 3300 60  0001 C CNN "PackageID"
+F 8 "Digi" H 6650 3300 60  0001 C CNN "Source"
+F 9 "N" H 6650 3300 60  0001 C CNN "Critical"
+F 10 "490-13248-1-ND" H 6650 3300 60  0001 C CNN "DigiPart#"
+F 11 "https://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM188R6YA106MA73D/490-13248-1-ND/5877456" H 6650 3300 60  0001 C CNN "DigiLink"
+F 12 "Y" H 6650 3300 60  0001 C CNN "assemble"
+	1    6650 3300
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

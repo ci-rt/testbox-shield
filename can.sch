@@ -26,7 +26,16 @@ P 4300 3100
 F 0 "U301" H 3900 3450 50  0000 L CNN
 F 1 "LTC2875-S8" H 4400 3450 50  0000 L CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 4300 2600 50  0001 C CIN
-F 3 "" H 4300 3100 50  0001 C CNN
+F 3 "docs/2875f.pdf" H 4300 3100 50  0001 C CNN
+F 4 "IC TXRX CAN 4MBPS 8SO" H 4300 3100 60  0001 C CNN "Description"
+F 5 "Linear Technology" H 4300 3100 60  0001 C CNN "Manufacture"
+F 6 "LTC2875IS8#PBF" H 4300 3100 60  0001 C CNN "ManuPart#"
+F 7 "8-SO" H 4300 3100 60  0001 C CNN "PackageID"
+F 8 "Digi" H 4300 3100 60  0001 C CNN "Source"
+F 9 "N" H 4300 3100 60  0001 C CNN "Critical"
+F 10 "LTC2875IS8#PBF-ND" H 4300 3100 60  0001 C CNN "DigiPart#"
+F 11 "https://www.digikey.de/products/de?keywords=LTC2875IS8%23PBF" H 4300 3100 60  0001 C CNN "DigiLink"
+F 12 "Y" H 4300 3100 60  0001 C CNN "assemble"
 	1    4300 3100
 	1    0    0    -1  
 $EndComp
@@ -86,23 +95,21 @@ P 3550 2900
 F 0 "R301" V 3630 2900 50  0000 C CNN
 F 1 "100" V 3550 2900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 3480 2900 50  0001 C CNN
-F 3 "" H 3550 2900 50  0001 C CNN
+F 3 "docs/PYu-RC_Group_51_RoHS_L_7.pdf" H 3550 2900 50  0001 C CNN
+F 4 "RES SMD 100 OHM 1% 1/10W 0603" H 3550 2900 60  0001 C CNN "Description"
+F 5 "Yageo" H 3550 2900 60  0001 C CNN "Manufacture"
+F 6 "RC0603FR-07100RL" H 3550 2900 60  0001 C CNN "ManuPart#"
+F 7 "0603" H 3550 2900 60  0001 C CNN "PackageID"
+F 8 "Digi" H 3550 2900 60  0001 C CNN "Source"
+F 9 "N" H 3550 2900 60  0001 C CNN "Critical"
+F 10 "311-100HRCT-ND" H 3550 2900 60  0001 C CNN "DigiPart#"
+F 11 "https://www.digikey.de/product-detail/de/yageo/RC0603FR-07100RL/311-100HRCT-ND/729835" H 3550 2900 60  0001 C CNN "DigiLink"
+F 12 "Y" H 3550 2900 60  0001 C CNN "assemble"
 	1    3550 2900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3300 2900 3400 2900
-$Comp
-L R R303
-U 1 1 595F30BB
-P 5900 3450
-F 0 "R303" V 5980 3450 50  0000 C CNN
-F 1 "60.4" V 5900 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_1210" V 5830 3450 50  0001 C CNN
-F 3 "" H 5900 3450 50  0001 C CNN
-	1    5900 3450
-	1    0    0    -1  
-$EndComp
 $Comp
 L R R302
 U 1 1 595F310B
@@ -110,7 +117,16 @@ P 5900 2750
 F 0 "R302" V 5980 2750 50  0000 C CNN
 F 1 "60.4" V 5900 2750 50  0000 C CNN
 F 2 "Resistors_SMD:R_1210" V 5830 2750 50  0001 C CNN
-F 3 "" H 5900 2750 50  0001 C CNN
+F 3 "docs/AOA0000C298.pdf" H 5900 2750 50  0001 C CNN
+F 4 "RES SMD 60.4 OHM 1% 1/2W 1210" H 5900 2750 60  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 5900 2750 60  0001 C CNN "Manufacture"
+F 6 "ERJ-14NF60R4U" H 5900 2750 60  0001 C CNN "ManuPart#"
+F 7 "1210" H 5900 2750 60  0001 C CNN "PackageID"
+F 8 "Digi" H 5900 2750 60  0001 C CNN "Source"
+F 9 "N" H 5900 2750 60  0001 C CNN "Critical"
+F 10 "P60.4AACT-ND" H 5900 2750 60  0001 C CNN "DigiPart#"
+F 11 "https://www.digikey.de/product-detail/de/panasonic-electronic-components/ERJ-14NF60R4U/P60.4AACT-ND/384851" H 5900 2750 60  0001 C CNN "DigiLink"
+F 12 "Y" H 5900 2750 60  0001 C CNN "assemble"
 	1    5900 2750
 	1    0    0    -1  
 $EndComp
@@ -122,6 +138,14 @@ F 0 "J301" H 5550 3250 50  0000 C CNN
 F 1 "TERM" H 5550 2950 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 5550 1900 50  0001 C CNN
 F 3 "" H 5550 1900 50  0001 C CNN
+F 4 "CONN HEADER 4POS .100 STR TIN" H 5550 3100 60  0001 C CNN "Description"
+F 5 "Amphenol FCI" H 5550 3100 60  0001 C CNN "Manufacture"
+F 6 "67997-404HLF" H 5550 3100 60  0001 C CNN "ManuPart#"
+F 7 "Digi" H 5550 3100 60  0001 C CNN "Source"
+F 8 "N" H 5550 3100 60  0001 C CNN "Critical"
+F 9 "609-3242-ND" H 5550 3100 60  0001 C CNN "DigiPart#"
+F 10 "https://www.digikey.de/product-detail/de/amphenol-fci/67997-404HLF/609-3242-ND/1878458" H 5550 3100 60  0001 C CNN "DigiLink"
+F 11 "Y" H 5550 3100 60  0001 C CNN "assemble"
 	1    5550 3100
 	1    0    0    -1  
 $EndComp
@@ -131,8 +155,17 @@ U 1 1 595FD029
 P 4900 3450
 F 0 "C301" H 4925 3550 50  0000 L CNN
 F 1 "4n7" H 4925 3350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 4938 3300 50  0001 C CNN
-F 3 "" H 4900 3450 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603" H 4938 3300 50  0001 C CNN
+F 3 "docs/S_CL10B472KB8NNNC.pdf" H 4900 3450 50  0001 C CNN
+F 4 "CAP CER 4700PF 50V X7R 0603" H 4900 3450 60  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics America, Inc." H 4900 3450 60  0001 C CNN "Manufacture"
+F 6 "CL10B472KB8NNNC" H 4900 3450 60  0001 C CNN "ManuPart#"
+F 7 "0603" H 4900 3450 60  0001 C CNN "PackageID"
+F 8 "Digi" H 4900 3450 60  0001 C CNN "Source"
+F 9 "N" H 4900 3450 60  0001 C CNN "Critical"
+F 10 "1276-1098-1-ND" H 4900 3450 60  0001 C CNN "DigiPart#"
+F 11 "https://www.digikey.de/product-detail/de/samsung-electro-mechanics-america-inc/CL10B472KB8NNNC/1276-1098-1-ND/3889184" H 4900 3450 60  0001 C CNN "DigiLink"
+F 12 "Y" H 4900 3450 60  0001 C CNN "assemble"
 	1    4900 3450
 	1    0    0    -1  
 $EndComp
@@ -188,7 +221,15 @@ P 7200 3000
 F 0 "J303" H 7200 3650 50  0000 C CNN
 F 1 "CAN" H 7200 3575 50  0000 C CNN
 F 2 "Connectors:DB9FC" H 7200 3000 50  0001 C CNN
-F 3 "" H 7200 3000 50  0001 C CNN
+F 3 "doc/A-Dx -xx-A_KG-T4_T2_Dwg.pdf" H 7200 3000 50  0001 C CNN
+F 4 "CONN D-SUB RCPT 9POS R/A SOLDER" H 7200 3000 60  0001 C CNN "Description"
+F 5 "Assmann WSW Components" H 7200 3000 60  0001 C CNN "Manufacture"
+F 6 "A-DF 09 A/KG-T2S" H 7200 3000 60  0001 C CNN "ManuPart#"
+F 7 "Digi" H 7200 3000 60  0001 C CNN "Source"
+F 8 "N" H 7200 3000 60  0001 C CNN "Critical"
+F 9 "AE10921-ND" H 7200 3000 60  0001 C CNN "DigiPart#"
+F 10 "https://www.digikey.de/product-detail/de/assmann-wsw-components/A-DF-09-A-KG-T2S/AE10921-ND/1241800" H 7200 3000 60  0001 C CNN "DigiLink"
+F 11 "Y" H 7200 3000 60  0001 C CNN "assemble"
 	1    7200 3000
 	1    0    0    -1  
 $EndComp
@@ -203,7 +244,15 @@ P 7100 1900
 F 0 "J302" H 7100 2100 50  0000 C CNN
 F 1 "CAN" V 7200 1900 50  0000 C CNN
 F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 7100 1900 50  0001 C CNN
-F 3 "" H 7100 1900 50  0001 C CNN
+F 3 "docs/1725669.pdf" H 7100 1900 50  0001 C CNN
+F 4 "CONN TERM BLOCK 2.54MM 3POS" H 7100 1900 60  0001 C CNN "Description"
+F 5 "Phoenix Contact" H 7100 1900 60  0001 C CNN "Manufacture"
+F 6 "1725669" H 7100 1900 60  0001 C CNN "ManuPart#"
+F 7 "Digi" H 7100 1900 60  0001 C CNN "Source"
+F 8 "N" H 7100 1900 60  0001 C CNN "Critical"
+F 9 "277-1274-ND" H 7100 1900 60  0001 C CNN "DigiPart#"
+F 10 "https://www.digikey.de/product-detail/de/phoenix-contact/1725669/277-1274-ND/267463" H 7100 1900 60  0001 C CNN "DigiLink"
+F 11 "Y" H 7100 1900 60  0001 C CNN "assemble"
 	1    7100 1900
 	1    0    0    -1  
 $EndComp
@@ -263,24 +312,22 @@ CANH
 Text Label 5300 3700 0    60   ~ 0
 CANL
 $Comp
-L C C302
-U 1 1 5960AB89
-P 4000 4450
-F 0 "C302" H 4025 4550 50  0000 L CNN
-F 1 "10µ" H 4025 4350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4038 4300 50  0001 C CNN
-F 3 "" H 4000 4450 50  0001 C CNN
-	1    4000 4450
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C303
 U 1 1 5960ABDD
 P 4300 4450
 F 0 "C303" H 4325 4550 50  0000 L CNN
 F 1 "100n" H 4325 4350 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4338 4300 50  0001 C CNN
-F 3 "" H 4300 4450 50  0001 C CNN
+F 3 "docs/C_CL10F104ZO8NNNC.pdf" H 4300 4450 50  0001 C CNN
+F 4 "CAP CER 0.1UF 16V Y5V 0603" H 4300 4450 60  0001 C CNN "Description"
+F 5 "Samsung Electro-Mechanics America, Inc." H 4300 4450 60  0001 C CNN "Manufacture"
+F 6 "CL10F104ZO8NNNC" H 4300 4450 60  0001 C CNN "ManuPart#"
+F 7 "0603" H 4300 4450 60  0001 C CNN "PackageID"
+F 8 "Digi" H 4300 4450 60  0001 C CNN "Source"
+F 9 "N" H 4300 4450 60  0001 C CNN "Critical"
+F 10 "1276-1258-1-ND" H 4300 4450 60  0001 C CNN "DigiPart#"
+F 11 "https://www.digikey.de/product-detail/de/samsung-electro-mechanics-america-inc/CL10F104ZO8NNNC/1276-1258-1-ND/3889344" H 4300 4450 60  0001 C CNN "DigiLink"
+F 12 "Y" H 4300 4450 60  0001 C CNN "assemble"
 	1    4300 4450
 	1    0    0    -1  
 $EndComp
@@ -338,4 +385,44 @@ Wire Wire Line
 	4000 4600 4000 4700
 Text Label 4900 3100 0    60   ~ 0
 SPLIT
+$Comp
+L C C302
+U 1 1 596547EA
+P 4000 4450
+F 0 "C302" H 4025 4550 50  0000 L CNN
+F 1 "10µ" H 4025 4350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4038 4300 50  0001 C CNN
+F 3 "docs/GRM188R6YA106MA73#.pdf" H 4000 4450 50  0001 C CNN
+F 4 "CAP CER 10UF 35V X5R 0603" H 4000 4450 60  0001 C CNN "Description"
+F 5 "Murata Electronics North America" H 4000 4450 60  0001 C CNN "Manufacture"
+F 6 "GRM188R6YA106MA73D" H 4000 4450 60  0001 C CNN "ManuPart#"
+F 7 "0603" H 4000 4450 60  0001 C CNN "PackageID"
+F 8 "Digi" H 4000 4450 60  0001 C CNN "Source"
+F 9 "N" H 4000 4450 60  0001 C CNN "Critical"
+F 10 "490-13248-1-ND" H 4000 4450 60  0001 C CNN "DigiPart#"
+F 11 "https://www.digikey.de/product-detail/de/murata-electronics-north-america/GRM188R6YA106MA73D/490-13248-1-ND/5877456" H 4000 4450 60  0001 C CNN "DigiLink"
+F 12 "Y" H 4000 4450 60  0001 C CNN "assemble"
+	1    4000 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R303
+U 1 1 59656B9C
+P 5900 3450
+F 0 "R303" V 5980 3450 50  0000 C CNN
+F 1 "60.4" V 5900 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_1210" V 5830 3450 50  0001 C CNN
+F 3 "docs/AOA0000C298.pdf" H 5900 3450 50  0001 C CNN
+F 4 "RES SMD 60.4 OHM 1% 1/2W 1210" H 5900 3450 60  0001 C CNN "Description"
+F 5 "Panasonic Electronic Components" H 5900 3450 60  0001 C CNN "Manufacture"
+F 6 "ERJ-14NF60R4U" H 5900 3450 60  0001 C CNN "ManuPart#"
+F 7 "1210" H 5900 3450 60  0001 C CNN "PackageID"
+F 8 "Digi" H 5900 3450 60  0001 C CNN "Source"
+F 9 "N" H 5900 3450 60  0001 C CNN "Critical"
+F 10 "P60.4AACT-ND" H 5900 3450 60  0001 C CNN "DigiPart#"
+F 11 "https://www.digikey.de/product-detail/de/panasonic-electronic-components/ERJ-14NF60R4U/P60.4AACT-ND/384851" H 5900 3450 60  0001 C CNN "DigiLink"
+F 12 "Y" H 5900 3450 60  0001 C CNN "assemble"
+	1    5900 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
