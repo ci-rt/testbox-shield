@@ -284,14 +284,14 @@ P 8900 3800
 F 0 "J201" H 8900 4450 50  0000 C CNN
 F 1 "console" H 8900 4375 50  0000 C CNN
 F 2 "Connectors:DB9FD" H 8900 3800 50  0001 C CNN
-F 3 "docs/ASS_4885_CO.pdf" H 8900 3800 50  0001 C CNN
+F 3 "docs/DS1034.pdf" H 8900 3800 50  0001 C CNN
 F 4 "CONN D-SUB RCPT 9POS VERT SOLDER" H 8900 3800 60  0001 C CNN "Description"
-F 5 "Assmann WSW Components" H 8900 3800 60  0001 C CNN "Manufacture"
-F 6 "A-DF 09 PP/Z" H 8900 3800 60  0001 C CNN "ManuPart#"
-F 7 "Digi" H 8900 3800 60  0001 C CNN "Source"
+F 5 "CONNFLY" H 8900 3800 60  0001 C CNN "Manufacture"
+F 6 "DS1034-09FUNSISS" H 8900 3800 60  0001 C CNN "ManuPart#"
+F 7 "TME" H 8900 3800 60  0001 C CNN "Source"
 F 8 "N" H 8900 3800 60  0001 C CNN "Critical"
-F 9 "AE10928-ND" H 8900 3800 60  0001 C CNN "SupplPart#"
-F 10 "https://www.digikey.de/product-detail/de/assmann-wsw-components/A-DF-09-PP-Z/AE10928-ND/1241790" H 8900 3800 60  0001 C CNN "SupplLink"
+F 9 "DF09PP" H 8900 3800 60  0001 C CNN "SupplPart#"
+F 10 "http://www.tme.eu/de/details/df09pp/d-sub-steckverbinder/connfly/ds1034-09funsiss/" H 8900 3800 60  0001 C CNN "SupplLink"
 F 11 "Y" H 8900 3800 60  0001 C CNN "assemble"
 	1    8900 3800
 	1    0    0    -1  

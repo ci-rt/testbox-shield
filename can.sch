@@ -221,14 +221,14 @@ P 7200 3000
 F 0 "J303" H 7200 3650 50  0000 C CNN
 F 1 "CAN" H 7200 3575 50  0000 C CNN
 F 2 "Connectors:DB9FC" H 7200 3000 50  0001 C CNN
-F 3 "doc/A-Dx -xx-A_KG-T4_T2_Dwg.pdf" H 7200 3000 50  0001 C CNN
+F 3 "doc/DS1037.pdf" H 7200 3000 50  0001 C CNN
 F 4 "CONN D-SUB RCPT 9POS R/A SOLDER" H 7200 3000 60  0001 C CNN "Description"
-F 5 "Assmann WSW Components" H 7200 3000 60  0001 C CNN "Manufacture"
-F 6 "A-DF 09 A/KG-T2S" H 7200 3000 60  0001 C CNN "ManuPart#"
-F 7 "Digi" H 7200 3000 60  0001 C CNN "Source"
+F 5 "CONNFLY" H 7200 3000 60  0001 C CNN "Manufacture"
+F 6 "DS1037-09FNAKT74" H 7200 3000 60  0001 C CNN "ManuPart#"
+F 7 "TME" H 7200 3000 60  0001 C CNN "Source"
 F 8 "N" H 7200 3000 60  0001 C CNN "Critical"
-F 9 "AE10921-ND" H 7200 3000 60  0001 C CNN "SupplPart#"
-F 10 "https://www.digikey.de/product-detail/de/assmann-wsw-components/A-DF-09-A-KG-T2S/AE10921-ND/1241800" H 7200 3000 60  0001 C CNN "SupplLink"
+F 9 "DHP8-09F" H 7200 3000 60  0001 C CNN "SupplPart#"
+F 10 "http://www.tme.eu/de/details/dhp8-09f/d-sub-steckverbinder/connfly/ds1037-09fnakt74/" H 7200 3000 60  0001 C CNN "SupplLink"
 F 11 "Y" H 7200 3000 60  0001 C CNN "assemble"
 	1    7200 3000
 	1    0    0    -1  
