@@ -26,16 +26,15 @@ P 4600 2900
 F 0 "U401" H 4600 3375 50  0000 C CNN
 F 1 "HCPL063" H 4600 3300 50  0000 C CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm" H 4600 2500 50  0001 C CIN
-F 3 "docs/AV02-0940EN_DS_6N137_2016-03-23.pdf" H 4610 3105 50  0001 L CNN
-F 4 "OPTOISO 3.75KV 2CH OPEN COL 8DIP" H 4600 2900 60  0001 C CNN "Description"
-F 5 "Broadcom Limited" H 4600 2900 60  0001 C CNN "Manufacture"
-F 6 "HCPL-2630-000E" H 4600 2900 60  0001 C CNN "ManuPart#"
-F 7 "8DIP" H 4600 2900 60  0001 C CNN "PackageID"
-F 8 "Digi" H 4600 2900 60  0001 C CNN "Source"
-F 9 "N" H 4600 2900 60  0001 C CNN "Critical"
-F 10 "516-1475-5-ND" H 4600 2900 60  0001 C CNN "SupplPart#"
-F 11 "https://www.digikey.de/product-detail/de/broadcom-limited/HCPL-2630-000E/516-1475-5-ND/669902" H 4600 2900 60  0001 C CNN "SupplLink"
-F 12 "Y" H 4600 2900 60  0001 C CNN "assemble"
+F 3 "docs/6N137.pdf" H 4610 3105 50  0001 L CNN
+F 4 "OPTOISO 2.5KV 2CH OPEN COLL 8DIP" H 4600 2900 60  0001 C CNN "Description"
+F 5 "HCPL2631" H 4600 2900 60  0001 C CNN "ManuPart#"
+F 6 "8DIP" H 4600 2900 60  0001 C CNN "PackageID"
+F 7 "Digi" H 4600 2900 60  0001 C CNN "Source"
+F 8 "N" H 4600 2900 60  0001 C CNN "Critical"
+F 9 "HCPL2631QT-ND" H 4600 2900 60  0001 C CNN "SupplPart#"
+F 10 "https://www.digikey.de/product-detail/de/fairchild-on-semiconductor/HCPL2631/HCPL2631QT-ND/31638" H 4600 2900 60  0001 C CNN "SupplLink"
+F 11 "Y" H 4600 2900 60  0001 C CNN "assemble"
 	1    4600 2900
 	1    0    0    -1  
 $EndComp
