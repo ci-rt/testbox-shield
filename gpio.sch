@@ -33,8 +33,8 @@ F 6 "HCPL-2630-000E" H 4600 2900 60  0001 C CNN "ManuPart#"
 F 7 "8DIP" H 4600 2900 60  0001 C CNN "PackageID"
 F 8 "Digi" H 4600 2900 60  0001 C CNN "Source"
 F 9 "N" H 4600 2900 60  0001 C CNN "Critical"
-F 10 "516-1475-5-ND" H 4600 2900 60  0001 C CNN "DigiPart#"
-F 11 "https://www.digikey.de/product-detail/de/broadcom-limited/HCPL-2630-000E/516-1475-5-ND/669902" H 4600 2900 60  0001 C CNN "DigiLink"
+F 10 "516-1475-5-ND" H 4600 2900 60  0001 C CNN "SupplPart#"
+F 11 "https://www.digikey.de/product-detail/de/broadcom-limited/HCPL-2630-000E/516-1475-5-ND/669902" H 4600 2900 60  0001 C CNN "SupplLink"
 F 12 "Y" H 4600 2900 60  0001 C CNN "assemble"
 	1    4600 2900
 	1    0    0    -1  
@@ -82,8 +82,8 @@ F 5 "Phoenix Contact" H 5400 2900 60  0001 C CNN "Manufacture"
 F 6 "1725672" H 5400 2900 60  0001 C CNN "ManuPart#"
 F 7 "Digi" H 5400 2900 60  0001 C CNN "Source"
 F 8 "N" H 5400 2900 60  0001 C CNN "Critical"
-F 9 "277-1275-ND" H 5400 2900 60  0001 C CNN "DigiPart#"
-F 10 "https://www.digikey.de/product-detail/de/phoenix-contact/1725672/277-1275-ND/267464" H 5400 2900 60  0001 C CNN "DigiLink"
+F 9 "277-1275-ND" H 5400 2900 60  0001 C CNN "SupplPart#"
+F 10 "https://www.digikey.de/product-detail/de/phoenix-contact/1725672/277-1275-ND/267464" H 5400 2900 60  0001 C CNN "SupplLink"
 F 11 "Y" H 5400 2900 60  0001 C CNN "assemble"
 	1    5400 2900
 	1    0    0    1   
@@ -150,8 +150,8 @@ F 6 "RC0603FR-07100RL" H 3950 2600 60  0001 C CNN "ManuPart#"
 F 7 "0603" H 3950 2600 60  0001 C CNN "PackageID"
 F 8 "Digi" H 3950 2600 60  0001 C CNN "Source"
 F 9 "N" H 3950 2600 60  0001 C CNN "Critical"
-F 10 "311-100HRCT-ND" H 3950 2600 60  0001 C CNN "DigiPart#"
-F 11 "https://www.digikey.de/product-detail/de/yageo/RC0603FR-07100RL/311-100HRCT-ND/729835" H 3950 2600 60  0001 C CNN "DigiLink"
+F 10 "311-100HRCT-ND" H 3950 2600 60  0001 C CNN "SupplPart#"
+F 11 "https://www.digikey.de/product-detail/de/yageo/RC0603FR-07100RL/311-100HRCT-ND/729835" H 3950 2600 60  0001 C CNN "SupplLink"
 F 12 "Y" H 3950 2600 60  0001 C CNN "assemble"
 	1    3950 2600
 	0    1    1    0   
@@ -170,8 +170,8 @@ F 6 "RC0603FR-07100RL" H 3950 3000 60  0001 C CNN "ManuPart#"
 F 7 "0603" H 3950 3000 60  0001 C CNN "PackageID"
 F 8 "Digi" H 3950 3000 60  0001 C CNN "Source"
 F 9 "N" H 3950 3000 60  0001 C CNN "Critical"
-F 10 "311-100HRCT-ND" H 3950 3000 60  0001 C CNN "DigiPart#"
-F 11 "https://www.digikey.de/product-detail/de/yageo/RC0603FR-07100RL/311-100HRCT-ND/729835" H 3950 3000 60  0001 C CNN "DigiLink"
+F 10 "311-100HRCT-ND" H 3950 3000 60  0001 C CNN "SupplPart#"
+F 11 "https://www.digikey.de/product-detail/de/yageo/RC0603FR-07100RL/311-100HRCT-ND/729835" H 3950 3000 60  0001 C CNN "SupplLink"
 F 12 "Y" H 3950 3000 60  0001 C CNN "assemble"
 	1    3950 3000
 	0    1    1    0   

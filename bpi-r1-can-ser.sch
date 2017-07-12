@@ -42,8 +42,8 @@ F 5 "CONNFLY" H 4350 2250 60  0001 C CNN "Manufacture"
 F 6 "DS1023-2*4S01" H 4350 2250 60  0001 C CNN "ManuPart#"
 F 7 "TME" H 4350 2250 60  0001 C CNN "Source"
 F 8 "N" H 4350 2250 60  0001 C CNN "Critical"
-F 9 "ZL262-8DG" H 4350 2250 60  0001 C CNN "DigiPart#"
-F 10 "http://www.tme.eu/de/details/zl262-8dg/stiftleisten-und-buchsen/connfly/ds1023-2_13s01/" H 4350 2250 60  0001 C CNN "DigiLink"
+F 9 "ZL262-8DG" H 4350 2250 60  0001 C CNN "SupplPart#"
+F 10 "http://www.tme.eu/de/details/zl262-8dg/stiftleisten-und-buchsen/connfly/ds1023-2_13s01/" H 4350 2250 60  0001 C CNN "SupplLink"
 F 11 "Y" H 4350 2250 60  0001 C CNN "assemble"
 	1    4350 2250
 	1    0    0    -1  
@@ -61,8 +61,8 @@ F 5 "CONNFLY" H 4350 2900 60  0001 C CNN "Manufacture"
 F 6 "DS1023-1*2S01" H 4350 2900 60  0001 C CNN "ManuPart#"
 F 7 "TME" H 4350 2900 60  0001 C CNN "Source"
 F 8 "N" H 4350 2900 60  0001 C CNN "Critical"
-F 9 "ZL262-2SG" H 4350 2900 60  0001 C CNN "DigiPart#"
-F 10 "http://www.tme.eu/de/details/zl262-2sg/stiftleisten-und-buchsen/connfly/ds1023-1_2s01/" H 4350 2900 60  0001 C CNN "DigiLink"
+F 9 "ZL262-2SG" H 4350 2900 60  0001 C CNN "SupplPart#"
+F 10 "http://www.tme.eu/de/details/zl262-2sg/stiftleisten-und-buchsen/connfly/ds1023-1_2s01/" H 4350 2900 60  0001 C CNN "SupplLink"
 F 11 "Y" H 4350 2900 60  0001 C CNN "assemble"
 	1    4350 2900
 	1    0    0    -1  
@@ -80,8 +80,8 @@ F 5 "CONNFLY" H 4350 4000 60  0001 C CNN "Manufacture"
 F 6 "DS1023-2*13S01" H 4350 4000 60  0001 C CNN "ManuPart#"
 F 7 "TME" H 4350 4000 60  0001 C CNN "Source"
 F 8 "N" H 4350 4000 60  0001 C CNN "Critical"
-F 9 "ZL262-26DG" H 4350 4000 60  0001 C CNN "DigiPart#"
-F 10 "http://www.tme.eu/de/details/zl262-26dg/stiftleisten-und-buchsen/connfly/ds1023-2_13s01/" H 4350 4000 60  0001 C CNN "DigiLink"
+F 9 "ZL262-26DG" H 4350 4000 60  0001 C CNN "SupplPart#"
+F 10 "http://www.tme.eu/de/details/zl262-26dg/stiftleisten-und-buchsen/connfly/ds1023-2_13s01/" H 4350 4000 60  0001 C CNN "SupplLink"
 F 11 "Y" H 4350 4000 60  0001 C CNN "assemble"
 	1    4350 4000
 	1    0    0    -1  
