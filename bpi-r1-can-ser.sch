@@ -36,14 +36,14 @@ P 4350 2250
 F 0 "J101" H 4350 2500 50  0000 C CNN
 F 1 "GPIO J12" H 4350 2000 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x04_Pitch2.54mm" H 4350 1050 50  0001 C CNN
-F 3 "" H 4350 1050 50  0001 C CNN
+F 3 "docs/DS1023.pdf" H 4350 1050 50  0001 C CNN
 F 4 "CONN HEADER FMALE 8PS .1\" DL TIN" H 4350 2250 60  0001 C CNN "Description"
-F 5 "Sullins Connector Solutions" H 4350 2250 60  0001 C CNN "Manufacture"
-F 6 "PPTC042LFBN-RC" H 4350 2250 60  0001 C CNN "ManuPart#"
-F 7 "Digi" H 4350 2250 60  0001 C CNN "Source"
+F 5 "CONNFLY" H 4350 2250 60  0001 C CNN "Manufacture"
+F 6 "DS1023-2*4S01" H 4350 2250 60  0001 C CNN "ManuPart#"
+F 7 "TME" H 4350 2250 60  0001 C CNN "Source"
 F 8 "N" H 4350 2250 60  0001 C CNN "Critical"
-F 9 "S7072-ND" H 4350 2250 60  0001 C CNN "DigiPart#"
-F 10 "https://www.digikey.de/product-detail/de/sullins-connector-solutions/PPTC042LFBN-RC/S7072-ND/810211" H 4350 2250 60  0001 C CNN "DigiLink"
+F 9 "ZL262-8DG" H 4350 2250 60  0001 C CNN "DigiPart#"
+F 10 "http://www.tme.eu/de/details/zl262-8dg/stiftleisten-und-buchsen/connfly/ds1023-2_13s01/" H 4350 2250 60  0001 C CNN "DigiLink"
 F 11 "Y" H 4350 2250 60  0001 C CNN "assemble"
 	1    4350 2250
 	1    0    0    -1  
@@ -55,14 +55,14 @@ P 4350 2900
 F 0 "J102" H 4350 3000 50  0000 C CNN
 F 1 "GPIO J13" H 4350 2800 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x01_Pitch2.54mm" H 4350 1700 50  0001 C CNN
-F 3 "" H 4350 1700 50  0001 C CNN
+F 3 "docs/DS1023.pdf" H 4350 1700 50  0001 C CNN
 F 4 "CONN HEADER FEMALE 2POS .1\" TIN" H 4350 2900 60  0001 C CNN "Description"
-F 5 "Sullins Connector Solutions" H 4350 2900 60  0001 C CNN "Manufacture"
-F 6 "PPTC021LFBN-RC" H 4350 2900 60  0001 C CNN "ManuPart#"
-F 7 "Digi" H 4350 2900 60  0001 C CNN "Source"
+F 5 "CONNFLY" H 4350 2900 60  0001 C CNN "Manufacture"
+F 6 "DS1023-1*2S01" H 4350 2900 60  0001 C CNN "ManuPart#"
+F 7 "TME" H 4350 2900 60  0001 C CNN "Source"
 F 8 "N" H 4350 2900 60  0001 C CNN "Critical"
-F 9 "S7000-ND" H 4350 2900 60  0001 C CNN "DigiPart#"
-F 10 "https://www.digikey.de/product-detail/de/sullins-connector-solutions/PPTC021LFBN-RC/S7000-ND/810142" H 4350 2900 60  0001 C CNN "DigiLink"
+F 9 "ZL262-2SG" H 4350 2900 60  0001 C CNN "DigiPart#"
+F 10 "http://www.tme.eu/de/details/zl262-2sg/stiftleisten-und-buchsen/connfly/ds1023-1_2s01/" H 4350 2900 60  0001 C CNN "DigiLink"
 F 11 "Y" H 4350 2900 60  0001 C CNN "assemble"
 	1    4350 2900
 	1    0    0    -1  
@@ -74,14 +74,14 @@ P 4350 4000
 F 0 "J103" H 4350 4700 50  0000 C CNN
 F 1 "GPIO CON3" V 4350 4000 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x13_Pitch2.54mm" H 4350 2850 50  0001 C CNN
-F 3 "" H 4350 2850 50  0001 C CNN
+F 3 "docs/DS1023.pdf" H 4350 2850 50  0001 C CNN
 F 4 "CONN HEADER FMAL 26PS .1\" DL TIN" H 4350 4000 60  0001 C CNN "Description"
-F 5 "Sullins Connector Solutions" H 4350 4000 60  0001 C CNN "Manufacture"
-F 6 "PPTC132LFBN-RC" H 4350 4000 60  0001 C CNN "ManuPart#"
-F 7 "Digi" H 4350 4000 60  0001 C CNN "Source"
+F 5 "CONNFLY" H 4350 4000 60  0001 C CNN "Manufacture"
+F 6 "DS1023-2*13S01" H 4350 4000 60  0001 C CNN "ManuPart#"
+F 7 "TME" H 4350 4000 60  0001 C CNN "Source"
 F 8 "N" H 4350 4000 60  0001 C CNN "Critical"
-F 9 "S7081-ND" H 4350 4000 60  0001 C CNN "DigiPart#"
-F 10 "https://www.digikey.de/product-detail/de/sullins-connector-solutions/PPTC132LFBN-RC/S7081-ND/810219" H 4350 4000 60  0001 C CNN "DigiLink"
+F 9 "ZL262-26DG" H 4350 4000 60  0001 C CNN "DigiPart#"
+F 10 "http://www.tme.eu/de/details/zl262-26dg/stiftleisten-und-buchsen/connfly/ds1023-2_13s01/" H 4350 4000 60  0001 C CNN "DigiLink"
 F 11 "Y" H 4350 4000 60  0001 C CNN "assemble"
 	1    4350 4000
 	1    0    0    -1  
