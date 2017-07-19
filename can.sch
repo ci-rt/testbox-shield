@@ -248,10 +248,10 @@ F 3 "docs/1725669.pdf" H 7100 1900 50  0001 C CNN
 F 4 "CONN TERM BLOCK 2.54MM 3POS" H 7100 1900 60  0001 C CNN "Description"
 F 5 "Phoenix Contact" H 7100 1900 60  0001 C CNN "Manufacture"
 F 6 "1725669" H 7100 1900 60  0001 C CNN "ManuPart#"
-F 7 "Digi" H 7100 1900 60  0001 C CNN "Source"
+F 7 "TME" H 7100 1900 60  0001 C CNN "Source"
 F 8 "N" H 7100 1900 60  0001 C CNN "Critical"
-F 9 "277-1274-ND" H 7100 1900 60  0001 C CNN "SupplPart#"
-F 10 "https://www.digikey.de/product-detail/de/phoenix-contact/1725669/277-1274-ND/267463" H 7100 1900 60  0001 C CNN "SupplLink"
+F 9 "MPT0.5/3-2.54" H 7100 1900 60  0001 C CNN "SupplPart#"
+F 10 "http://www.tme.eu/de/details/mpt0.5_3-2.54/klemmleisten-fuer-pcb/phoenix-contact/mpt-05-3-254-1725669/" H 7100 1900 60  0001 C CNN "SupplLink"
 F 11 "Y" H 7100 1900 60  0001 C CNN "assemble"
 	1    7100 1900
 	1    0    0    -1  
