@@ -28,13 +28,14 @@ F 1 "HCPL063" H 5900 4100 50  0000 C CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm" H 5900 3300 50  0001 C CIN
 F 3 "docs/6N137.pdf" H 5910 3905 50  0001 L CNN
 F 4 "OPTOISO 2.5KV 2CH OPEN COLL 8DIP" H 5900 3700 60  0001 C CNN "Description"
-F 5 "HCPL2631" H 5900 3700 60  0001 C CNN "ManuPart#"
-F 6 "8DIP" H 5900 3700 60  0001 C CNN "PackageID"
-F 7 "Digi" H 5900 3700 60  0001 C CNN "Source"
-F 8 "N" H 5900 3700 60  0001 C CNN "Critical"
-F 9 "HCPL2631QT-ND" H 5900 3700 60  0001 C CNN "SupplPart#"
-F 10 "https://www.digikey.de/product-detail/de/fairchild-on-semiconductor/HCPL2631/HCPL2631QT-ND/31638" H 5900 3700 60  0001 C CNN "SupplLink"
-F 11 "Y" H 5900 3700 60  0001 C CNN "assemble"
+F 5 "ON SEMICONDUCTOR (FAIRCHILD)" H 5900 3700 60  0001 C CNN "Manufacture"
+F 6 "HCPL2631" H 5900 3700 60  0001 C CNN "ManuPart#"
+F 7 "8DIP" H 5900 3700 60  0001 C CNN "PackageID"
+F 8 "TME" H 5900 3700 60  0001 C CNN "Source"
+F 9 "N" H 5900 3700 60  0001 C CNN "Critical"
+F 10 "ON SEMICONDUCTOR (FAIRCHILD) HCPL2631" H 5900 3700 60  0001 C CNN "SupplPart#"
+F 11 "http://www.tme.eu/de/details/hcpl2631/optokoppler-digitalausgang/on-semiconductor-fairchild/" H 5900 3700 60  0001 C CNN "SupplLink"
+F 12 "Y" H 5900 3700 60  0001 C CNN "assemble"
 	1    5900 3700
 	1    0    0    -1  
 $EndComp

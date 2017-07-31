@@ -123,12 +123,12 @@ F 1 "serial" H 8400 5550 50  0000 C CNN
 F 2 "Connect:RJ45_8" H 8550 5050 50  0001 C CNN
 F 3 "docs/c-bmj-0102.pdf" H 8550 5050 50  0001 C CNN
 F 4 "CONN MOD JACK 8P8C R/A UNSHLD" H 8550 5050 60  0001 C CNN "Description"
-F 5 "Amphenol FCI" H 8550 5050 60  0001 C CNN "Manufacture"
-F 6 "54602-908LF" H 8550 5050 60  0001 C CNN "ManuPart#"
-F 7 "Digi" H 8550 5050 60  0001 C CNN "Source"
+F 5 "Molex" H 8550 5050 60  0001 C CNN "Manufacture"
+F 6 "955012881" H 8550 5050 60  0001 C CNN "ManuPart#"
+F 7 "TME" H 8550 5050 60  0001 C CNN "Source"
 F 8 "N" H 8550 5050 60  0001 C CNN "Critical"
-F 9 "609-1046-ND" H 8550 5050 60  0001 C CNN "SupplPart#"
-F 10 "https://www.digikey.de/product-detail/de/amphenol-fci/54602-908LF/609-1046-ND/1001360" H 8550 5050 60  0001 C CNN "SupplLink"
+F 9 "MOLEX 955012881" H 8550 5050 60  0001 C CNN "SupplPart#"
+F 10 "http://www.tme.eu/de/details/mx-95501-2881/rj-steckverbinder/molex/955012881/" H 8550 5050 60  0001 C CNN "SupplLink"
 F 11 "Y" H 8550 5050 60  0001 C CNN "assemble"
 	1    8550 5050
 	0    1    -1   0   

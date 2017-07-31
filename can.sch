@@ -139,12 +139,12 @@ F 1 "TERM" H 5550 2950 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 5550 1900 50  0001 C CNN
 F 3 "" H 5550 1900 50  0001 C CNN
 F 4 "CONN HEADER 4POS .100 STR TIN" H 5550 3100 60  0001 C CNN "Description"
-F 5 "Amphenol FCI" H 5550 3100 60  0001 C CNN "Manufacture"
-F 6 "67997-404HLF" H 5550 3100 60  0001 C CNN "ManuPart#"
-F 7 "Digi" H 5550 3100 60  0001 C CNN "Source"
+F 5 "CONNFLY" H 5550 3100 60  0001 C CNN "Manufacture"
+F 6 "DS1021-2*2SF1-1" H 5550 3100 60  0001 C CNN "ManuPart#"
+F 7 "TME" H 5550 3100 60  0001 C CNN "Source"
 F 8 "N" H 5550 3100 60  0001 C CNN "Critical"
-F 9 "609-3242-ND" H 5550 3100 60  0001 C CNN "SupplPart#"
-F 10 "https://www.digikey.de/product-detail/de/amphenol-fci/67997-404HLF/609-3242-ND/1878458" H 5550 3100 60  0001 C CNN "SupplLink"
+F 9 "CONNFLY DS1021-2*2SF1-1" H 5550 3100 60  0001 C CNN "SupplPart#"
+F 10 "http://www.tme.eu/de/details/zl202-4g/stiftleisten-und-buchsen/connfly/ds1021-2_2sf1-1/" H 5550 3100 60  0001 C CNN "SupplLink"
 F 11 "Y" H 5550 3100 60  0001 C CNN "assemble"
 	1    5550 3100
 	1    0    0    -1  
