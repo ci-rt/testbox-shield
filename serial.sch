@@ -127,7 +127,7 @@ F 5 "Molex" H 8550 5050 60  0001 C CNN "Manufacture"
 F 6 "955012881" H 8550 5050 60  0001 C CNN "ManuPart#"
 F 7 "TME" H 8550 5050 60  0001 C CNN "Source"
 F 8 "N" H 8550 5050 60  0001 C CNN "Critical"
-F 9 "MOLEX 955012881" H 8550 5050 60  0001 C CNN "SupplPart#"
+F 9 "MX-95501-2881" H 8550 5050 60  0001 C CNN "SupplPart#"
 F 10 "http://www.tme.eu/de/details/mx-95501-2881/rj-steckverbinder/molex/955012881/" H 8550 5050 60  0001 C CNN "SupplLink"
 F 11 "Y" H 8550 5050 60  0001 C CNN "assemble"
 	1    8550 5050

@@ -143,7 +143,7 @@ F 5 "CONNFLY" H 5550 3100 60  0001 C CNN "Manufacture"
 F 6 "DS1021-2*2SF1-1" H 5550 3100 60  0001 C CNN "ManuPart#"
 F 7 "TME" H 5550 3100 60  0001 C CNN "Source"
 F 8 "N" H 5550 3100 60  0001 C CNN "Critical"
-F 9 "CONNFLY DS1021-2*2SF1-1" H 5550 3100 60  0001 C CNN "SupplPart#"
+F 9 "ZL202-4G" H 5550 3100 60  0001 C CNN "SupplPart#"
 F 10 "http://www.tme.eu/de/details/zl202-4g/stiftleisten-und-buchsen/connfly/ds1021-2_2sf1-1/" H 5550 3100 60  0001 C CNN "SupplLink"
 F 11 "Y" H 5550 3100 60  0001 C CNN "assemble"
 	1    5550 3100

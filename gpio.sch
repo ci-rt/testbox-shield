@@ -33,7 +33,7 @@ F 6 "HCPL2631" H 5900 3700 60  0001 C CNN "ManuPart#"
 F 7 "8DIP" H 5900 3700 60  0001 C CNN "PackageID"
 F 8 "TME" H 5900 3700 60  0001 C CNN "Source"
 F 9 "N" H 5900 3700 60  0001 C CNN "Critical"
-F 10 "ON SEMICONDUCTOR (FAIRCHILD) HCPL2631" H 5900 3700 60  0001 C CNN "SupplPart#"
+F 10 "HCPL2631" H 5900 3700 60  0001 C CNN "SupplPart#"
 F 11 "http://www.tme.eu/de/details/hcpl2631/optokoppler-digitalausgang/on-semiconductor-fairchild/" H 5900 3700 60  0001 C CNN "SupplLink"
 F 12 "Y" H 5900 3700 60  0001 C CNN "assemble"
 	1    5900 3700
