@@ -91,9 +91,9 @@ UART0-TX
 Text Label 4000 2900 2    60   ~ 0
 UART0-RX
 Text Label 5900 2300 2    60   ~ 0
-UART0-TX
-Text Label 5900 2500 2    60   ~ 0
 UART0-RX
+Text Label 5900 2500 2    60   ~ 0
+UART0-TX
 Wire Wire Line
 	5900 2300 6000 2300
 Wire Wire Line
@@ -179,9 +179,9 @@ UART7-RX
 Text Label 4700 2300 0    60   ~ 0
 UART7-TX
 Text Label 5900 2900 2    60   ~ 0
-UART7-RX
-Text Label 5900 2700 2    60   ~ 0
 UART7-TX
+Text Label 5900 2700 2    60   ~ 0
+UART7-RX
 Wire Wire Line
 	5900 2700 6000 2700
 Wire Wire Line

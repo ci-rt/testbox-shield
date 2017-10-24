@@ -165,16 +165,6 @@ F 3 "" H 8000 5500 50  0001 C CNN
 	1    8000 5500
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	8100 5100 8000 5100
-Wire Wire Line
-	8100 5000 8000 5000
-Connection ~ 8000 5100
-Connection ~ 8000 5000
-NoConn ~ 8100 4700
-NoConn ~ 8100 4800
-NoConn ~ 8100 5300
-NoConn ~ 8100 5400
 $Comp
 L GS3 J203
 U 1 1 595EEF53
@@ -229,10 +219,6 @@ F 5 "N" H 7650 5200 60  0001 C CNN "assemble"
 $EndComp
 Wire Wire Line
 	8200 3900 7800 3900
-Wire Wire Line
-	8100 4900 7800 4900
-Wire Wire Line
-	8100 5200 7800 5200
 Wire Wire Line
 	7500 3500 6300 3500
 Wire Wire Line
@@ -368,4 +354,44 @@ F 12 "Y" H 6650 3300 60  0001 C CNN "assemble"
 	1    6650 3300
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	8100 5000 7900 5000
+Wire Wire Line
+	7900 5000 7900 4900
+Wire Wire Line
+	7900 4900 7800 4900
+Wire Wire Line
+	7800 5200 7900 5200
+Wire Wire Line
+	7900 5200 7900 5100
+Wire Wire Line
+	7900 5100 8100 5100
+Wire Wire Line
+	8100 5200 8000 5200
+Connection ~ 8000 5200
+Text Notes 9400 4750 0    60   ~ 12
+RJ45 serial pinout 1:1
+Text Notes 9400 5650 0    60   Italic 0
+Signal\nDSR\nRTS\nSignal GND\nTxD\nRxD\nDCD\nCTS\nDTR
+Text Notes 10350 5650 0    60   ~ 0
+RJ45\n1\n2\n3\n4\n5\n6\n7\n8
+Text Notes 10600 5650 0    60   ~ 0
+DB-9\n6\n7\n5\n3\n2\n1\n8\n4
+NoConn ~ 8100 4700
+NoConn ~ 8100 4800
+NoConn ~ 8100 4900
+NoConn ~ 8100 5300
+NoConn ~ 8100 5400
+Text Notes 9950 5650 0    60   ~ 0
+Farbe\nblau\norange\nschwarz\nrot\ngrün\ngelb\nbraun\nweiß
+Text Notes 9400 3650 0    60   ~ 12
+RJ45 serial pinout Nullmodem
+Text Notes 9950 4550 0    60   ~ 0
+Farbe\nblau\norange\nschwarz\nrot\ngrün\ngelb\nbraun\nweiß
+Text Notes 10350 4550 0    60   ~ 0
+RJ45\n1\n2\n3\n4\n5\n6\n7\n8
+Text Notes 10600 4550 0    60   ~ 0
+DB-9\n4\n8\n5\n2\n3\n1\n7\n6
+Text Notes 9400 4550 0    60   Italic 0
+Signal\nDTR\nCTS\nSignal GND\nRxD\nTxD\nDCD\nRTS\nDSR
 $EndSCHEMATC
