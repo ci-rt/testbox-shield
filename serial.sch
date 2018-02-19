@@ -117,20 +117,20 @@ Wire Wire Line
 $Comp
 L RJ45 J202
 U 1 1 595EBD51
-P 8550 5050
-F 0 "J202" H 8750 5550 50  0000 C CNN
-F 1 "serial" H 8400 5550 50  0000 C CNN
-F 2 "Connect:RJ45_8" H 8550 5050 50  0001 C CNN
-F 3 "docs/c-bmj-0102.pdf" H 8550 5050 50  0001 C CNN
-F 4 "CONN MOD JACK 8P8C R/A UNSHLD" H 8550 5050 60  0001 C CNN "Description"
-F 5 "Molex" H 8550 5050 60  0001 C CNN "Manufacture"
-F 6 "955012881" H 8550 5050 60  0001 C CNN "ManuPart#"
-F 7 "TME" H 8550 5050 60  0001 C CNN "Source"
-F 8 "N" H 8550 5050 60  0001 C CNN "Critical"
-F 9 "MX-95501-2881" H 8550 5050 60  0001 C CNN "SupplPart#"
-F 10 "http://www.tme.eu/de/details/mx-95501-2881/rj-steckverbinder/molex/955012881/" H 8550 5050 60  0001 C CNN "SupplLink"
-F 11 "Y" H 8550 5050 60  0001 C CNN "assemble"
-	1    8550 5050
+P 8550 5150
+F 0 "J202" H 8750 5650 50  0000 C CNN
+F 1 "serial" H 8400 5650 50  0000 C CNN
+F 2 "Connect:RJ45_8" H 8550 5150 50  0001 C CNN
+F 3 "docs/c-bmj-0102.pdf" H 8550 5150 50  0001 C CNN
+F 4 "CONN MOD JACK 8P8C R/A UNSHLD" H 8550 5150 60  0001 C CNN "Description"
+F 5 "Molex" H 8550 5150 60  0001 C CNN "Manufacture"
+F 6 "955012881" H 8550 5150 60  0001 C CNN "ManuPart#"
+F 7 "TME" H 8550 5150 60  0001 C CNN "Source"
+F 8 "N" H 8550 5150 60  0001 C CNN "Critical"
+F 9 "MX-95501-2881" H 8550 5150 60  0001 C CNN "SupplPart#"
+F 10 "http://www.tme.eu/de/details/mx-95501-2881/rj-steckverbinder/molex/955012881/" H 8550 5150 60  0001 C CNN "SupplLink"
+F 11 "Y" H 8550 5150 60  0001 C CNN "assemble"
+	1    8550 5150
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -254,7 +254,7 @@ Wire Wire Line
 	7100 5300 7500 5300
 Connection ~ 7100 5000
 Wire Wire Line
-	8900 4500 8900 4400
+	8900 4400 8900 4600
 Wire Wire Line
 	8000 4200 8000 5500
 Wire Wire Line
@@ -355,8 +355,6 @@ F 12 "Y" H 6650 3300 60  0001 C CNN "assemble"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8100 5000 7900 5000
-Wire Wire Line
 	7900 5000 7900 4900
 Wire Wire Line
 	7900 4900 7800 4900
@@ -364,34 +362,26 @@ Wire Wire Line
 	7800 5200 7900 5200
 Wire Wire Line
 	7900 5200 7900 5100
-Wire Wire Line
-	7900 5100 8100 5100
-Wire Wire Line
-	8100 5200 8000 5200
 Connection ~ 8000 5200
 Text Notes 9400 4750 0    60   ~ 12
-RJ45 serial pinout 1:1
+RJ45 serial pinout (TIA-561)
 Text Notes 9400 5650 0    60   Italic 0
 Signal\nDSR\nRTS\nSignal GND\nTxD\nRxD\nDCD\nCTS\nDTR
 Text Notes 10350 5650 0    60   ~ 0
 RJ45\n1\n2\n3\n4\n5\n6\n7\n8
 Text Notes 10600 5650 0    60   ~ 0
-DB-9\n6\n7\n5\n3\n2\n1\n8\n4
-NoConn ~ 8100 4700
+DB-9\n6\n1\n4\n5\n2\n3\n8\n7
 NoConn ~ 8100 4800
 NoConn ~ 8100 4900
-NoConn ~ 8100 5300
 NoConn ~ 8100 5400
+NoConn ~ 8100 5500
 Text Notes 9950 5650 0    60   ~ 0
 Farbe\nblau\norange\nschwarz\nrot\ngrün\ngelb\nbraun\nweiß
-Text Notes 9400 3650 0    60   ~ 12
-RJ45 serial pinout Nullmodem
-Text Notes 9950 4550 0    60   ~ 0
-Farbe\nblau\norange\nschwarz\nrot\ngrün\ngelb\nbraun\nweiß
-Text Notes 10350 4550 0    60   ~ 0
-RJ45\n1\n2\n3\n4\n5\n6\n7\n8
-Text Notes 10600 4550 0    60   ~ 0
-DB-9\n4\n8\n5\n2\n3\n1\n7\n6
-Text Notes 9400 4550 0    60   Italic 0
-Signal\nDTR\nCTS\nSignal GND\nRxD\nTxD\nDCD\nRTS\nDSR
+Wire Wire Line
+	7900 5000 8100 5000
+Wire Wire Line
+	7900 5100 8100 5100
+NoConn ~ 8100 5300
+Wire Wire Line
+	8100 5200 8000 5200
 $EndSCHEMATC
