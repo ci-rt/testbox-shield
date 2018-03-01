@@ -13,11 +13,11 @@ Sheet 1 5
 Title "Banana Pi CAN serial extension board"
 Date "2017-07-08"
 Rev "0.1"
-Comp "Benedikt Spranger"
+Comp "Linutronix GmbH / Benedikt Spranger"
 Comment1 ""
-Comment2 "Lizenz zu sehen, besuchen Sie http://creativecommons.org/licenses/by-sa/4.0/."
-Comment3 "\"Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kopie dieser"
-Comment4 "Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung -"
+Comment2 "of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/."
+Comment3 "Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy"
+Comment4 "This work is licensed under the Creative Commons"
 $EndDescr
 $Sheet
 S 6000 2100 600  1000
