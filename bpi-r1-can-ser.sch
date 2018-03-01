@@ -178,9 +178,9 @@ Text Label 4700 2200 0    60   ~ 0
 UART7-RX
 Text Label 4700 2300 0    60   ~ 0
 UART7-TX
-Text Label 5900 2900 2    60   ~ 0
-UART7-TX
 Text Label 5900 2700 2    60   ~ 0
+UART7-TX
+Text Label 5900 2900 2    60   ~ 0
 UART7-RX
 Wire Wire Line
 	5900 2700 6000 2700
@@ -417,4 +417,6 @@ Text Label 7500 4500 2    60   ~ 0
 CS0
 Text Label 7500 4600 2    60   ~ 0
 CS1
+Text Notes 3800 1700 0    60   ~ 0
+UART0 is labled DCE, while UART7 is labeled DTE in Banana Pi R1 schematics.
 $EndSCHEMATC
