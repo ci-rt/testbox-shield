@@ -10,9 +10,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
-Title ""
-Date ""
-Rev ""
+Title "Banana Pi CAN serial extension board"
+Date "2018-03-01"
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""

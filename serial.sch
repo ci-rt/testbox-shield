@@ -11,8 +11,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title "Banana Pi CAN serial extension board"
-Date "2017-07-08"
-Rev "0.1"
+Date "2018-03-01"
+Rev "0.2"
 Comp "Benedikt Spranger"
 Comment1 ""
 Comment2 "Lizenz zu sehen, besuchen Sie http://creativecommons.org/licenses/by-sa/4.0/."
