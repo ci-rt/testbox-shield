@@ -8,6 +8,7 @@ LIBS:meanwell
 LIBS:opto
 LIBS:power
 LIBS:q_pmos_pqfn
+LIBS:memory
 LIBS:bpi-r1-can-ser-cache
 EELAYER 25 0
 EELAYER END

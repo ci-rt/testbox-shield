@@ -48,3 +48,4 @@ LibName6=library/meanwell
 LibName7=library/opto
 LibName8=library/power
 LibName9=library/q_pmos_pqfn
+LibName10=library/memory
