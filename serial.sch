@@ -1,15 +1,19 @@
 EESchema Schematic File Version 2
+LIBS:asr
 LIBS:conn
 LIBS:device
+LIBS:he700
 LIBS:interface
+LIBS:meanwell
 LIBS:opto
 LIBS:power
+LIBS:q_pmos_pqfn
 LIBS:bpi-r1-can-ser-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title "Banana Pi CAN serial extension board"
 Date "2018-03-01"
 Rev "0.2"

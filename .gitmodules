@@ -22,3 +22,6 @@
 [submodule "modules/packages3D"]
 	path = modules/packages3D
 	url = https://github.com/KiCad/packages3D.git
+[submodule "modules/Mounting_Holes.pretty"]
+	path = modules/Mounting_Holes.pretty
+	url = https://github.com/KiCad/Mounting_Holes.pretty.git

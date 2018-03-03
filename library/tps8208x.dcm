@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS8208x
+D High-Efficiency Step-Down Converter Module with Integrated Inductor
+K DC/DC step-down
+F tps82085.pdf
+$ENDCMP
+#
+#End Doc Library
