@@ -25,3 +25,6 @@
 [submodule "modules/Mounting_Holes.pretty"]
 	path = modules/Mounting_Holes.pretty
 	url = https://github.com/KiCad/Mounting_Holes.pretty.git
+[submodule "modules/kicad-libraries"]
+	path = 3-party/azonenberg
+	url = https://github.com/azonenberg/kicad-libraries.git

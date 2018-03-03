@@ -72,46 +72,46 @@ GPIO2
 $Comp
 L CONN_01X04 J401
 U 1 1 595FE5A0
-P 6700 3700
-F 0 "J401" H 6700 3950 50  0000 C CNN
-F 1 "GPIO" V 6800 3700 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol" H 6700 3700 50  0001 C CNN
-F 3 "docs/1725672.pdf" H 6700 3700 50  0001 C CNN
-F 4 "CONN TERM BLOCK 2.54MM 4POS" H 6700 3700 60  0001 C CNN "Description"
-F 5 "Phoenix Contact" H 6700 3700 60  0001 C CNN "Manufacture"
-F 6 "1725672" H 6700 3700 60  0001 C CNN "ManuPart#"
-F 7 "TME" H 6700 3700 60  0001 C CNN "Source"
-F 8 "N" H 6700 3700 60  0001 C CNN "Critical"
-F 9 "MPT0.5/4-2.54" H 6700 3700 60  0001 C CNN "SupplPart#"
-F 10 "http://www.tme.eu/de/details/mpt0.5_4-2.54/klemmleisten-fuer-pcb/phoenix-contact/mpt-05-4-254-1725672/" H 6700 3700 60  0001 C CNN "SupplLink"
-F 11 "Y" H 6700 3700 60  0001 C CNN "assemble"
-	1    6700 3700
+P 6900 3700
+F 0 "J401" H 6900 3950 50  0000 C CNN
+F 1 "GPO" V 7000 3700 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol" H 6900 3700 50  0001 C CNN
+F 3 "docs/1725672.pdf" H 6900 3700 50  0001 C CNN
+F 4 "CONN TERM BLOCK 2.54MM 4POS" H 6900 3700 60  0001 C CNN "Description"
+F 5 "Phoenix Contact" H 6900 3700 60  0001 C CNN "Manufacture"
+F 6 "1725672" H 6900 3700 60  0001 C CNN "ManuPart#"
+F 7 "TME" H 6900 3700 60  0001 C CNN "Source"
+F 8 "N" H 6900 3700 60  0001 C CNN "Critical"
+F 9 "MPT0.5/4-2.54" H 6900 3700 60  0001 C CNN "SupplPart#"
+F 10 "http://www.tme.eu/de/details/mpt0.5_4-2.54/klemmleisten-fuer-pcb/phoenix-contact/mpt-05-4-254-1725672/" H 6900 3700 60  0001 C CNN "SupplLink"
+F 11 "Y" H 6900 3700 60  0001 C CNN "assemble"
+	1    6900 3700
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	6200 3400 6400 3400
+	6200 3400 6500 3400
 Wire Wire Line
 	6400 3300 6400 3550
 Wire Wire Line
-	6400 3550 6500 3550
+	6400 3550 6700 3550
 Wire Wire Line
-	6500 3650 6300 3650
+	6700 3650 6300 3650
 Wire Wire Line
 	6300 3650 6300 3600
 Wire Wire Line
-	6300 3600 6200 3600
+	6200 3600 6400 3600
 Wire Wire Line
-	6200 3800 6300 3800
+	6200 3800 6400 3800
 Wire Wire Line
 	6300 3800 6300 3750
 Wire Wire Line
-	6300 3750 6500 3750
+	6300 3750 6700 3750
 Wire Wire Line
 	6400 3850 6400 4100
 Wire Wire Line
-	6400 4000 6200 4000
+	6200 4000 6500 4000
 Wire Wire Line
-	6400 3850 6500 3850
+	6400 3850 6700 3850
 $Comp
 L PWR_FLAG #FLG?
 U 1 1 595FEC25
@@ -183,4 +183,14 @@ Wire Wire Line
 Wire Wire Line
 	5400 3600 5400 3700
 Connection ~ 5500 3600
+Text HLabel 6500 3400 2    60   UnSpc ~ 0
+V+
+Text HLabel 6500 4000 2    60   UnSpc ~ 0
+V-
+Text HLabel 6400 3600 2    60   Output ~ 0
+GPO1
+Connection ~ 6300 3600
+Connection ~ 6300 3800
+Text HLabel 6400 3800 2    60   Output ~ 0
+GPO2
 $EndSCHEMATC
