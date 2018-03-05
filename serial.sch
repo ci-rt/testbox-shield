@@ -384,4 +384,12 @@ Wire Wire Line
 NoConn ~ 8100 5300
 Wire Wire Line
 	8100 5200 8000 5200
+Text Notes 7700 5350 0    60   ~ 0
+*
+Text Notes 7700 4850 0    60   ~ 0
+*
+Text Notes 7700 4050 0    60   ~ 0
+*
+Text Notes 7700 3550 0    60   ~ 0
+*
 $EndSCHEMATC
