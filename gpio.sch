@@ -9,12 +9,17 @@ LIBS:opto
 LIBS:power
 LIBS:q_pmos_pqfn
 LIBS:memory
+LIBS:power-azonenberg
+LIBS:74xgxx
+LIBS:74xx
+LIBS:si865x
+LIBS:efm32jg
 LIBS:bpi-r1-can-ser-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 4 7
 Title "Banana Pi CAN serial extension board"
 Date "2018-03-01"
 Rev "0.2"
@@ -91,8 +96,6 @@ $EndComp
 Wire Wire Line
 	6200 3400 6500 3400
 Wire Wire Line
-	6400 3300 6400 3550
-Wire Wire Line
 	6400 3550 6700 3550
 Wire Wire Line
 	6700 3650 6300 3650
@@ -107,35 +110,9 @@ Wire Wire Line
 Wire Wire Line
 	6300 3750 6700 3750
 Wire Wire Line
-	6400 3850 6400 4100
-Wire Wire Line
 	6200 4000 6500 4000
 Wire Wire Line
 	6400 3850 6700 3850
-$Comp
-L PWR_FLAG #FLG?
-U 1 1 595FEC25
-P 6400 3300
-F 0 "#FLG?" H 6400 3375 50  0001 C CNN
-F 1 "PWR_FLAG" H 6400 3450 50  0000 C CNN
-F 2 "" H 6400 3300 50  0001 C CNN
-F 3 "" H 6400 3300 50  0001 C CNN
-	1    6400 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG?
-U 1 1 595FEC43
-P 6400 4100
-F 0 "#FLG?" H 6400 4175 50  0001 C CNN
-F 1 "PWR_FLAG" H 6400 4250 50  0000 C CNN
-F 2 "" H 6400 4100 50  0001 C CNN
-F 3 "" H 6400 4100 50  0001 C CNN
-	1    6400 4100
-	-1   0    0    1   
-$EndComp
-Connection ~ 6400 3400
-Connection ~ 6400 4000
 $Comp
 L R R401
 U 1 1 59656F56
@@ -193,4 +170,10 @@ Connection ~ 6300 3600
 Connection ~ 6300 3800
 Text HLabel 6400 3800 2    60   Output ~ 0
 GPO2
+Wire Wire Line
+	6400 3400 6400 3550
+Connection ~ 6400 3400
+Wire Wire Line
+	6400 3850 6400 4000
+Connection ~ 6400 4000
 $EndSCHEMATC

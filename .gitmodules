@@ -28,3 +28,6 @@
 [submodule "modules/kicad-libraries"]
 	path = 3-party/azonenberg
 	url = https://github.com/azonenberg/kicad-libraries.git
+[submodule "modules/kicad-footprints"]
+	path = modules/kicad-footprints
+	url = https://github.com/KiCad/kicad-footprints.git

@@ -9,12 +9,17 @@ LIBS:opto
 LIBS:power
 LIBS:q_pmos_pqfn
 LIBS:memory
+LIBS:power-azonenberg
+LIBS:74xgxx
+LIBS:74xx
+LIBS:si865x
+LIBS:efm32jg
 LIBS:bpi-r1-can-ser-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title "Banana Pi CAN serial extension board"
 Date "2018-03-01"
 Rev "0.2"
