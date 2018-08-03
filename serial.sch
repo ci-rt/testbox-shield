@@ -1,21 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:asr
-LIBS:conn
-LIBS:device
-LIBS:he700
-LIBS:interface
-LIBS:meanwell
-LIBS:opto
-LIBS:power
-LIBS:q_pmos_pqfn
-LIBS:memory
-LIBS:power-azonenberg
-LIBS:74xgxx
-LIBS:74xx
-LIBS:si865x
-LIBS:efm32jg
-LIBS:bpi-r1-can-ser-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -30,7 +14,7 @@ Comment3 "\"Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kop
 Comment4 "Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung -"
 $EndDescr
 $Comp
-L MAX3232 U201
+L interface:MAX3232 U201
 U 1 1 595EBA2A
 P 5500 3400
 F 0 "U201" H 5400 4525 50  0000 R CNN
@@ -50,7 +34,7 @@ F 12 "Y" H 5500 3400 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C201
+L device:C C201
 U 1 1 595EBA8C
 P 4500 2650
 F 0 "C201" H 4525 2750 50  0000 L CNN
@@ -70,7 +54,7 @@ F 12 "Y" H 4500 2650 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR?
+L power1:+3.3V #PWR?
 U 1 1 595EBB26
 P 5500 2100
 F 0 "#PWR?" H 5500 1950 50  0001 C CNN
@@ -95,7 +79,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 2100 5500 2200
 $Comp
-L +3.3V #PWR?
+L power1:+3.3V #PWR?
 U 1 1 595EBBE6
 P 6900 2900
 F 0 "#PWR?" H 6900 2750 50  0001 C CNN
@@ -110,7 +94,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 3000 6900 2900
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 595EBC0B
 P 6900 3300
 F 0 "#PWR?" H 6900 3050 50  0001 C CNN
@@ -125,7 +109,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 3300 6900 3400
 $Comp
-L RJ45 J202
+L conn:RJ45 J202
 U 1 1 595EBD51
 P 8550 5150
 F 0 "J202" H 8750 5650 50  0000 C CNN
@@ -144,7 +128,7 @@ F 11 "Y" H 8550 5150 60  0001 C CNN "assemble"
 	0    1    -1   0   
 $EndComp
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 595EBDB1
 P 5500 4700
 F 0 "#PWR?" H 5500 4450 50  0001 C CNN
@@ -165,7 +149,7 @@ RX1
 Text HLabel 4700 4100 0    60   Output ~ 0
 RX2
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 595EEDE5
 P 8000 5500
 F 0 "#PWR?" H 8000 5250 50  0001 C CNN
@@ -176,7 +160,7 @@ F 3 "" H 8000 5500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GS3 J203
+L conn:GS3 J203
 U 1 1 595EEF53
 P 7650 3600
 F 0 "J203" H 7500 3600 50  0000 C CNN
@@ -189,7 +173,7 @@ F 5 "N" H 7650 3600 60  0001 C CNN "assemble"
 	1    0    0    1   
 $EndComp
 $Comp
-L GS3 J204
+L conn:GS3 J204
 U 1 1 595EF10E
 P 7650 3900
 F 0 "J204" H 7500 3900 50  0000 C CNN
@@ -202,7 +186,7 @@ F 5 "N" H 7650 3900 60  0001 C CNN "assemble"
 	1    0    0    1   
 $EndComp
 $Comp
-L GS3 J205
+L conn:GS3 J205
 U 1 1 595EF3C5
 P 7650 4900
 F 0 "J205" H 7500 4900 50  0000 C CNN
@@ -215,7 +199,7 @@ F 5 "N" H 7650 4900 60  0001 C CNN "assemble"
 	1    0    0    1   
 $EndComp
 $Comp
-L GS3 J206
+L conn:GS3 J206
 U 1 1 595EF3CB
 P 7650 5200
 F 0 "J206" H 7500 5200 50  0000 C CNN
@@ -230,7 +214,7 @@ $EndComp
 Wire Wire Line
 	8200 3900 7800 3900
 Wire Wire Line
-	7500 3500 6300 3500
+	7500 3500 7400 3500
 Wire Wire Line
 	7500 3800 7400 3800
 Wire Wire Line
@@ -239,7 +223,7 @@ Connection ~ 7400 3500
 Wire Wire Line
 	6300 3900 7300 3900
 Wire Wire Line
-	7300 3700 7300 4000
+	7300 3700 7300 3900
 Wire Wire Line
 	7300 3700 7500 3700
 Wire Wire Line
@@ -248,7 +232,7 @@ Connection ~ 7300 3900
 Wire Wire Line
 	6300 3700 7200 3700
 Wire Wire Line
-	7200 3700 7200 5100
+	7200 3700 7200 4800
 Wire Wire Line
 	7200 4800 7500 4800
 Wire Wire Line
@@ -257,16 +241,16 @@ Connection ~ 7200 4800
 Wire Wire Line
 	7500 5000 7100 5000
 Wire Wire Line
-	7100 4100 7100 5300
+	7100 4100 7100 5000
 Wire Wire Line
 	7100 4100 6300 4100
 Wire Wire Line
 	7100 5300 7500 5300
 Connection ~ 7100 5000
 Wire Wire Line
-	8900 4400 8900 4600
+	8900 4400 8900 4450
 Wire Wire Line
-	8000 4200 8000 5500
+	8000 4200 8000 4450
 Wire Wire Line
 	8200 3800 8200 3900
 NoConn ~ 8600 3500
@@ -274,9 +258,11 @@ NoConn ~ 8600 3700
 NoConn ~ 8600 3900
 NoConn ~ 8600 4100
 $Comp
-L DB9_FEMALE_MountingHoles J201
+L conn:DB9_Female_MountingHoles J201
 U 1 1 595FCC27
 P 8900 3800
+AR Path="/595FCC27" Ref="J201"  Part="1" 
+AR Path="/595EBA0C/595FCC27" Ref="J201"  Part="1" 
 F 0 "J201" H 8900 4450 50  0000 C CNN
 F 1 "console" H 8900 4375 50  0000 C CNN
 F 2 "Connectors:DB9FD" H 8900 3800 50  0001 C CNN
@@ -305,7 +291,7 @@ Wire Wire Line
 Connection ~ 8000 4450
 Connection ~ 8900 4450
 $Comp
-L C C202
+L device:C C202
 U 1 1 59654047
 P 6500 2650
 F 0 "C202" H 6525 2750 50  0000 L CNN
@@ -325,7 +311,7 @@ F 12 "Y" H 6500 2650 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C203
+L device:C C203
 U 1 1 59654125
 P 6650 3000
 F 0 "C203" H 6675 3100 50  0000 L CNN
@@ -345,7 +331,7 @@ F 12 "Y" H 6650 3000 60  0001 C CNN "assemble"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C204
+L device:C C204
 U 1 1 5965421B
 P 6650 3300
 F 0 "C204" H 6675 3400 50  0000 L CNN
@@ -402,4 +388,18 @@ Text Notes 7700 4050 0    60   ~ 0
 *
 Text Notes 7700 3550 0    60   ~ 0
 *
+Wire Wire Line
+	7400 3500 6300 3500
+Wire Wire Line
+	7300 3900 7300 4000
+Wire Wire Line
+	7200 4800 7200 5100
+Wire Wire Line
+	7100 5000 7100 5300
+Wire Wire Line
+	8000 4450 8000 5200
+Wire Wire Line
+	8900 4450 8900 4600
+Wire Wire Line
+	8000 5200 8000 5500
 $EndSCHEMATC

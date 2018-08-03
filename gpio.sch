@@ -1,21 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:asr
-LIBS:conn
-LIBS:device
-LIBS:he700
-LIBS:interface
-LIBS:meanwell
-LIBS:opto
-LIBS:power
-LIBS:q_pmos_pqfn
-LIBS:memory
-LIBS:power-azonenberg
-LIBS:74xgxx
-LIBS:74xx
-LIBS:si865x
-LIBS:efm32jg
-LIBS:bpi-r1-can-ser-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -30,7 +14,7 @@ Comment3 "\"Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kop
 Comment4 "Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung -"
 $EndDescr
 $Comp
-L HCPL063 U401
+L opto:HCPL063 U401
 U 1 1 595FE36D
 P 5900 3700
 F 0 "U401" H 5900 4175 50  0000 C CNN
@@ -50,7 +34,7 @@ F 12 "Y" H 5900 3700 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 595FE47C
 P 5400 3700
 F 0 "#PWR?" H 5400 3450 50  0001 C CNN
@@ -63,7 +47,7 @@ $EndComp
 Wire Wire Line
 	5500 3600 5500 3800
 Wire Wire Line
-	5400 3600 5600 3600
+	5400 3600 5500 3600
 Wire Wire Line
 	5600 3400 5400 3400
 Wire Wire Line
@@ -75,26 +59,28 @@ GPIO1
 Text HLabel 5000 4000 0    60   Input ~ 0
 GPIO2
 $Comp
-L CONN_01X04 J401
+L conn:Conn_01x04 J401
 U 1 1 595FE5A0
-P 6900 3700
-F 0 "J401" H 6900 3950 50  0000 C CNN
-F 1 "GPO" V 7000 3700 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol" H 6900 3700 50  0001 C CNN
-F 3 "docs/1725672.pdf" H 6900 3700 50  0001 C CNN
-F 4 "CONN TERM BLOCK 2.54MM 4POS" H 6900 3700 60  0001 C CNN "Description"
-F 5 "Phoenix Contact" H 6900 3700 60  0001 C CNN "Manufacture"
-F 6 "1725672" H 6900 3700 60  0001 C CNN "ManuPart#"
-F 7 "TME" H 6900 3700 60  0001 C CNN "Source"
-F 8 "N" H 6900 3700 60  0001 C CNN "Critical"
-F 9 "MPT0.5/4-2.54" H 6900 3700 60  0001 C CNN "SupplPart#"
-F 10 "http://www.tme.eu/de/details/mpt0.5_4-2.54/klemmleisten-fuer-pcb/phoenix-contact/mpt-05-4-254-1725672/" H 6900 3700 60  0001 C CNN "SupplLink"
-F 11 "Y" H 6900 3700 60  0001 C CNN "assemble"
-	1    6900 3700
+P 6900 3750
+AR Path="/595FE5A0" Ref="J401"  Part="1" 
+AR Path="/595FE349/595FE5A0" Ref="J401"  Part="1" 
+F 0 "J401" H 6900 4000 50  0000 C CNN
+F 1 "GPO" V 7000 3750 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol" H 6900 3750 50  0001 C CNN
+F 3 "docs/1725672.pdf" H 6900 3750 50  0001 C CNN
+F 4 "CONN TERM BLOCK 2.54MM 4POS" H 6900 3750 60  0001 C CNN "Description"
+F 5 "Phoenix Contact" H 6900 3750 60  0001 C CNN "Manufacture"
+F 6 "1725672" H 6900 3750 60  0001 C CNN "ManuPart#"
+F 7 "TME" H 6900 3750 60  0001 C CNN "Source"
+F 8 "N" H 6900 3750 60  0001 C CNN "Critical"
+F 9 "MPT0.5/4-2.54" H 6900 3750 60  0001 C CNN "SupplPart#"
+F 10 "http://www.tme.eu/de/details/mpt0.5_4-2.54/klemmleisten-fuer-pcb/phoenix-contact/mpt-05-4-254-1725672/" H 6900 3750 60  0001 C CNN "SupplLink"
+F 11 "Y" H 6900 3750 60  0001 C CNN "assemble"
+	1    6900 3750
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	6200 3400 6500 3400
+	6200 3400 6400 3400
 Wire Wire Line
 	6400 3550 6700 3550
 Wire Wire Line
@@ -102,19 +88,19 @@ Wire Wire Line
 Wire Wire Line
 	6300 3650 6300 3600
 Wire Wire Line
-	6200 3600 6400 3600
+	6200 3600 6300 3600
 Wire Wire Line
-	6200 3800 6400 3800
+	6200 3800 6300 3800
 Wire Wire Line
 	6300 3800 6300 3750
 Wire Wire Line
 	6300 3750 6700 3750
 Wire Wire Line
-	6200 4000 6500 4000
+	6200 4000 6400 4000
 Wire Wire Line
 	6400 3850 6700 3850
 $Comp
-L R R401
+L device:R R401
 U 1 1 59656F56
 P 5250 3400
 F 0 "R401" V 5330 3400 50  0000 C CNN
@@ -134,7 +120,7 @@ F 12 "Y" H 5250 3400 60  0001 C CNN "assemble"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R402
+L device:R R402
 U 1 1 5965702E
 P 5250 4000
 F 0 "R402" V 5330 4000 50  0000 C CNN
@@ -176,4 +162,14 @@ Connection ~ 6400 3400
 Wire Wire Line
 	6400 3850 6400 4000
 Connection ~ 6400 4000
+Wire Wire Line
+	5500 3600 5600 3600
+Wire Wire Line
+	6300 3600 6400 3600
+Wire Wire Line
+	6300 3800 6400 3800
+Wire Wire Line
+	6400 3400 6500 3400
+Wire Wire Line
+	6400 4000 6500 4000
 $EndSCHEMATC

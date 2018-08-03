@@ -1,21 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:asr
-LIBS:conn
-LIBS:device
-LIBS:he700
-LIBS:interface
-LIBS:meanwell
-LIBS:opto
-LIBS:power
-LIBS:q_pmos_pqfn
-LIBS:memory
-LIBS:power-azonenberg
-LIBS:74xgxx
-LIBS:74xx
-LIBS:si865x
-LIBS:efm32jg
-LIBS:bpi-r1-can-ser-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -30,7 +14,7 @@ Comment3 "\"Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kop
 Comment4 "Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung -"
 $EndDescr
 $Comp
-L LTC2875-S8 U301
+L interface:LTC2875-S8 U301
 U 1 1 595F1CA7
 P 4300 3100
 F 0 "U301" H 3900 3450 50  0000 L CNN
@@ -50,7 +34,7 @@ F 12 "Y" H 4300 3100 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 595F1D21
 P 4300 3700
 F 0 "#PWR?" H 4300 3450 50  0001 C CNN
@@ -61,7 +45,7 @@ F 3 "" H 4300 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 595F1D42
 P 3700 3400
 F 0 "#PWR?" H 3700 3150 50  0001 C CNN
@@ -78,7 +62,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 3500 4300 3700
 $Comp
-L +3.3V #PWR?
+L power1:+3.3V #PWR?
 U 1 1 595F1D6A
 P 4300 2600
 F 0 "#PWR?" H 4300 2450 50  0001 C CNN
@@ -99,7 +83,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 3000 3300 3000
 $Comp
-L R R301
+L device:R R301
 U 1 1 595F2F8E
 P 3550 2900
 F 0 "R301" V 3630 2900 50  0000 C CNN
@@ -121,7 +105,7 @@ $EndComp
 Wire Wire Line
 	3300 2900 3400 2900
 $Comp
-L R R302
+L device:R R302
 U 1 1 595F310B
 P 5900 2750
 F 0 "R302" V 5980 2750 50  0000 C CNN
@@ -141,26 +125,26 @@ F 12 "Y" H 5900 2750 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X02 J301
+L conn:Conn_02x02_Odd_Even J301
 U 1 1 595FCFB2
-P 5550 3100
-F 0 "J301" H 5550 3250 50  0000 C CNN
-F 1 "TERM" H 5550 2950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 5550 1900 50  0001 C CNN
-F 3 "" H 5550 1900 50  0001 C CNN
-F 4 "CONN HEADER 4POS .100 STR TIN" H 5550 3100 60  0001 C CNN "Description"
-F 5 "CONNFLY" H 5550 3100 60  0001 C CNN "Manufacture"
-F 6 "DS1021-2*2SF1-1" H 5550 3100 60  0001 C CNN "ManuPart#"
-F 7 "TME" H 5550 3100 60  0001 C CNN "Source"
-F 8 "N" H 5550 3100 60  0001 C CNN "Critical"
-F 9 "ZL202-4G" H 5550 3100 60  0001 C CNN "SupplPart#"
-F 10 "http://www.tme.eu/de/details/zl202-4g/stiftleisten-und-buchsen/connfly/ds1021-2_2sf1-1/" H 5550 3100 60  0001 C CNN "SupplLink"
-F 11 "Y" H 5550 3100 60  0001 C CNN "assemble"
-	1    5550 3100
+P 5500 3050
+F 0 "J301" H 5500 3200 50  0000 C CNN
+F 1 "TERM" H 5500 2900 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm" H 5500 1850 50  0001 C CNN
+F 3 "" H 5500 1850 50  0001 C CNN
+F 4 "CONN HEADER 4POS .100 STR TIN" H 5500 3050 60  0001 C CNN "Description"
+F 5 "CONNFLY" H 5500 3050 60  0001 C CNN "Manufacture"
+F 6 "DS1021-2*2SF1-1" H 5500 3050 60  0001 C CNN "ManuPart#"
+F 7 "TME" H 5500 3050 60  0001 C CNN "Source"
+F 8 "N" H 5500 3050 60  0001 C CNN "Critical"
+F 9 "ZL202-4G" H 5500 3050 60  0001 C CNN "SupplPart#"
+F 10 "http://www.tme.eu/de/details/zl202-4g/stiftleisten-und-buchsen/connfly/ds1021-2_2sf1-1/" H 5500 3050 60  0001 C CNN "SupplLink"
+F 11 "Y" H 5500 3050 60  0001 C CNN "assemble"
+	1    5500 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C301
+L device:C C301
 U 1 1 595FD029
 P 4900 3450
 F 0 "C301" H 4925 3550 50  0000 L CNN
@@ -180,7 +164,7 @@ F 12 "Y" H 4900 3450 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 595FD0A4
 P 4900 3700
 F 0 "#PWR?" H 4900 3450 50  0001 C CNN
@@ -191,7 +175,7 @@ F 3 "" H 4900 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4800 3100 5300 3100
+	4800 3100 4900 3100
 Wire Wire Line
 	4900 3100 4900 3300
 Wire Wire Line
@@ -209,15 +193,15 @@ Wire Wire Line
 Wire Wire Line
 	5900 3150 5900 3300
 Wire Wire Line
-	5300 2500 6500 2500
+	5300 2500 5900 2500
 Wire Wire Line
 	5900 2500 5900 2600
 Wire Wire Line
-	6600 3700 5300 3700
+	6600 3700 5900 3700
 Wire Wire Line
 	5900 3700 5900 3600
 Wire Wire Line
-	5300 3050 5300 3150
+	5300 3050 5300 3100
 Connection ~ 4900 3100
 Connection ~ 5300 3100
 Wire Wire Line
@@ -225,9 +209,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 3700 5300 3200
 $Comp
-L DB9_FEMALE_MountingHoles J303
+L conn:DB9_Female_MountingHoles J303
 U 1 1 595FD2C0
 P 7200 3000
+AR Path="/595FD2C0" Ref="J303"  Part="1" 
+AR Path="/595F1C2F/595FD2C0" Ref="J303"  Part="1" 
 F 0 "J303" H 7200 3650 50  0000 C CNN
 F 1 "CAN" H 7200 3575 50  0000 C CNN
 F 2 "Connectors:DB9FC" H 7200 3000 50  0001 C CNN
@@ -248,9 +234,11 @@ NoConn ~ 6900 3200
 NoConn ~ 6900 3300
 NoConn ~ 6900 3400
 $Comp
-L CONN_01X03 J302
+L conn:Conn_01x03 J302
 U 1 1 595FD483
 P 7100 1900
+AR Path="/595FD483" Ref="J302"  Part="1" 
+AR Path="/595F1C2F/595FD483" Ref="J302"  Part="1" 
 F 0 "J302" H 7100 2100 50  0000 C CNN
 F 1 "CAN" V 7200 1900 50  0000 C CNN
 F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 7100 1900 50  0001 C CNN
@@ -267,7 +255,7 @@ F 11 "Y" H 7100 1900 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 595FD4DE
 P 6800 2100
 F 0 "#PWR?" H 6800 1850 50  0001 C CNN
@@ -285,12 +273,12 @@ NoConn ~ 6900 2600
 Wire Wire Line
 	6900 2700 6800 2700
 Wire Wire Line
-	6800 2700 6800 3500
+	6800 2700 6800 3000
 Wire Wire Line
 	6800 3000 6900 3000
 NoConn ~ 7200 3600
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 595FD578
 P 6800 3500
 F 0 "#PWR?" H 6800 3250 50  0001 C CNN
@@ -302,12 +290,12 @@ F 3 "" H 6800 3500 50  0001 C CNN
 $EndComp
 Connection ~ 6800 3000
 Wire Wire Line
-	6500 1800 6500 2900
+	6500 1800 6500 2500
 Wire Wire Line
 	6500 2900 6900 2900
 Connection ~ 5900 2500
 Wire Wire Line
-	6600 2000 6600 3700
+	6600 2000 6600 2800
 Wire Wire Line
 	6600 2800 6900 2800
 Connection ~ 5900 3700
@@ -322,7 +310,7 @@ CANH
 Text Label 5300 3700 0    60   ~ 0
 CANL
 $Comp
-L C C303
+L device:C C303
 U 1 1 5960ABDD
 P 4300 4450
 F 0 "C303" H 4325 4550 50  0000 L CNN
@@ -342,7 +330,7 @@ F 12 "Y" H 4300 4450 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR?
+L power1:+3.3V #PWR?
 U 1 1 5960ADE9
 P 4000 4200
 F 0 "#PWR?" H 4000 4050 50  0001 C CNN
@@ -353,7 +341,7 @@ F 3 "" H 4000 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR?
+L power1:+3.3V #PWR?
 U 1 1 5960AE12
 P 4300 4200
 F 0 "#PWR?" H 4300 4050 50  0001 C CNN
@@ -364,7 +352,7 @@ F 3 "" H 4300 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 5960AE3B
 P 4000 4700
 F 0 "#PWR?" H 4000 4450 50  0001 C CNN
@@ -375,7 +363,7 @@ F 3 "" H 4000 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 5960AE64
 P 4300 4700
 F 0 "#PWR?" H 4300 4450 50  0001 C CNN
@@ -396,7 +384,7 @@ Wire Wire Line
 Text Label 4900 3100 0    60   ~ 0
 SPLIT
 $Comp
-L C C302
+L device:C C302
 U 1 1 596547EA
 P 4000 4450
 F 0 "C302" H 4025 4550 50  0000 L CNN
@@ -416,7 +404,7 @@ F 12 "Y" H 4000 4450 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R303
+L device:R R303
 U 1 1 59656B9C
 P 5900 3450
 F 0 "R303" V 5980 3450 50  0000 C CNN
@@ -435,4 +423,18 @@ F 12 "Y" H 5900 3450 60  0001 C CNN "assemble"
 	1    5900 3450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4900 3100 5300 3100
+Wire Wire Line
+	5300 3100 5300 3150
+Wire Wire Line
+	6800 3000 6800 3500
+Wire Wire Line
+	5900 2500 6500 2500
+Wire Wire Line
+	5900 3700 5300 3700
+Wire Wire Line
+	6500 2500 6500 2900
+Wire Wire Line
+	6600 2800 6600 3700
 $EndSCHEMATC

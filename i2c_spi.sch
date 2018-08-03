@@ -1,21 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:asr
-LIBS:conn
-LIBS:device
-LIBS:he700
-LIBS:interface
-LIBS:meanwell
-LIBS:opto
-LIBS:power
-LIBS:q_pmos_pqfn
-LIBS:memory
-LIBS:power-azonenberg
-LIBS:74xgxx
-LIBS:74xx
-LIBS:si865x
-LIBS:efm32jg
-LIBS:bpi-r1-can-ser-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -30,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X03 J501
+L conn:Conn_01x03 J501
 U 1 1 596FAFFD
 P 4200 2600
+AR Path="/596FAFFD" Ref="J501"  Part="1" 
+AR Path="/596FBB08/596FAFFD" Ref="J501"  Part="1" 
 F 0 "J501" H 4200 2800 50  0000 C CNN
 F 1 "I²C" V 4300 2600 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4200 2600 50  0001 C CNN
@@ -43,16 +29,16 @@ F 5 "N" H 4200 2600 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X03 J502
+L conn:Conn_02x03_Odd_Even J502
 U 1 1 596FB088
-P 4250 3200
-F 0 "J502" H 4250 3400 50  0000 C CNN
-F 1 "SPI" H 4250 3000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4250 2000 50  0001 C CNN
-F 3 "" H 4250 2000 50  0001 C CNN
-F 4 "N" H 4250 3200 60  0001 C CNN "Critical"
-F 5 "N" H 4250 3200 60  0001 C CNN "assemble"
-	1    4250 3200
+P 4200 3200
+F 0 "J502" H 4200 3400 50  0000 C CNN
+F 1 "SPI" H 4200 3000 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4200 2000 50  0001 C CNN
+F 3 "" H 4200 2000 50  0001 C CNN
+F 4 "N" H 4200 3200 60  0001 C CNN "Critical"
+F 5 "N" H 4200 3200 60  0001 C CNN "assemble"
+	1    4200 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -78,7 +64,7 @@ SDA
 Text HLabel 3900 2600 0    60   Input ~ 0
 SCL
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 596FB1A1
 P 3800 2800
 F 0 "#PWR?" H 3800 2550 50  0001 C CNN
@@ -91,7 +77,7 @@ $EndComp
 Wire Wire Line
 	3800 2700 3800 2800
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 596FB1C6
 P 4700 3400
 F 0 "#PWR?" H 4700 3150 50  0001 C CNN
@@ -114,7 +100,7 @@ CS0
 Text HLabel 4600 3200 2    60   Input ~ 0
 CS1
 $Comp
-L 24LC08 U501
+L memory:24LC08 U501
 U 1 1 5A995BE5
 P 6000 2600
 F 0 "U501" H 5750 2850 50  0000 C CNN
@@ -125,7 +111,7 @@ F 3 "" H 6000 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 5A995FD2
 P 5500 2800
 F 0 "#PWR?" H 5500 2550 50  0001 C CNN
@@ -138,7 +124,7 @@ $EndComp
 Wire Wire Line
 	5600 2500 5500 2500
 Wire Wire Line
-	5500 2500 5500 2800
+	5500 2500 5500 2600
 Wire Wire Line
 	5600 2600 5500 2600
 Connection ~ 5500 2600
@@ -146,7 +132,7 @@ Wire Wire Line
 	5600 2700 5500 2700
 Connection ~ 5500 2700
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 5A996038
 P 6000 3000
 F 0 "#PWR?" H 6000 2750 50  0001 C CNN
@@ -163,7 +149,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 2600 6400 2600
 $Comp
-L GND #PWR?
+L power1:GND #PWR?
 U 1 1 5A996094
 P 6500 2800
 F 0 "#PWR?" H 6500 2550 50  0001 C CNN
@@ -182,7 +168,7 @@ SDA
 Text HLabel 6500 2600 2    60   Input ~ 0
 SCL
 $Comp
-L +3.3V #PWR?
+L power1:+3.3V #PWR?
 U 1 1 5A9963A5
 P 6000 2200
 F 0 "#PWR?" H 6000 2050 50  0001 C CNN
@@ -194,4 +180,8 @@ F 3 "" H 6000 2200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6000 2300 6000 2200
+Wire Wire Line
+	5500 2600 5500 2700
+Wire Wire Line
+	5500 2700 5500 2800
 $EndSCHEMATC
