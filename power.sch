@@ -33,7 +33,7 @@ F 11 "Y" H 3250 3400 60  0001 C CNN "assemble"
 	0    1    1    0   
 $EndComp
 $Comp
-L conn:Conn_01x02 J607
+L conn_generic:Conn_01x02 J607
 U 1 1 5A631D66
 P 5400 4350
 F 0 "J607" H 5400 4450 50  0000 C CNN
@@ -46,7 +46,7 @@ F 5 "N" H 5400 4350 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x03 J601
+L conn_generic:Conn_01x03 J601
 U 1 1 5A631DC7
 P 2200 3500
 F 0 "J601" H 2200 3700 50  0000 C CNN
@@ -59,7 +59,7 @@ F 5 "N" H 2200 3500 60  0001 C CNN "assemble"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x03 J610
+L conn_generic:Conn_01x03 J610
 U 1 1 5A631E13
 P 5900 3500
 F 0 "J610" H 5900 3700 50  0000 C CNN
@@ -72,7 +72,7 @@ F 5 "N" H 5900 3500 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x02 J602
+L conn_generic:Conn_01x02 J602
 U 1 1 5A63873D
 P 3500 3100
 F 0 "J602" H 3500 3200 50  0000 C CNN
@@ -129,7 +129,7 @@ Wire Wire Line
 Wire Wire Line
 	5600 3500 5600 3700
 $Comp
-L conn:Conn_01x01 J611
+L conn_generic:Conn_01x01 J611
 U 1 1 5A63899E
 P 5900 4150
 F 0 "J611" H 5900 4250 50  0000 C CNN
@@ -277,7 +277,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 4450 5100 4600
 $Comp
-L conn:Conn_01x03 J609
+L conn_generic:Conn_01x03 J609
 U 1 1 5A639A40
 P 5900 1900
 F 0 "J609" H 5900 2100 50  0000 C CNN
@@ -464,7 +464,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 1800 6800 1900
 $Comp
-L conn:Conn_01x03 J612
+L conn_generic:Conn_01x03 J612
 U 1 1 5A8BEF5F
 P 8100 2000
 F 0 "J612" H 8100 2200 50  0000 C CNN
@@ -574,7 +574,6 @@ Text HLabel 4300 1500 0    60   Input ~ 0
 toggle
 Text HLabel 4300 1600 0    60   Input ~ 0
 power
-
 Wire Wire Line
 	3600 3400 3600 4300
 Wire Wire Line

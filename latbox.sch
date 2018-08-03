@@ -13,7 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-
 Text HLabel 4700 5800 0    60   Input ~ 0
 PPS
 Text HLabel 4700 6000 0    60   Output ~ 0

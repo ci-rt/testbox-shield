@@ -14,7 +14,7 @@ Comment3 "\"Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kop
 Comment4 "Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung -"
 $EndDescr
 $Comp
-L interface:MAX3232 U201
+L interface_uart:MAX3232 U201
 U 1 1 595EBA2A
 P 5500 3400
 F 0 "U201" H 5400 4525 50  0000 R CNN
@@ -111,21 +111,21 @@ Wire Wire Line
 $Comp
 L conn:RJ45 J202
 U 1 1 595EBD51
-P 8550 5150
-F 0 "J202" H 8750 5650 50  0000 C CNN
-F 1 "serial" H 8400 5650 50  0000 C CNN
-F 2 "Connect:RJ45_8" H 8550 5150 50  0001 C CNN
-F 3 "docs/c-bmj-0102.pdf" H 8550 5150 50  0001 C CNN
-F 4 "CONN MOD JACK 8P8C R/A UNSHLD" H 8550 5150 60  0001 C CNN "Description"
-F 5 "Molex" H 8550 5150 60  0001 C CNN "Manufacture"
-F 6 "955012881" H 8550 5150 60  0001 C CNN "ManuPart#"
-F 7 "TME" H 8550 5150 60  0001 C CNN "Source"
-F 8 "N" H 8550 5150 60  0001 C CNN "Critical"
-F 9 "MX-95501-2881" H 8550 5150 60  0001 C CNN "SupplPart#"
-F 10 "http://www.tme.eu/de/details/mx-95501-2881/rj-steckverbinder/molex/955012881/" H 8550 5150 60  0001 C CNN "SupplLink"
-F 11 "Y" H 8550 5150 60  0001 C CNN "assemble"
-	1    8550 5150
-	0    1    -1   0   
+P 8500 5100
+F 0 "J202" H 8750 4600 50  0000 C CNN
+F 1 "serial" H 8750 4550 50  0000 C CNN
+F 2 "Connect:RJ45_8" H 8500 5100 50  0001 C CNN
+F 3 "docs/c-bmj-0102.pdf" H 8500 5100 50  0001 C CNN
+F 4 "CONN MOD JACK 8P8C R/A UNSHLD" H 8500 5100 60  0001 C CNN "Description"
+F 5 "Molex" H 8500 5100 60  0001 C CNN "Manufacture"
+F 6 "955012881" H 8500 5100 60  0001 C CNN "ManuPart#"
+F 7 "TME" H 8500 5100 60  0001 C CNN "Source"
+F 8 "N" H 8500 5100 60  0001 C CNN "Critical"
+F 9 "MX-95501-2881" H 8500 5100 60  0001 C CNN "SupplPart#"
+F 10 "http://www.tme.eu/de/details/mx-95501-2881/rj-steckverbinder/molex/955012881/" H 8500 5100 60  0001 C CNN "SupplLink"
+F 11 "Y" H 8500 5100 60  0001 C CNN "assemble"
+	1    8500 5100
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power1:GND #PWR?
@@ -160,99 +160,79 @@ F 3 "" H 8000 5500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conn:GS3 J203
+L jumper:SolderJumper_3_Open J203
 U 1 1 595EEF53
-P 7650 3600
-F 0 "J203" H 7500 3600 50  0000 C CNN
-F 1 "GS3" H 7800 3450 50  0000 C CNN
-F 2 "Connectors:GS3" V 7738 3526 50  0001 C CNN
-F 3 "" H 7650 3600 50  0001 C CNN
-F 4 "N" H 7650 3600 60  0001 C CNN "Critical"
-F 5 "N" H 7650 3600 60  0001 C CNN "assemble"
-	1    7650 3600
-	1    0    0    1   
+P 7600 3500
+F 0 "J203" V 7500 3350 50  0000 C CNN
+F 1 "GS3" V 7750 3350 50  0000 C CNN
+F 2 "Connectors:GS3" V 7688 3426 50  0001 C CNN
+F 3 "" H 7600 3500 50  0001 C CNN
+F 4 "N" H 7600 3500 60  0001 C CNN "Critical"
+F 5 "N" H 7600 3500 60  0001 C CNN "assemble"
+	1    7600 3500
+	0    -1   1    0   
 $EndComp
 $Comp
-L conn:GS3 J204
+L jumper:SolderJumper_3_Open J204
 U 1 1 595EF10E
-P 7650 3900
-F 0 "J204" H 7500 3900 50  0000 C CNN
-F 1 "GS3" H 7800 3750 50  0000 C CNN
-F 2 "Connectors:GS3" V 7738 3826 50  0001 C CNN
-F 3 "" H 7650 3900 50  0001 C CNN
-F 4 "N" H 7650 3900 60  0001 C CNN "Critical"
-F 5 "N" H 7650 3900 60  0001 C CNN "assemble"
-	1    7650 3900
-	1    0    0    1   
+P 7600 4000
+F 0 "J204" V 7500 3850 50  0000 C CNN
+F 1 "GS3" V 7750 3850 50  0000 C CNN
+F 2 "Connectors:GS3" V 7688 3926 50  0001 C CNN
+F 3 "" H 7600 4000 50  0001 C CNN
+F 4 "N" H 7600 4000 60  0001 C CNN "Critical"
+F 5 "N" H 7600 4000 60  0001 C CNN "assemble"
+	1    7600 4000
+	0    -1   1    0   
 $EndComp
 $Comp
-L conn:GS3 J205
+L jumper:SolderJumper_3_Open J205
 U 1 1 595EF3C5
-P 7650 4900
-F 0 "J205" H 7500 4900 50  0000 C CNN
-F 1 "GS3" H 7800 4750 50  0000 C CNN
-F 2 "Connectors:GS3" V 7738 4826 50  0001 C CNN
-F 3 "" H 7650 4900 50  0001 C CNN
-F 4 "N" H 7650 4900 60  0001 C CNN "Critical"
-F 5 "N" H 7650 4900 60  0001 C CNN "assemble"
-	1    7650 4900
-	1    0    0    1   
+P 7600 4800
+F 0 "J205" V 7500 4650 50  0000 C CNN
+F 1 "GS3" V 7750 4650 50  0000 C CNN
+F 2 "Connectors:GS3" V 7688 4726 50  0001 C CNN
+F 3 "" H 7600 4800 50  0001 C CNN
+F 4 "N" H 7600 4800 60  0001 C CNN "Critical"
+F 5 "N" H 7600 4800 60  0001 C CNN "assemble"
+	1    7600 4800
+	0    -1   1    0   
 $EndComp
 $Comp
-L conn:GS3 J206
+L jumper:SolderJumper_3_Open J206
 U 1 1 595EF3CB
-P 7650 5200
-F 0 "J206" H 7500 5200 50  0000 C CNN
-F 1 "GS3" H 7800 5050 50  0000 C CNN
-F 2 "Connectors:GS3" V 7738 5126 50  0001 C CNN
-F 3 "" H 7650 5200 50  0001 C CNN
-F 4 "N" H 7650 5200 60  0001 C CNN "Critical"
-F 5 "N" H 7650 5200 60  0001 C CNN "assemble"
-	1    7650 5200
-	1    0    0    1   
+P 7600 5300
+F 0 "J206" V 7500 5150 50  0000 C CNN
+F 1 "GS3" V 7750 5150 50  0000 C CNN
+F 2 "Connectors:GS3" V 7688 5226 50  0001 C CNN
+F 3 "" H 7600 5300 50  0001 C CNN
+F 4 "N" H 7600 5300 60  0001 C CNN "Critical"
+F 5 "N" H 7600 5300 60  0001 C CNN "assemble"
+	1    7600 5300
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	8200 3900 7800 3900
-Wire Wire Line
-	7500 3500 7400 3500
-Wire Wire Line
-	7500 3800 7400 3800
-Wire Wire Line
-	7400 3800 7400 3500
-Connection ~ 7400 3500
-Wire Wire Line
-	6300 3900 7300 3900
-Wire Wire Line
-	7300 3700 7300 3900
-Wire Wire Line
-	7300 3700 7500 3700
-Wire Wire Line
-	7300 4000 7500 4000
-Connection ~ 7300 3900
+	8200 4000 7750 4000
 Wire Wire Line
 	6300 3700 7200 3700
 Wire Wire Line
-	7200 3700 7200 4800
+	7200 3700 7200 4600
 Wire Wire Line
-	7200 4800 7500 4800
-Wire Wire Line
-	7200 5100 7500 5100
-Connection ~ 7200 4800
-Wire Wire Line
-	7500 5000 7100 5000
+	7200 4600 7600 4600
+Connection ~ 7200 4600
 Wire Wire Line
 	7100 4100 7100 5000
 Wire Wire Line
 	7100 4100 6300 4100
 Wire Wire Line
-	7100 5300 7500 5300
+	7100 5500 7600 5500
 Connection ~ 7100 5000
 Wire Wire Line
 	8900 4400 8900 4450
 Wire Wire Line
 	8000 4200 8000 4450
 Wire Wire Line
-	8200 3800 8200 3900
+	8200 3800 8200 4000
 NoConn ~ 8600 3500
 NoConn ~ 8600 3700
 NoConn ~ 8600 3900
@@ -280,7 +260,7 @@ F 11 "Y" H 8900 3800 60  0001 C CNN "assemble"
 $EndComp
 NoConn ~ 8600 4000
 Wire Wire Line
-	8600 3600 7800 3600
+	8600 3600 8200 3600
 Wire Wire Line
 	8600 3800 8200 3800
 Wire Wire Line
@@ -289,7 +269,6 @@ NoConn ~ 8600 3400
 Wire Wire Line
 	8900 4450 8000 4450
 Connection ~ 8000 4450
-Connection ~ 8900 4450
 $Comp
 L device:C C202
 U 1 1 59654047
@@ -351,13 +330,13 @@ F 12 "Y" H 6650 3300 60  0001 C CNN "assemble"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7900 5000 7900 4900
+	7900 5000 7900 4800
 Wire Wire Line
-	7900 4900 7800 4900
+	7900 4800 7750 4800
 Wire Wire Line
-	7800 5200 7900 5200
+	7750 5300 7900 5300
 Wire Wire Line
-	7900 5200 7900 5100
+	7900 5300 7900 5100
 Connection ~ 8000 5200
 Text Notes 9400 4750 0    60   ~ 12
 RJ45 serial pinout (TIA-561)
@@ -370,7 +349,7 @@ DB-9\n6\n1\n4\n5\n2\n3\n8\n7
 NoConn ~ 8100 4800
 NoConn ~ 8100 4900
 NoConn ~ 8100 5400
-NoConn ~ 8100 5500
+NoConn ~ 8100 4700
 Text Notes 9950 5650 0    60   ~ 0
 Farbe\nblau\norange\nschwarz\nrot\ngrün\ngelb\nbraun\nweiß
 Wire Wire Line
@@ -389,17 +368,41 @@ Text Notes 7700 4050 0    60   ~ 0
 Text Notes 7700 3550 0    60   ~ 0
 *
 Wire Wire Line
-	7400 3500 6300 3500
+	7300 3500 6300 3500
 Wire Wire Line
-	7300 3900 7300 4000
+	7200 4600 7200 5100
 Wire Wire Line
-	7200 4800 7200 5100
-Wire Wire Line
-	7100 5000 7100 5300
+	7100 5000 7100 5500
 Wire Wire Line
 	8000 4450 8000 5200
 Wire Wire Line
-	8900 4450 8900 4600
-Wire Wire Line
 	8000 5200 8000 5500
+Wire Wire Line
+	7750 3500 8200 3500
+Wire Wire Line
+	8200 3500 8200 3600
+Wire Wire Line
+	7200 5100 7600 5100
+Wire Wire Line
+	7100 5000 7600 5000
+Wire Wire Line
+	7400 4200 7600 4200
+Wire Wire Line
+	7300 3300 7600 3300
+Connection ~ 7300 3500
+Wire Wire Line
+	7300 3300 7300 3500
+Wire Wire Line
+	7400 3900 7400 4200
+Wire Wire Line
+	7400 3700 7400 3900
+Wire Wire Line
+	7300 3800 7600 3800
+Connection ~ 7400 3900
+Wire Wire Line
+	6300 3900 7400 3900
+Wire Wire Line
+	7400 3700 7600 3700
+Wire Wire Line
+	7300 3800 7300 3500
 $EndSCHEMATC

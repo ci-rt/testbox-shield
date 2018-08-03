@@ -14,11 +14,11 @@ Comment3 "\"Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kop
 Comment4 "Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung -"
 $EndDescr
 $Comp
-L opto:HCPL063 U401
+L isolator:HCPL-063A U401
 U 1 1 595FE36D
 P 5900 3700
-F 0 "U401" H 5900 4175 50  0000 C CNN
-F 1 "HCPL063" H 5900 4100 50  0000 C CNN
+F 0 "U401" H 5650 4250 50  0000 C CNN
+F 1 "HCPL063" H 5650 4150 50  0000 C CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm" H 5900 3300 50  0001 C CIN
 F 3 "docs/6N137.pdf" H 5910 3905 50  0001 L CNN
 F 4 "OPTOISO 2.5KV 2CH OPEN COLL 8DIP" H 5900 3700 60  0001 C CNN "Description"
@@ -59,46 +59,44 @@ GPIO1
 Text HLabel 5000 4000 0    60   Input ~ 0
 GPIO2
 $Comp
-L conn:Conn_01x04 J401
+L conn_generic:Conn_01x04 J401
 U 1 1 595FE5A0
-P 6900 3750
+P 7100 3750
 AR Path="/595FE5A0" Ref="J401"  Part="1" 
 AR Path="/595FE349/595FE5A0" Ref="J401"  Part="1" 
-F 0 "J401" H 6900 4000 50  0000 C CNN
-F 1 "GPO" V 7000 3750 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol" H 6900 3750 50  0001 C CNN
-F 3 "docs/1725672.pdf" H 6900 3750 50  0001 C CNN
-F 4 "CONN TERM BLOCK 2.54MM 4POS" H 6900 3750 60  0001 C CNN "Description"
-F 5 "Phoenix Contact" H 6900 3750 60  0001 C CNN "Manufacture"
-F 6 "1725672" H 6900 3750 60  0001 C CNN "ManuPart#"
-F 7 "TME" H 6900 3750 60  0001 C CNN "Source"
-F 8 "N" H 6900 3750 60  0001 C CNN "Critical"
-F 9 "MPT0.5/4-2.54" H 6900 3750 60  0001 C CNN "SupplPart#"
-F 10 "http://www.tme.eu/de/details/mpt0.5_4-2.54/klemmleisten-fuer-pcb/phoenix-contact/mpt-05-4-254-1725672/" H 6900 3750 60  0001 C CNN "SupplLink"
-F 11 "Y" H 6900 3750 60  0001 C CNN "assemble"
-	1    6900 3750
+F 0 "J401" H 7100 4000 50  0000 C CNN
+F 1 "GPO" V 7200 3750 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol" H 7100 3750 50  0001 C CNN
+F 3 "docs/1725672.pdf" H 7100 3750 50  0001 C CNN
+F 4 "CONN TERM BLOCK 2.54MM 4POS" H 7100 3750 60  0001 C CNN "Description"
+F 5 "Phoenix Contact" H 7100 3750 60  0001 C CNN "Manufacture"
+F 6 "1725672" H 7100 3750 60  0001 C CNN "ManuPart#"
+F 7 "TME" H 7100 3750 60  0001 C CNN "Source"
+F 8 "N" H 7100 3750 60  0001 C CNN "Critical"
+F 9 "MPT0.5/4-2.54" H 7100 3750 60  0001 C CNN "SupplPart#"
+F 10 "http://www.tme.eu/de/details/mpt0.5_4-2.54/klemmleisten-fuer-pcb/phoenix-contact/mpt-05-4-254-1725672/" H 7100 3750 60  0001 C CNN "SupplLink"
+F 11 "Y" H 7100 3750 60  0001 C CNN "assemble"
+	1    7100 3750
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	6200 3400 6400 3400
+	5900 3100 6800 3100
 Wire Wire Line
-	6400 3550 6700 3550
+	6800 3550 6900 3550
 Wire Wire Line
-	6700 3650 6300 3650
+	6900 3650 6300 3650
 Wire Wire Line
-	6300 3650 6300 3600
+	6300 3650 6300 3500
 Wire Wire Line
-	6200 3600 6300 3600
+	6200 3500 6300 3500
 Wire Wire Line
-	6200 3800 6300 3800
+	6200 3900 6300 3900
 Wire Wire Line
-	6300 3800 6300 3750
+	6300 3900 6300 3750
 Wire Wire Line
-	6300 3750 6700 3750
+	6300 3750 6900 3750
 Wire Wire Line
-	6200 4000 6400 4000
-Wire Wire Line
-	6400 3850 6700 3850
+	6800 3850 6900 3850
 $Comp
 L device:R R401
 U 1 1 59656F56
@@ -146,30 +144,36 @@ Wire Wire Line
 Wire Wire Line
 	5400 3600 5400 3700
 Connection ~ 5500 3600
-Text HLabel 6500 3400 2    60   UnSpc ~ 0
+Text HLabel 5900 3000 1    60   UnSpc ~ 0
 V+
-Text HLabel 6500 4000 2    60   UnSpc ~ 0
+Text HLabel 5900 4400 3    60   UnSpc ~ 0
 V-
-Text HLabel 6400 3600 2    60   Output ~ 0
+Text HLabel 6400 3500 2    60   Output ~ 0
 GPO1
-Connection ~ 6300 3600
-Connection ~ 6300 3800
-Text HLabel 6400 3800 2    60   Output ~ 0
+Connection ~ 6300 3500
+Connection ~ 6300 3900
+Text HLabel 6400 3900 2    60   Output ~ 0
 GPO2
 Wire Wire Line
-	6400 3400 6400 3550
-Connection ~ 6400 3400
-Wire Wire Line
-	6400 3850 6400 4000
-Connection ~ 6400 4000
+	6800 3100 6800 3550
 Wire Wire Line
 	5500 3600 5600 3600
 Wire Wire Line
-	6300 3600 6400 3600
+	6300 3500 6400 3500
 Wire Wire Line
-	6300 3800 6400 3800
+	6300 3900 6400 3900
 Wire Wire Line
-	6400 3400 6500 3400
+	5900 3000 5900 3100
 Wire Wire Line
-	6400 4000 6500 4000
+	5900 3100 5900 3200
+Connection ~ 5900 3100
+Wire Wire Line
+	5900 4200 5900 4300
+Wire Wire Line
+	5900 4300 6800 4300
+Connection ~ 5900 4300
+Wire Wire Line
+	5900 4300 5900 4400
+Wire Wire Line
+	6800 3850 6800 4300
 $EndSCHEMATC

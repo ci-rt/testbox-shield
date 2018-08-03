@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L conn:Conn_01x03 J501
+L conn_generic:Conn_01x03 J501
 U 1 1 596FAFFD
 P 4200 2600
 AR Path="/596FAFFD" Ref="J501"  Part="1" 
@@ -29,7 +29,7 @@ F 5 "N" H 4200 2600 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_02x03_Odd_Even J502
+L conn_generic:Conn_02x03_Odd_Even J502
 U 1 1 596FB088
 P 4200 3200
 F 0 "J502" H 4200 3400 50  0000 C CNN
@@ -100,7 +100,7 @@ CS0
 Text HLabel 4600 3200 2    60   Input ~ 0
 CS1
 $Comp
-L memory:24LC08 U501
+L memory_EEPROM:24LC08 U501
 U 1 1 5A995BE5
 P 6000 2600
 F 0 "U501" H 5750 2850 50  0000 C CNN

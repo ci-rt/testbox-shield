@@ -14,7 +14,7 @@ Comment3 "\"Weitergabe unter gleichen Bedingungen 4.0 International. Um eine Kop
 Comment4 "Dieses Material steht unter der Creative-Commons-Lizenz Namensnennung -"
 $EndDescr
 $Comp
-L interface:LTC2875-S8 U301
+L interface_CAN_LIN:LTC2875-S8 U301
 U 1 1 595F1CA7
 P 4300 3100
 F 0 "U301" H 3900 3450 50  0000 L CNN
@@ -125,7 +125,7 @@ F 12 "Y" H 5900 2750 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_02x02_Odd_Even J301
+L conn_generic:Conn_02x02_Odd_Even J301
 U 1 1 595FCFB2
 P 5500 3050
 F 0 "J301" H 5500 3200 50  0000 C CNN
@@ -234,7 +234,7 @@ NoConn ~ 6900 3200
 NoConn ~ 6900 3300
 NoConn ~ 6900 3400
 $Comp
-L conn:Conn_01x03 J302
+L conn_generic:Conn_01x03 J302
 U 1 1 595FD483
 P 7100 1900
 AR Path="/595FD483" Ref="J302"  Part="1" 
