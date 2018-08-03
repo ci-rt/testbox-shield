@@ -9,6 +9,12 @@ image::docs/testbox-logo.png[]
 This git repository hosts all related drawings, layouts and schematics
 to build a TESTBOX test system.
 
+But it doesn't include the project specific libraries. However they are
+referenced as git submodules. To retrieve them use 'git submodule init' and
+'git submodule update' before opening the project in kicad.
+
+The project was verified to work with kicad version 5.
+
 == preliminary remarks
 One part of the Real Time Linux collaborative project is the continous
 integration project https://ci-rt.linutronix.de/RT-Test/[CI-RT].
