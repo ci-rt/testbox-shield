@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:bpi-r1-can-ser-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268

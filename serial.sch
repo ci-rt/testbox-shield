@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:bpi-r1-can-ser-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +20,7 @@ U 1 1 595EBA2A
 P 5500 3400
 F 0 "U201" H 5400 4525 50  0000 R CNN
 F 1 "MAX3232" H 5400 4450 50  0000 R CNN
-F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 5550 2350 50  0001 L CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5550 2350 50  0001 L CNN
 F 3 "docs/max3232e.pdf" H 5500 3500 50  0001 C CNN
 F 4 "IC RS232 3V5.5V 15KVESD 16-SOIC" H 5500 3400 60  0001 C CNN "Description"
 F 5 "Texas Instruments" H 5500 3400 60  0001 C CNN "Manufacture"
@@ -39,7 +40,7 @@ U 1 1 595EBA8C
 P 4500 2650
 F 0 "C201" H 4525 2750 50  0000 L CNN
 F 1 "10µ" H 4525 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4538 2500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 2500 50  0001 C CNN
 F 3 "docs/GRM188R6YA106MA73#.pdf" H 4500 2650 50  0001 C CNN
 F 4 "CAP CER 10UF 35V X5R 0603" H 4500 2650 60  0001 C CNN "Description"
 F 5 "Murata Electronics North America" H 4500 2650 60  0001 C CNN "Manufacture"
@@ -114,7 +115,7 @@ U 1 1 595EBD51
 P 8500 5100
 F 0 "J202" H 8750 4600 50  0000 C CNN
 F 1 "serial" H 8750 4550 50  0000 C CNN
-F 2 "Connect:RJ45_8" H 8500 5100 50  0001 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" H 8500 5100 50  0001 C CNN
 F 3 "docs/c-bmj-0102.pdf" H 8500 5100 50  0001 C CNN
 F 4 "CONN MOD JACK 8P8C R/A UNSHLD" H 8500 5100 60  0001 C CNN "Description"
 F 5 "Molex" H 8500 5100 60  0001 C CNN "Manufacture"
@@ -160,7 +161,7 @@ F 3 "" H 8000 5500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L jumper:SolderJumper_3_Open J203
+L jumper:SolderJumper_3_Bridged12 J203
 U 1 1 595EEF53
 P 7600 3500
 F 0 "J203" V 7500 3350 50  0000 C CNN
@@ -170,10 +171,10 @@ F 3 "" H 7600 3500 50  0001 C CNN
 F 4 "N" H 7600 3500 60  0001 C CNN "Critical"
 F 5 "N" H 7600 3500 60  0001 C CNN "assemble"
 	1    7600 3500
-	0    -1   1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
-L jumper:SolderJumper_3_Open J204
+L Jumper:SolderJumper_3_Bridged12 J204
 U 1 1 595EF10E
 P 7600 4000
 F 0 "J204" V 7500 3850 50  0000 C CNN
@@ -186,7 +187,7 @@ F 5 "N" H 7600 4000 60  0001 C CNN "assemble"
 	0    -1   1    0   
 $EndComp
 $Comp
-L jumper:SolderJumper_3_Open J205
+L Jumper:SolderJumper_3_Bridged12 J205
 U 1 1 595EF3C5
 P 7600 4800
 F 0 "J205" V 7500 4650 50  0000 C CNN
@@ -199,7 +200,7 @@ F 5 "N" H 7600 4800 60  0001 C CNN "assemble"
 	0    -1   1    0   
 $EndComp
 $Comp
-L jumper:SolderJumper_3_Open J206
+L Jumper:SolderJumper_3_Bridged12 J206
 U 1 1 595EF3CB
 P 7600 5300
 F 0 "J206" V 7500 5150 50  0000 C CNN
@@ -209,7 +210,7 @@ F 3 "" H 7600 5300 50  0001 C CNN
 F 4 "N" H 7600 5300 60  0001 C CNN "Critical"
 F 5 "N" H 7600 5300 60  0001 C CNN "assemble"
 	1    7600 5300
-	0    -1   1    0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	8200 4000 7750 4000
@@ -245,7 +246,7 @@ AR Path="/595FCC27" Ref="J201"  Part="1"
 AR Path="/595EBA0C/595FCC27" Ref="J201"  Part="1" 
 F 0 "J201" H 8900 4450 50  0000 C CNN
 F 1 "console" H 8900 4375 50  0000 C CNN
-F 2 "Connectors:DB9FD" H 8900 3800 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Vertical_P2.77x2.84mm_MountingHoles" H 8900 3800 50  0001 C CNN
 F 3 "docs/DS1034.pdf" H 8900 3800 50  0001 C CNN
 F 4 "CONN D-SUB RCPT 9POS VERT SOLDER" H 8900 3800 60  0001 C CNN "Description"
 F 5 "CONNFLY" H 8900 3800 60  0001 C CNN "Manufacture"
@@ -275,7 +276,7 @@ U 1 1 59654047
 P 6500 2650
 F 0 "C202" H 6525 2750 50  0000 L CNN
 F 1 "10µ" H 6525 2550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6538 2500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6538 2500 50  0001 C CNN
 F 3 "docs/GRM188R6YA106MA73#.pdf" H 6500 2650 50  0001 C CNN
 F 4 "CAP CER 10UF 35V X5R 0603" H 6500 2650 60  0001 C CNN "Description"
 F 5 "Murata Electronics North America" H 6500 2650 60  0001 C CNN "Manufacture"
@@ -295,7 +296,7 @@ U 1 1 59654125
 P 6650 3000
 F 0 "C203" H 6675 3100 50  0000 L CNN
 F 1 "10µ" H 6675 2900 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6688 2850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 2850 50  0001 C CNN
 F 3 "docs/GRM188R6YA106MA73#.pdf" H 6650 3000 50  0001 C CNN
 F 4 "CAP CER 10UF 35V X5R 0603" H 6650 3000 60  0001 C CNN "Description"
 F 5 "Murata Electronics North America" H 6650 3000 60  0001 C CNN "Manufacture"
@@ -315,7 +316,7 @@ U 1 1 5965421B
 P 6650 3300
 F 0 "C204" H 6675 3400 50  0000 L CNN
 F 1 "10µ" H 6675 3200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6688 3150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6688 3150 50  0001 C CNN
 F 3 "docs/GRM188R6YA106MA73#.pdf" H 6650 3300 50  0001 C CNN
 F 4 "CAP CER 10UF 35V X5R 0603" H 6650 3300 60  0001 C CNN "Description"
 F 5 "Murata Electronics North America" H 6650 3300 60  0001 C CNN "Manufacture"
@@ -359,14 +360,6 @@ Wire Wire Line
 NoConn ~ 8100 5300
 Wire Wire Line
 	8100 5200 8000 5200
-Text Notes 7700 5350 0    60   ~ 0
-*
-Text Notes 7700 4850 0    60   ~ 0
-*
-Text Notes 7700 4050 0    60   ~ 0
-*
-Text Notes 7700 3550 0    60   ~ 0
-*
 Wire Wire Line
 	7300 3500 6300 3500
 Wire Wire Line

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:bpi-r1-can-ser-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -21,7 +22,7 @@ AR Path="/596FAFFD" Ref="J501"  Part="1"
 AR Path="/596FBB08/596FAFFD" Ref="J501"  Part="1" 
 F 0 "J501" H 4200 2800 50  0000 C CNN
 F 1 "I²C" V 4300 2600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4200 2600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4200 2600 50  0001 C CNN
 F 3 "" H 4200 2600 50  0001 C CNN
 F 4 "N" H 4200 2600 60  0001 C CNN "Critical"
 F 5 "N" H 4200 2600 60  0001 C CNN "assemble"
@@ -34,7 +35,7 @@ U 1 1 596FB088
 P 4200 3200
 F 0 "J502" H 4200 3400 50  0000 C CNN
 F 1 "SPI" H 4200 3000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4200 2000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4200 2000 50  0001 C CNN
 F 3 "" H 4200 2000 50  0001 C CNN
 F 4 "N" H 4200 3200 60  0001 C CNN "Critical"
 F 5 "N" H 4200 3200 60  0001 C CNN "assemble"
@@ -104,9 +105,11 @@ L memory_EEPROM:24LC08 U501
 U 1 1 5A995BE5
 P 6000 2600
 F 0 "U501" H 5750 2850 50  0000 C CNN
-F 1 "AT88SC0808CA" H 6050 2850 50  0000 L CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6050 2350 50  0001 L CNN
-F 3 "" H 6000 2500 50  0001 C CNN
+F 1 "24LC08" H 6050 2850 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6050 2350 50  0001 L CNN
+F 3 "docs/21710K.pdf" H 6000 2500 50  0001 C CNN
+F 4 "N" H 6000 2600 50  0001 C CNN "Critical"
+F 5 "Y" H 6000 2600 50  0001 C CNN "assemble"
 	1    6000 2600
 	1    0    0    -1  
 $EndComp

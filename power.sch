@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:bpi-r1-can-ser-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -19,7 +20,7 @@ U 1 1 5A630CD6
 P 3250 3400
 F 0 "F601" V 3330 3400 50  0000 C CNN
 F 1 "Fuse" V 3175 3400 50  0000 C CNN
-F 2 "Fuse_Holders_and_Fuses:Fuseholder_Fuse_TR5_Littlefuse-No560_No460" V 3180 3400 50  0001 C CNN
+F 2 "Fuse:Fuseholder_TR5_Littlefuse_No560_No460" V 3180 3400 50  0001 C CNN
 F 3 "docs/typ_FMS__250V_.pdf" H 3250 3400 50  0001 C CNN
 F 4 "SCHURTER" H 3250 3400 60  0001 C CNN "Manufacture"
 F 5 "0031.7601" H 3250 3400 60  0001 C CNN "ManuPart#"
@@ -38,7 +39,7 @@ U 1 1 5A631D66
 P 5400 4350
 F 0 "J607" H 5400 4450 50  0000 C CNN
 F 1 "5V PWR" H 5400 4150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5400 4350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5400 4350 50  0001 C CNN
 F 3 "" H 5400 4350 50  0001 C CNN
 F 4 "N" H 5400 4350 60  0001 C CNN "Critical"
 F 5 "N" H 5400 4350 60  0001 C CNN "assemble"
@@ -51,7 +52,7 @@ U 1 1 5A631DC7
 P 2200 3500
 F 0 "J601" H 2200 3700 50  0000 C CNN
 F 1 "AC IN" H 2200 3300 50  0000 C CNN
-F 2 "Connectors_Phoenix:PhoenixContact_MSTB-GF_03x5.00mm_Angled_ThreadedFlange_MountHole" H 2200 3500 50  0001 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTB_2,5_3-GF_1x03_P5.00mm_Horizontal_ThreadedFlange_MountHole" H 2200 3500 50  0001 C CNN
 F 3 "" H 2200 3500 50  0001 C CNN
 F 4 "N" H 2200 3500 60  0001 C CNN "Critical"
 F 5 "N" H 2200 3500 60  0001 C CNN "assemble"
@@ -64,7 +65,7 @@ U 1 1 5A631E13
 P 5900 3500
 F 0 "J610" H 5900 3700 50  0000 C CNN
 F 1 "AC OUT" H 5900 3300 50  0000 C CNN
-F 2 "Connectors_Phoenix:PhoenixContact_MSTB-GF_03x5.00mm_Angled_ThreadedFlange_MountHole" H 5900 3500 50  0001 C CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTB_2,5_3-GF_1x03_P5.00mm_Horizontal_ThreadedFlange" H 5900 3500 50  0001 C CNN
 F 3 "" H 5900 3500 50  0001 C CNN
 F 4 "N" H 5900 3500 60  0001 C CNN "Critical"
 F 5 "N" H 5900 3500 60  0001 C CNN "assemble"
@@ -186,7 +187,7 @@ U 1 1 5A639090
 P 5850 3000
 F 0 "R602" V 5930 3000 50  0000 C CNN
 F 1 "0" V 5850 3000 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5780 3000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5780 3000 50  0001 C CNN
 F 3 "" H 5850 3000 50  0001 C CNN
 F 4 "N" H 5850 3000 60  0001 C CNN "Critical"
 F 5 "N" H 5850 3000 60  0001 C CNN "assemble"
@@ -210,7 +211,7 @@ U 1 1 5A639444
 P 5850 1500
 F 0 "R601" V 5930 1500 50  0000 C CNN
 F 1 "0" V 5850 1500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5780 1500 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5780 1500 50  0001 C CNN
 F 3 "" H 5850 1500 50  0001 C CNN
 F 4 "N" H 5850 1500 60  0001 C CNN "Critical"
 F 5 "N" H 5850 1500 60  0001 C CNN "assemble"
@@ -282,7 +283,7 @@ U 1 1 5A639A40
 P 5900 1900
 F 0 "J609" H 5900 2100 50  0000 C CNN
 F 1 "EXT SW" H 5900 1700 50  0000 C CNN
-F 2 "Connectors_Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_3pol" H 5900 1900 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 5900 1900 50  0001 C CNN
 F 3 "" H 5900 1900 50  0001 C CNN
 	1    5900 1900
 	1    0    0    1   
@@ -419,7 +420,7 @@ U 1 1 5A8BE89D
 P 6150 2500
 F 0 "R603" V 6230 2500 50  0000 C CNN
 F 1 "1k" V 6150 2500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6080 2500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 2500 50  0001 C CNN
 F 3 "" H 6150 2500 50  0001 C CNN
 	1    6150 2500
 	0    1    1    0   
@@ -430,7 +431,7 @@ U 1 1 5A8BEAC1
 P 7400 2250
 F 0 "C601" H 7425 2350 50  0000 L CNN
 F 1 "100n" H 7425 2150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7438 2100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 2100 50  0001 C CNN
 F 3 "" H 7400 2250 50  0001 C CNN
 	1    7400 2250
 	1    0    0    -1  
