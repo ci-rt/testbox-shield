@@ -370,6 +370,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/3D/shapes3D/he700.wrl
+      (offset (xyz 4 -7.5 0.5))
+      (scale (xyz 0.39 0.39 0.39))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connectors:GS3 (layer F.Cu) (tedit 58613494) (tstamp 5B6A3D36)
@@ -1328,6 +1333,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/3D/shapes3D/191-009-213.STEP
+      (offset (xyz -21 -7.7 6.1))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal locked (layer F.Cu) (tedit 5B103613) (tstamp 5B6A2C07)
@@ -1376,6 +1386,11 @@
     (model ${KISYS3DMOD}/Connector_RJ.3dshapes/RJ45_Amphenol_54602-x08_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/3D/shapes3D/RJ45_8.wrl
+      (offset (xyz 4.5 -6 0))
+      (scale (xyz 0.39 0.39 0.39))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2567,6 +2582,11 @@
       (net 6 GND))
     (model ${KISYS3DMOD}/Connector_Dsub.3dshapes/DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm.wrl
       (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KIPRJMOD}/3D/shapes3D/db_9f.wrl
+      (offset (xyz -5.5 -8.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
