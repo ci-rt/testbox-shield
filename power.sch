@@ -24,12 +24,13 @@ F 2 "Fuse:Fuseholder_TR5_Littlefuse_No560_No460" V 3180 3400 50  0001 C CNN
 F 3 "docs/typ_FMS__250V_.pdf" H 3250 3400 50  0001 C CNN
 F 4 "SCHURTER" H 3250 3400 60  0001 C CNN "Manufacture"
 F 5 "0031.7601" H 3250 3400 60  0001 C CNN "ManuPart#"
-F 6 "TR5" H 3250 3400 60  0001 C CNN "PackageID"
-F 7 "TME" H 3250 3400 60  0001 C CNN "Source"
-F 8 "N" H 3250 3400 60  0001 C CNN "Critical"
-F 9 "0031.7601" H 3250 3400 60  0001 C CNN "SupplPart#"
-F 10 "https://www.tme.eu/de/details/0031.7601/sicherungsdosen-pcb/schurter/" H 3250 3400 60  0001 C CNN "SupplLink"
-F 11 "Y" H 3250 3400 60  0001 C CNN "assemble"
+F 6 "TME" H 3250 3400 60  0001 C CNN "Source"
+F 7 "0031.7601" H 3250 3400 60  0001 C CNN "SupplPart#"
+F 8 "https://www.tme.eu/de/details/0031.7601/sicherungsdosen-pcb/schurter/" H 3250 3400 60  0001 C CNN "SupplLink"
+F 9 "Y" H 3250 3400 60  0001 C CNN "assemble"
+F 10 "N" H 3250 3400 60  0001 C CNN "Critical"
+F 11 "FUSE HOLDER RADIAL 250V 5A PCB" H 3250 3400 50  0001 C CNN "Description"
+F 12 "TR5" H 3250 3400 60  0001 C CNN "PackageID"
 	1    3250 3400
 	0    1    1    0   
 $EndComp
@@ -137,8 +138,8 @@ F 0 "J611" H 5900 4250 50  0000 C CNN
 F 1 "PE" H 5900 4050 50  0000 C CNN
 F 2 "Wire_Pads:SolderWirePad_single_2-5mmDrill" H 5900 4150 50  0001 C CNN
 F 3 "" H 5900 4150 50  0001 C CNN
-F 4 "N" H 5900 4150 60  0001 C CNN "Critical"
-F 5 "N" H 5900 4150 60  0001 C CNN "assemble"
+F 4 "N" H 5900 4150 60  0001 C CNN "assemble"
+F 5 "N" H 5900 4150 60  0001 C CNN "Critical"
 	1    5900 4150
 	0    -1   -1   0   
 $EndComp
@@ -284,7 +285,15 @@ P 5900 1900
 F 0 "J609" H 5900 2100 50  0000 C CNN
 F 1 "EXT SW" H 5900 1700 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-3-2.54_1x03_P2.54mm_Horizontal" H 5900 1900 50  0001 C CNN
-F 3 "" H 5900 1900 50  0001 C CNN
+F 3 "docs/1725669.pdf" H 5900 1900 50  0001 C CNN
+F 4 "Phoenix Contact" H 5900 1900 50  0001 C CNN "Manufacture"
+F 5 "1725669" H 5900 1900 50  0001 C CNN "ManuPart#"
+F 6 "TME" H 5900 1900 50  0001 C CNN "Source"
+F 7 "mpt-05-3-254-1725669" H 5900 1900 50  0001 C CNN "SupplPart#"
+F 8 "https://www.tme.eu/en/details/mpt0.5_3-2.54/pcb-terminal-blocks/phoenix-contact/mpt-05-3-254-1725669/" H 5900 1900 50  0001 C CNN "SupplLink"
+F 9 "Y" H 5900 1900 50  0001 C CNN "assemble"
+F 10 "N" H 5900 1900 50  0001 C CNN "Critical"
+F 11 "CONN TERM BLOCK 2.54MM 3POS" H 5900 1900 50  0001 C CNN "Description"
 	1    5900 1900
 	1    0    0    1   
 $EndComp
@@ -361,10 +370,11 @@ F 3 "docs/Littelfuse_Reed_Relays_HE700.pdf" H 5200 1700 50  0001 C CNN
 F 4 "LITTELFUSE" H 5200 1700 60  0001 C CNN "Manufacture"
 F 5 "HE721C0500" H 5200 1700 60  0001 C CNN "ManuPart#"
 F 6 "TME" H 5200 1700 60  0001 C CNN "Source"
-F 7 "N" H 5200 1700 60  0001 C CNN "Critical"
-F 8 "HE721C0500" H 5200 1700 60  0001 C CNN "SupplPart#"
-F 9 "https://www.tme.eu/de/details/he721c0500/elektromagnetische-reed-relais/littelfuse/" H 5200 1700 60  0001 C CNN "SupplLink"
-F 10 "Y" H 5200 1700 60  0001 C CNN "assemble"
+F 7 "HE721C0500" H 5200 1700 60  0001 C CNN "SupplPart#"
+F 8 "https://www.tme.eu/de/details/he721c0500/elektromagnetische-reed-relais/littelfuse/" H 5200 1700 60  0001 C CNN "SupplLink"
+F 9 "Y" H 5200 1700 60  0001 C CNN "assemble"
+F 10 "N" H 5200 1700 60  0001 C CNN "Critical"
+F 11 "RELAY REED SPDT 250MA 5V" H 5200 1700 50  0001 C CNN "Description"
 	1    5200 1700
 	0    1    1    0   
 $EndComp
@@ -400,10 +410,11 @@ F 3 "docs/Anly_Electronics-ASR-05DA-datasheet.pdf" H 5200 3200 50  0001 C CNN
 F 4 "ANLY ELECTRONICS" H 5200 3200 60  0001 C CNN "Manufacture"
 F 5 "ASR-05DA" H 5200 3200 60  0001 C CNN "ManuPart#"
 F 6 "TME" H 5200 3200 60  0001 C CNN "Source"
-F 7 "N" H 5200 3200 60  0001 C CNN "Critical"
-F 8 "ASR-05DA" H 5200 3200 60  0001 C CNN "SupplPart#"
-F 9 "https://www.tme.eu/de/details/asr-05da/ssr-einphasen-relais/anly-electronics/" H 5200 3200 60  0001 C CNN "SupplLink"
-F 10 "Y" H 5200 3200 60  0001 C CNN "assemble"
+F 7 "ASR-05DA" H 5200 3200 60  0001 C CNN "SupplPart#"
+F 8 "https://www.tme.eu/de/details/asr-05da/ssr-einphasen-relais/anly-electronics/" H 5200 3200 60  0001 C CNN "SupplLink"
+F 9 "Y" H 5200 3200 60  0001 C CNN "assemble"
+F 10 "N" H 5200 3200 60  0001 C CNN "Critical"
+F 11 "RELAY SSR 32VDC 1PH 280V 5A" H 5200 3200 50  0001 C CNN "Description"
 	1    5200 3200
 	0    1    1    0   
 $EndComp
@@ -420,7 +431,16 @@ P 6150 2500
 F 0 "R603" V 6230 2500 50  0000 C CNN
 F 1 "1k" V 6150 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6080 2500 50  0001 C CNN
-F 3 "" H 6150 2500 50  0001 C CNN
+F 3 "docs/SEI-RMCF_RMCP.pdf" H 6150 2500 50  0001 C CNN
+F 4 "Stackpole Electronics Inc." H 6150 2500 50  0001 C CNN "Manufacture"
+F 5 "RMCF0603FT1K00" H 6150 2500 50  0001 C CNN "ManuPart#"
+F 6 "Digikey" H 6150 2500 50  0001 C CNN "Source"
+F 7 "RMCF0603FT1K00CT-ND" H 6150 2500 50  0001 C CNN "SupplPart#"
+F 8 "https://www.digikey.de/product-detail/de/stackpole-electronics-inc/RMCF0603FT1K00/RMCF0603FT1K00CT-ND/1942996" H 6150 2500 50  0001 C CNN "SupplLink"
+F 9 "Y" H 6150 2500 50  0001 C CNN "assemble"
+F 10 "N" H 6150 2500 50  0001 C CNN "Critical"
+F 11 "RES 1K OHM 1% 1/10W 0603" H 6150 2500 50  0001 C CNN "Description"
+F 12 "603" H 6150 2500 50  0001 C CNN "PackageID"
 	1    6150 2500
 	0    1    1    0   
 $EndComp
@@ -431,7 +451,16 @@ P 7400 2250
 F 0 "C601" H 7425 2350 50  0000 L CNN
 F 1 "100n" H 7425 2150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7438 2100 50  0001 C CNN
-F 3 "" H 7400 2250 50  0001 C CNN
+F 3 "docs/C_CL10F104ZO8NNNC.pdf" H 7400 2250 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics America, Inc." H 7400 2250 50  0001 C CNN "Manufacture"
+F 5 "CL10F104ZO8NNNC" H 7400 2250 50  0001 C CNN "ManuPart#"
+F 6 "Digikey" H 7400 2250 50  0001 C CNN "Source"
+F 7 "1276-1258-1-ND" H 7400 2250 50  0001 C CNN "SupplPart#"
+F 8 "https://www.digikey.de/product-detail/de/samsung-electro-mechanics-america-inc/CL10F104ZO8NNNC/1276-1258-1-ND/3889344" H 7400 2250 50  0001 C CNN "SupplLink"
+F 9 "Y" H 7400 2250 50  0001 C CNN "assemble"
+F 10 "N" H 7400 2250 50  0001 C CNN "Critical"
+F 11 "CAP CER 0.1UF 16V Y5V 0603" H 7400 2250 50  0001 C CNN "Description"
+F 12 "603" H 7400 2250 50  0001 C CNN "PackageID"
 	1    7400 2250
 	1    0    0    -1  
 $EndComp
@@ -471,6 +500,8 @@ F 0 "J612" H 8100 2200 50  0000 C CNN
 F 1 "5V out" H 8100 1800 50  0000 C CNN
 F 2 "Connectors:Fan_Pin_Header_Straight_1x03" H 8100 2000 50  0001 C CNN
 F 3 "" H 8100 2000 50  0001 C CNN
+F 4 "N" H 8100 2000 50  0001 C CNN "assemble"
+F 5 "N" H 8100 2000 50  0001 C CNN "Critical"
 	1    8100 2000
 	1    0    0    -1  
 $EndComp
@@ -513,6 +544,15 @@ F 0 "Q601" H 7300 2150 50  0000 L CNN
 F 1 "IRLHS2242" H 7300 2050 50  0000 L CNN
 F 2 "PQFN:PQFN-6-2EP_2x2mm_Pitch0.65mm" H 7300 2200 50  0001 C CNN
 F 3 "docs/irlhs2242pbf.pdf" H 7100 2100 50  0001 C CNN
+F 4 "Infineon Technologies" H 7100 2100 50  0001 C CNN "Manufacture"
+F 5 "IRLHS2242TRPBF" H 7100 2100 50  0001 C CNN "ManuPart#"
+F 6 "Digikey" H 7100 2100 50  0001 C CNN "Source"
+F 7 "IRLHS2242TRPBFCT-ND" H 7100 2100 50  0001 C CNN "SupplPart#"
+F 8 "https://www.digikey.de/product-detail/de/infineon-technologies/IRLHS2242TRPBF/IRLHS2242TRPBFCT-ND/2639603" H 7100 2100 50  0001 C CNN "SupplLink"
+F 9 "Y" H 7100 2100 50  0001 C CNN "assemble"
+F 10 "N" H 7100 2100 50  0001 C CNN "Critical"
+F 11 "MOSFET P-CH 20V 15A 2X2 PQFN" H 7100 2100 50  0001 C CNN "Description"
+F 12 "6-PQFN (2x2)" H 7100 2100 50  0001 C CNN "PackageID"
 	1    7100 2100
 	0    1    -1   0   
 $EndComp
@@ -528,7 +568,15 @@ P 4200 4400
 F 0 "U601" H 4200 4150 60  0000 C CNN
 F 1 "IRM-20" H 4200 4650 60  0000 C CNN
 F 2 "Meanwell:IRM-20" H 4200 4400 60  0001 C CNN
-F 3 "" H 4200 4400 60  0001 C CNN
+F 3 "docs/IRM-20-EN.pdf" H 4200 4400 60  0001 C CNN
+F 4 "MEAN WELL" H 4200 4400 50  0001 C CNN "Manufacture"
+F 5 "IRM-20-5" H 4200 4400 50  0001 C CNN "ManuPart#"
+F 6 "TME" H 4200 4400 50  0001 C CNN "Source"
+F 7 "IRM-20-5" H 4200 4400 50  0001 C CNN "SupplPart#"
+F 8 "https://www.tme.eu/en/details/irm-20-5/built-in-power-supplies/mean-well/" H 4200 4400 50  0001 C CNN "SupplLink"
+F 9 "Y" H 4200 4400 50  0001 C CNN "assemble"
+F 10 "N" H 4200 4400 50  0001 C CNN "Critical"
+F 11 "AC/DC CONVERTER 5V 20W" H 4200 4400 50  0001 C CNN "Description"
 	1    4200 4400
 	1    0    0    1   
 $EndComp
@@ -603,7 +651,15 @@ P 4600 2750
 F 0 "JP601" V 4650 2650 50  0000 R CNN
 F 1 "Relais" V 4555 2662 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4600 2750 50  0001 C CNN
-F 3 "~" H 4600 2750 50  0001 C CNN
+F 3 "docs/DS1021.pdf" H 4600 2750 50  0001 C CNN
+F 4 "CONNFLY" H 4600 2750 50  0001 C CNN "Manufacture"
+F 5 "DS1021-1*2SF1-1B" H 4600 2750 50  0001 C CNN "ManuPart#"
+F 6 "TME" H 4600 2750 50  0001 C CNN "Source"
+F 7 "DS1021-1*2SF1-1B" H 4600 2750 50  0001 C CNN "SupplPart#"
+F 8 "https://www.tme.eu/en/details/zl201-02g/pin-headers/connfly/ds1021-1_2sf1-1b/" H 4600 2750 50  0001 C CNN "SupplLink"
+F 9 "Y" H 4600 2750 50  0001 C CNN "assemble"
+F 10 "N" H 4600 2750 50  0001 C CNN "Critical"
+F 11 "CONN HEADER 2POS .100 STR TIN" H 4600 2750 50  0001 C CNN "Description"
 	1    4600 2750
 	0    -1   -1   0   
 $EndComp

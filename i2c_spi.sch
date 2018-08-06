@@ -108,8 +108,15 @@ F 0 "U501" H 5750 2850 50  0000 C CNN
 F 1 "24LC08" H 6050 2850 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6050 2350 50  0001 L CNN
 F 3 "docs/21710K.pdf" H 6000 2500 50  0001 C CNN
-F 4 "N" H 6000 2600 50  0001 C CNN "Critical"
-F 5 "Y" H 6000 2600 50  0001 C CNN "assemble"
+F 4 "Microchip Technology" H 6000 2600 50  0001 C CNN "Manufacture"
+F 5 "24LC08BT-I/SN" H 6000 2600 50  0001 C CNN "ManuPart#"
+F 6 "Digikey" H 6000 2600 50  0001 C CNN "Source"
+F 7 "24LC08BT-I/SNCT-ND" H 6000 2600 50  0001 C CNN "SupplPart#"
+F 8 "https://www.digikey.de/product-detail/de/microchip-technology/24LC08BT-I-SN/24LC08BT-I-SNCT-ND/5011021" H 6000 2600 50  0001 C CNN "SupplLink"
+F 9 "Y" H 6000 2600 50  0001 C CNN "assemble"
+F 10 "N" H 6000 2600 50  0001 C CNN "Critical"
+F 11 "IC EEPROM 8K I2C 400KHZ 8SOIC" H 6000 2600 50  0001 C CNN "Description"
+F 12 "8-SOIC" H 6000 2600 50  0001 C CNN "PackageID"
 	1    6000 2600
 	1    0    0    -1  
 $EndComp
@@ -195,8 +202,15 @@ F 0 "U502" H 7650 2850 50  0000 C CNN
 F 1 "ATECC608A" H 7950 2850 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7950 2350 50  0001 L CNN
 F 3 "docs/40001977A.pdf" H 7900 2500 50  0001 C CNN
-F 4 "N" H 7900 2600 50  0001 C CNN "Critical"
-F 5 "Y" H 7900 2600 50  0001 C CNN "assemble"
+F 4 "Microchip Technology" H 7900 2600 50  0001 C CNN "Manufacture"
+F 5 "ATECC608A-SSHDA-T" H 7900 2600 50  0001 C CNN "ManuPart#"
+F 6 "Digikey" H 7900 2600 50  0001 C CNN "Source"
+F 7 "ATECC608A-SSHDA-TCT-ND" H 7900 2600 50  0001 C CNN "SupplPart#"
+F 8 "https://www.digikey.de/product-detail/de/microchip-technology/ATECC608A-SSHDA-T/ATECC608A-SSHDA-TCT-ND/7928238" H 7900 2600 50  0001 C CNN "SupplLink"
+F 9 "Y" H 7900 2600 50  0001 C CNN "assemble"
+F 10 "N" H 7900 2600 50  0001 C CNN "Critical"
+F 11 "IC AUTHENTICATION CHIP 8SOIC" H 7900 2600 50  0001 C CNN "Description"
+F 12 "8-SOIC" H 7900 2600 50  0001 C CNN "PackageID"
 	1    7900 2600
 	1    0    0    -1  
 $EndComp
