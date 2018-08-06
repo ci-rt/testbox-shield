@@ -413,7 +413,6 @@ Wire Wire Line
 	6000 3000 6200 3000
 Wire Wire Line
 	6200 3000 6200 3100
-Connection ~ 4600 2500
 $Comp
 L device:R R603
 U 1 1 5A8BE89D
@@ -590,8 +589,6 @@ Wire Wire Line
 Wire Wire Line
 	4800 2000 4800 2300
 Wire Wire Line
-	4600 2500 4600 3000
-Wire Wire Line
 	7100 2500 7400 2500
 Wire Wire Line
 	7400 2000 7900 2000
@@ -599,4 +596,20 @@ Wire Wire Line
 	7400 2000 7400 2100
 Wire Wire Line
 	6800 1900 6800 2000
+$Comp
+L jumper:Jumper_2_Bridged JP601
+U 1 1 5B683777
+P 4600 2750
+F 0 "JP601" V 4650 2650 50  0000 R CNN
+F 1 "Relais" V 4555 2662 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4600 2750 50  0001 C CNN
+F 3 "~" H 4600 2750 50  0001 C CNN
+	1    4600 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4600 2500 4600 2550
+Connection ~ 4600 2500
+Wire Wire Line
+	4600 2950 4600 3000
 $EndSCHEMATC
