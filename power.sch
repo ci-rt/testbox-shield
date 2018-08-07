@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:bpi-r1-can-ser-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 6 8
 Title "BPi-R1-Power"
 Date "2018-01-20"
 Rev "0.1"
