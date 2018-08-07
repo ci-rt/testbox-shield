@@ -43,9 +43,9 @@ F 5 "N" H 4200 3200 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 2500 4000 2500
+	3500 2500 3600 2500
 Wire Wire Line
-	3900 2600 4000 2600
+	3500 2600 3900 2600
 Wire Wire Line
 	3800 2700 4000 2700
 Wire Wire Line
@@ -60,9 +60,9 @@ Wire Wire Line
 	4600 3200 4500 3200
 Wire Wire Line
 	4500 3300 4700 3300
-Text HLabel 3900 2500 0    60   BiDi ~ 0
+Text HLabel 3500 2500 0    60   BiDi ~ 0
 SDA
-Text HLabel 3900 2600 0    60   Input ~ 0
+Text HLabel 3500 2600 0    60   Input ~ 0
 SCL
 $Comp
 L power1:GND #PWR?
@@ -288,4 +288,76 @@ Wire Wire Line
 	7400 2600 7400 2700
 Wire Wire Line
 	7400 2700 7400 2800
+$Comp
+L device:R R501
+U 1 1 5B69C29F
+P 3600 2250
+F 0 "R501" H 3530 2204 50  0000 R CNN
+F 1 "R" H 3530 2295 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3530 2250 50  0001 C CNN
+F 3 "" H 3600 2250 50  0001 C CNN
+F 4 "N" H 3600 2250 50  0001 C CNN "assemble"
+F 5 "do not assemble" H 3600 2250 50  0001 C CNN "Description"
+F 6 "0603" H 3600 2250 50  0001 C CNN "PackageID"
+	1    3600 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:R R502
+U 1 1 5B69CA72
+P 3900 2250
+F 0 "R502" H 3830 2204 50  0000 R CNN
+F 1 "R" H 3830 2295 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 2250 50  0001 C CNN
+F 3 "" H 3900 2250 50  0001 C CNN
+F 4 "N" H 3900 2250 50  0001 C CNN "assemble"
+F 5 "do not assemble" H 3900 2250 50  0001 C CNN "Description"
+F 6 "0603" H 3900 2250 50  0001 C CNN "PackageID"
+	1    3900 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power1:+3.3V #PWR?
+U 1 1 5B69CA96
+P 3600 2000
+F 0 "#PWR?" H 3600 1850 50  0001 C CNN
+F 1 "+3.3V" H 3600 2140 50  0000 C CNN
+F 2 "" H 3600 2000 50  0001 C CNN
+F 3 "" H 3600 2000 50  0001 C CNN
+	1    3600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:+3.3V #PWR?
+U 1 1 5B69CAAD
+P 3900 2000
+F 0 "#PWR?" H 3900 1850 50  0001 C CNN
+F 1 "+3.3V" H 3900 2140 50  0000 C CNN
+F 2 "" H 3900 2000 50  0001 C CNN
+F 3 "" H 3900 2000 50  0001 C CNN
+	1    3900 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2000 3600 2100
+Wire Wire Line
+	3900 2000 3900 2100
+Wire Wire Line
+	3600 2400 3600 2500
+Connection ~ 3600 2500
+Wire Wire Line
+	3600 2500 4000 2500
+Wire Wire Line
+	3900 2400 3900 2600
+Connection ~ 3900 2600
+Wire Wire Line
+	3900 2600 4000 2600
+Wire Notes Line
+	3500 2150 3700 2400
+Wire Notes Line
+	3700 2150 3500 2400
+Wire Notes Line
+	3800 2150 4000 2400
+Wire Notes Line
+	4000 2150 3800 2400
 $EndSCHEMATC
