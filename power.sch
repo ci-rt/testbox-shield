@@ -283,30 +283,28 @@ Wire Wire Line
 $Comp
 L conn_generic:Conn_01x06 J609
 U 1 1 5A639A40
-P 7100 2000
-F 0 "J609" H 7100 2300 50  0000 C CNN
-F 1 "EXT SW" H 7150 2400 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-6-2.54_1x06_P2.54mm_Horizontal" H 7100 2000 50  0001 C CNN
-F 3 "docs/1725669.pdf" H 7100 2000 50  0001 C CNN
-F 4 "Phoenix Contact" H 7100 2000 50  0001 C CNN "Manufacture"
-F 5 "1725669" H 7100 2000 50  0001 C CNN "ManuPart#"
-F 6 "TME" H 7100 2000 50  0001 C CNN "Source"
-F 7 "mpt-05-3-254-1725669" H 7100 2000 50  0001 C CNN "SupplPart#"
-F 8 "https://www.tme.eu/en/details/mpt0.5_3-2.54/pcb-terminal-blocks/phoenix-contact/mpt-05-3-254-1725669/" H 7100 2000 50  0001 C CNN "SupplLink"
-F 9 "Y" H 7100 2000 50  0001 C CNN "assemble"
-F 10 "N" H 7100 2000 50  0001 C CNN "Critical"
-F 11 "CONN TERM BLOCK 2.54MM 3POS" H 7100 2000 50  0001 C CNN "Description"
-	1    7100 2000
-	1    0    0    1   
+P 7100 1900
+F 0 "J609" H 7100 2200 50  0000 C CNN
+F 1 "EXT SW" H 7100 1500 50  0000 C CNN
+F 2 "mkkdsn:PhoenixContact_MKKDSN_1,5_3-GF-5,08_2x03_P5.08mm_Horizontal" H 7100 1900 50  0001 C CNN
+F 3 "docs/1725669.pdf" H 7100 1900 50  0001 C CNN
+F 4 "Phoenix Contact" H 7100 1900 50  0001 C CNN "Manufacture"
+F 5 "1725669" H 7100 1900 50  0001 C CNN "ManuPart#"
+F 6 "TME" H 7100 1900 50  0001 C CNN "Source"
+F 7 "mpt-05-3-254-1725669" H 7100 1900 50  0001 C CNN "SupplPart#"
+F 8 "https://www.tme.eu/en/details/mpt0.5_3-2.54/pcb-terminal-blocks/phoenix-contact/mpt-05-3-254-1725669/" H 7100 1900 50  0001 C CNN "SupplLink"
+F 9 "Y" H 7100 1900 50  0001 C CNN "assemble"
+F 10 "N" H 7100 1900 50  0001 C CNN "Critical"
+F 11 "CONN TERM BLOCK 2.54MM 3POS" H 7100 1900 50  0001 C CNN "Description"
+	1    7100 1900
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4900 1900 4800 1900
 Wire Wire Line
 	4800 1900 4800 2000
 Wire Wire Line
-	4800 2300 5600 2300
-Wire Wire Line
-	5600 2300 5600 1900
+	4800 2300 5700 2300
 $Comp
 L power1:PWR_FLAG #FLG?
 U 1 1 5A63A6CA
@@ -507,14 +505,6 @@ F 3 "" H 6800 2300 50  0001 C CNN
 	1    6800 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6900 1700 6800 1700
-Wire Wire Line
-	6800 1700 6800 1600
-Wire Wire Line
-	6900 2200 6800 2200
-Wire Wire Line
-	6800 2200 6800 2300
 Connection ~ 6500 2400
 $Comp
 L q_pmos_pqfn:Q_PMOS_PQFN Q601
@@ -654,14 +644,32 @@ Wire Wire Line
 	5900 2900 6200 2900
 Connection ~ 6200 2900
 Wire Wire Line
-	5500 1800 6900 1800
+	6500 2300 6500 1800
+Wire Wire Line
+	6500 1800 6900 1800
+Connection ~ 6500 2300
+Wire Wire Line
+	6800 2200 6800 2300
+Wire Wire Line
+	6800 1700 6800 1600
+Wire Wire Line
+	6900 1700 6800 1700
+Wire Wire Line
+	6900 2200 6800 2200
+Wire Wire Line
+	5500 2000 5600 2000
+Wire Wire Line
+	5600 2000 5600 1900
 Wire Wire Line
 	5600 1900 6900 1900
 Wire Wire Line
-	5500 2000 6900 2000
+	5700 2300 5700 2000
 Wire Wire Line
-	6500 2300 6500 2100
+	5700 2000 6900 2000
 Wire Wire Line
-	6500 2100 6900 2100
-Connection ~ 6500 2300
+	5500 1800 6400 1800
+Wire Wire Line
+	6400 1800 6400 2100
+Wire Wire Line
+	6400 2100 6900 2100
 $EndSCHEMATC
