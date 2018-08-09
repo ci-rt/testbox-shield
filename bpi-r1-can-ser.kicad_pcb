@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 758)
-    (tracks 755)
+    (drawings 754)
+    (tracks 754)
     (zones 0)
     (modules 54)
     (nets 59)
@@ -996,10 +996,10 @@
       (net 42 "Net-(F601-Pad1)"))
     (pad 2 thru_hole circle (at 5.08 0.01 90) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 43 /Power/AC/L))
-    (model ${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_TR5_Littlefuse_No560_No460.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+    (model ${KIPRJMOD}/3D/shapes3D/FMS250V.wrl
+      (offset (xyz 2.75 0 1))
+      (scale (xyz 0.39 0.39 0.39))
+      (rotate (xyz 0 0 180))
     )
   )
 
