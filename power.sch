@@ -52,10 +52,16 @@ U 1 1 5A631DC7
 P 2200 3500
 F 0 "J601" H 2200 3700 50  0000 C CNN
 F 1 "AC IN" H 2200 3300 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTB_2,5_3-GF_1x03_P5.00mm_Horizontal_ThreadedFlange_MountHole" H 2200 3500 50  0001 C CNN
-F 3 "" H 2200 3500 50  0001 C CNN
-F 4 "N" H 2200 3500 60  0001 C CNN "Critical"
-F 5 "Y" H 2200 3500 60  0001 C CNN "assemble"
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTB_2,5_3-GF_1x03_P5.00mm_Horizontal_ThreadedFlange" H 2200 3500 50  0001 C CNN
+F 3 "docs/1757255.pdf" H 2200 3500 50  0001 C CNN
+F 4 "Phoenix Contact" H 2200 3500 50  0001 C CNN "Manufacture"
+F 5 "1757255" H 2200 3500 50  0001 C CNN "ManuPart#"
+F 6 "TME" H 2200 3500 50  0001 C CNN "Source"
+F 7 "MSTBA2.5/3G5.08" H 2200 3500 50  0001 C CNN "SupplPart#"
+F 8 "https://www.tme.eu/de/details/mstba2.5_3g5.08/trennbare-klemmleisten/phoenix-contact/mstba-25-3-g-508-1757255/" H 2200 3500 50  0001 C CNN "SupplLink"
+F 9 "Y" H 2200 3500 60  0001 C CNN "assemble"
+F 10 "N" H 2200 3500 60  0001 C CNN "Critical"
+F 11 "TERM BLOCK HDR 3POS 90DEG 5.08MM" H 2200 3500 50  0001 C CNN "Description"
 	1    2200 3500
 	-1   0    0    -1  
 $EndComp
@@ -66,12 +72,15 @@ P 5900 3500
 F 0 "J610" H 5900 3700 50  0000 C CNN
 F 1 "AC OUT" H 5900 3300 50  0000 C CNN
 F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTB_2,5_3-GF_1x03_P5.00mm_Horizontal_ThreadedFlange" H 5900 3500 50  0001 C CNN
-F 3 "docs/1776702.pdf" H 5900 3500 50  0001 C CNN
-F 4 "TERM BLOCK HDR 3POS 90DEG 5MM" H 5900 3500 50  0001 C CNN "Description"
-F 5 "Phoenix Contact" H 5900 3500 50  0001 C CNN "Manufacture"
-F 6 "1776702" H 5900 3500 50  0001 C CNN "ManuPart#"
-F 7 "N" H 5900 3500 60  0001 C CNN "Critical"
-F 8 "Y" H 5900 3500 60  0001 C CNN "assemble"
+F 3 "docs/1757255.pdf" H 5900 3500 50  0001 C CNN
+F 4 "Phoenix Contact" H 5900 3500 50  0001 C CNN "Manufacture"
+F 5 "1757255" H 5900 3500 50  0001 C CNN "ManuPart#"
+F 6 "TME" H 5900 3500 50  0001 C CNN "Source"
+F 7 "MSTBA2.5/3G5.08" H 5900 3500 50  0001 C CNN "SupplPart#"
+F 8 "https://www.tme.eu/de/details/mstba2.5_3g5.08/trennbare-klemmleisten/phoenix-contact/mstba-25-3-g-508-1757255/" H 5900 3500 50  0001 C CNN "SupplLink"
+F 9 "Y" H 5900 3500 60  0001 C CNN "assemble"
+F 10 "N" H 5900 3500 60  0001 C CNN "Critical"
+F 11 "TERM BLOCK HDR 3POS 90DEG 5.08MM" H 5900 3500 50  0001 C CNN "Description"
 	1    5900 3500
 	1    0    0    -1  
 $EndComp
