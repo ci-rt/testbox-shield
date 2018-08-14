@@ -212,28 +212,27 @@ Wire Wire Line
 $Comp
 L conn:DB9_Male_MountingHoles J303
 U 1 1 595FD2C0
-P 7200 3000
+P 7300 3000
 AR Path="/595FD2C0" Ref="J303"  Part="1" 
 AR Path="/595F1C2F/595FD2C0" Ref="J303"  Part="1" 
-F 0 "J303" H 7200 3650 50  0000 C CNN
-F 1 "CAN" H 7200 3575 50  0000 C CNN
-F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 7200 3000 50  0001 C CNN
-F 3 "docs/DS1037.pdf" H 7200 3000 50  0001 C CNN
-F 4 "CONNFLY" H 7200 3000 60  0001 C CNN "Manufacture"
-F 5 "DS1037-09MNAKT74" H 7200 3000 60  0001 C CNN "ManuPart#"
-F 6 "TME" H 7200 3000 60  0001 C CNN "Source"
-F 7 "DHP8-09M" H 7200 3000 60  0001 C CNN "SupplPart#"
-F 8 "https://www.tme.eu/de/details/dhp8-09m/d-sub-steckverbinder/connfly/ds1037-09mnakt74/" H 7200 3000 60  0001 C CNN "SupplLink"
-F 9 "Y" H 7200 3000 60  0001 C CNN "assemble"
-F 10 "N" H 7200 3000 60  0001 C CNN "Critical"
-F 11 "CONN D-SUB RCPT 9POS R/A SOLDER" H 7200 3000 60  0001 C CNN "Description"
-	1    7200 3000
+F 0 "J303" H 7300 3650 50  0000 C CNN
+F 1 "CAN" H 7300 3575 50  0000 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 7300 3000 50  0001 C CNN
+F 3 "docs/DS1037.pdf" H 7300 3000 50  0001 C CNN
+F 4 "CONNFLY" H 7300 3000 60  0001 C CNN "Manufacture"
+F 5 "DS1037-09MNAKT74" H 7300 3000 60  0001 C CNN "ManuPart#"
+F 6 "TME" H 7300 3000 60  0001 C CNN "Source"
+F 7 "DHP8-09M" H 7300 3000 60  0001 C CNN "SupplPart#"
+F 8 "https://www.tme.eu/de/details/dhp8-09m/d-sub-steckverbinder/connfly/ds1037-09mnakt74/" H 7300 3000 60  0001 C CNN "SupplLink"
+F 9 "Y" H 7300 3000 60  0001 C CNN "assemble"
+F 10 "N" H 7300 3000 60  0001 C CNN "Critical"
+F 11 "CONN D-SUB RCPT 9POS R/A SOLDER" H 7300 3000 60  0001 C CNN "Description"
+	1    7300 3000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6900 3100
-NoConn ~ 6900 3200
-NoConn ~ 6900 3300
-NoConn ~ 6900 3400
+NoConn ~ 7000 3100
+NoConn ~ 7000 3200
+NoConn ~ 7000 3400
 $Comp
 L conn_generic:Conn_01x03 J302
 U 1 1 595FD483
@@ -255,49 +254,30 @@ F 11 "Y" H 7100 1900 60  0001 C CNN "assemble"
 	1    7100 1900
 	1    0    0    -1  
 $EndComp
-$Comp
-L power1:GND #PWR?
-U 1 1 595FD4DE
-P 6800 2100
-F 0 "#PWR?" H 6800 1850 50  0001 C CNN
-F 1 "GND" H 6800 1950 50  0000 C CNN
-F 2 "" H 6800 2100 50  0001 C CNN
-F 3 "" H 6800 2100 50  0001 C CNN
-	1    6800 2100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6900 1900 6800 1900
 Wire Wire Line
-	6800 1900 6800 2100
-NoConn ~ 6900 2600
-Wire Wire Line
-	6900 2700 6800 2700
-Wire Wire Line
-	6800 2700 6800 3000
-Wire Wire Line
-	6800 3000 6900 3000
+	6800 3000 7000 3000
 $Comp
 L power1:GND #PWR?
 U 1 1 595FD578
-P 6800 3500
-F 0 "#PWR?" H 6800 3250 50  0001 C CNN
-F 1 "GND" H 6800 3350 50  0000 C CNN
-F 2 "" H 6800 3500 50  0001 C CNN
-F 3 "" H 6800 3500 50  0001 C CNN
-	1    6800 3500
+P 6800 4600
+F 0 "#PWR?" H 6800 4350 50  0001 C CNN
+F 1 "GND" H 6800 4450 50  0000 C CNN
+F 2 "" H 6800 4600 50  0001 C CNN
+F 3 "" H 6800 4600 50  0001 C CNN
+	1    6800 4600
 	1    0    0    -1  
 $EndComp
-Connection ~ 6800 3000
 Wire Wire Line
 	6500 1800 6500 2500
 Wire Wire Line
-	6500 2900 6900 2900
+	6500 2900 7000 2900
 Connection ~ 5900 2500
 Wire Wire Line
 	6600 2000 6600 2800
 Wire Wire Line
-	6600 2800 6900 2800
+	6600 2800 7000 2800
 Connection ~ 5900 3700
 Wire Wire Line
 	6900 1800 6500 1800
@@ -428,7 +408,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3100 5300 3150
 Wire Wire Line
-	6800 3000 6800 3500
+	6800 3000 6800 3900
 Wire Wire Line
 	5900 2500 6500 2500
 Wire Wire Line
@@ -437,17 +417,48 @@ Wire Wire Line
 	6500 2500 6500 2900
 Wire Wire Line
 	6600 2800 6600 3700
+Wire Wire Line
+	7000 2600 6700 2600
+Wire Wire Line
+	6700 2600 6700 3700
+Wire Wire Line
+	7300 3600 7300 3700
+NoConn ~ 7000 2700
 $Comp
-L power1:GND #PWR?
-U 1 1 5B6804B6
-P 7200 3700
-F 0 "#PWR?" H 7200 3450 50  0001 C CNN
-F 1 "GND" H 7200 3550 50  0000 C CNN
-F 2 "" H 7200 3700 50  0001 C CNN
-F 3 "" H 7200 3700 50  0001 C CNN
-	1    7200 3700
-	1    0    0    -1  
+L conn_generic:Conn_02x02_Odd_Even J304
+U 1 1 5B7335BE
+P 6800 4200
+F 0 "J304" H 6800 4350 50  0000 C CNN
+F 1 "CAN-GND" H 6850 4000 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 6800 3000 50  0001 C CNN
+F 3 "docs/DS1021.pdf" H 6800 3000 50  0001 C CNN
+F 4 "CONNFLY" H 6800 4200 60  0001 C CNN "Manufacture"
+F 5 "DS1021-2*2SF1-1" H 6800 4200 60  0001 C CNN "ManuPart#"
+F 6 "TME" H 6800 4200 60  0001 C CNN "Source"
+F 7 "ZL202-4G" H 6800 4200 60  0001 C CNN "SupplPart#"
+F 8 "http://www.tme.eu/de/details/zl202-4g/stiftleisten-und-buchsen/connfly/ds1021-2_2sf1-1/" H 6800 4200 60  0001 C CNN "SupplLink"
+F 9 "Y" H 6800 4200 60  0001 C CNN "assemble"
+F 10 "N" H 6800 4200 60  0001 C CNN "Critical"
+F 11 "CONN HEADER 4POS .100 STR TIN" H 6800 4200 60  0001 C CNN "Description"
+	1    6800 4200
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7200 3600 7200 3700
+	7000 3300 6900 3300
+Wire Wire Line
+	6800 4400 6800 4500
+Wire Wire Line
+	6800 4500 6900 4500
+Wire Wire Line
+	6900 4500 6900 4400
+Wire Wire Line
+	6800 4500 6800 4600
+Connection ~ 6800 4500
+Wire Wire Line
+	6900 3300 6900 3900
+Wire Wire Line
+	7300 3700 6700 3700
+Wire Wire Line
+	6800 1900 6800 3000
+Connection ~ 6800 3000
 $EndSCHEMATC

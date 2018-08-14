@@ -380,4 +380,45 @@ NoConn ~ 4800 3300
 NoConn ~ 4600 3450
 NoConn ~ 4600 3550
 NoConn ~ 4600 3650
+L device:Jumper_NC_Small JP804
+U 1 1 5B730FD8
+P 3050 2550
+F 0 "JP804" H 3050 2762 50  0000 C CNN
+F 1 "CAB 4 GS" H 3050 2671 50  0000 C CNN
+F 2 "" H 3050 2550 50  0001 C CNN
+F 3 "" H 3050 2550 50  0001 C CNN
+F 4 "Fischer Elektronik" H 3050 2550 50  0001 C CNN "Manufacture"
+F 5 "CAB 4 GS" H 3050 2550 50  0001 C CNN "ManuPart#"
+F 6 "TME" H 3050 2550 50  0001 C CNN "Source"
+F 7 "CAB4GS" H 3050 2550 50  0001 C CNN "SupplPart#"
+F 8 "https://www.tme.eu/de/details/cab4gs/stiftleisten-und-buchsen/fischer-elektronik/cab-4-gs/" H 3050 2550 50  0001 C CNN "SupplLink"
+F 9 "EXT" H 3050 2550 50  0001 C CNN "assemble"
+F 10 "N" H 3050 2550 50  0001 C CNN "Critical"
+F 11 "CONN JUMPER SHORTING .100\"" H 3050 2550 50  0001 C CNN "Description"
+	1    3050 2550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2950 2550
+NoConn ~ 3150 2550
+$Comp
+L device:Jumper_NC_Small JP805
+U 1 1 5B73101F
+P 3050 2900
+F 0 "JP805" H 3050 3112 50  0000 C CNN
+F 1 "CAB 4 GS" H 3050 3021 50  0000 C CNN
+F 2 "" H 3050 2900 50  0001 C CNN
+F 3 "" H 3050 2900 50  0001 C CNN
+F 4 "Fischer Elektronik" H 3050 2900 50  0001 C CNN "Manufacture"
+F 5 "CAB 4 GS" H 3050 2900 50  0001 C CNN "ManuPart#"
+F 6 "TME" H 3050 2900 50  0001 C CNN "Source"
+F 7 "CAB4GS" H 3050 2900 50  0001 C CNN "SupplPart#"
+F 8 "https://www.tme.eu/de/details/cab4gs/stiftleisten-und-buchsen/fischer-elektronik/cab-4-gs/" H 3050 2900 50  0001 C CNN "SupplLink"
+F 9 "EXT" H 3050 2900 50  0001 C CNN "assemble"
+F 10 "N" H 3050 2900 50  0001 C CNN "Critical"
+F 11 "CONN JUMPER SHORTING .100\"" H 3050 2900 50  0001 C CNN "Description"
+	1    3050 2900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2950 2900
+NoConn ~ 3150 2900
 $EndSCHEMATC
