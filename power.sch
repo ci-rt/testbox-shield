@@ -297,12 +297,12 @@ P 7100 1900
 F 0 "J609" H 7100 2200 50  0000 C CNN
 F 1 "EXT SW" H 7100 1500 50  0000 C CNN
 F 2 "Connector_Phoenix_misc:PhoenixContact_MKKDSN_1,5_3-GF-5,08_2x03_P5.08mm_Horizontal" H 7100 1900 50  0001 C CNN
-F 3 "docs/1725669.pdf" H 7100 1900 50  0001 C CNN
+F 3 "docs/1726066.pdf" H 7100 1900 50  0001 C CNN
 F 4 "Phoenix Contact" H 7100 1900 50  0001 C CNN "Manufacture"
-F 5 "1725669" H 7100 1900 50  0001 C CNN "ManuPart#"
+F 5 "1726066" H 7100 1900 50  0001 C CNN "ManuPart#"
 F 6 "TME" H 7100 1900 50  0001 C CNN "Source"
-F 7 "mpt-05-3-254-1725669" H 7100 1900 50  0001 C CNN "SupplPart#"
-F 8 "https://www.tme.eu/en/details/mpt0.5_3-2.54/pcb-terminal-blocks/phoenix-contact/mpt-05-3-254-1725669/" H 7100 1900 50  0001 C CNN "SupplLink"
+F 7 "MKKDSN-3-5.08" H 7100 1900 50  0001 C CNN "SupplPart#"
+F 8 "https://www.tme.eu/de/details/mkkdsn-3-5.08/klemmleisten-fuer-pcb/phoenix-contact/mkkdsn-15-3-508-1726066/" H 7100 1900 50  0001 C CNN "SupplLink"
 F 9 "Y" H 7100 1900 50  0001 C CNN "assemble"
 F 10 "N" H 7100 1900 50  0001 C CNN "Critical"
 F 11 "CONN TERM BLOCK 2.54MM 3POS" H 7100 1900 50  0001 C CNN "Description"
