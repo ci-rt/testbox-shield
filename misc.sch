@@ -215,7 +215,7 @@ L conn:Conn_01x03_Male J805
 U 1 1 5B6CD9CD
 P 4000 3200
 F 0 "J805" H 4106 3478 50  0000 C CNN
-F 1 "AC IN" H 4106 3387 50  0000 C CNN
+F 1 "AC IN2" H 4106 3387 50  0000 C CNN
 F 2 "" H 4000 3200 50  0001 C CNN
 F 3 "docs/TME-IEC-C-X.pdf" H 4000 3200 50  0001 C CNN
 F 4 "Adam Tech" H 4000 3200 50  0001 C CNN "Manufacture"
@@ -234,7 +234,7 @@ L conn:Conn_01x03_Female J806
 U 1 1 5B6CDBC5
 P 4200 3550
 F 0 "J806" H 4227 3576 50  0000 L CNN
-F 1 "AC out" H 4227 3485 50  0000 L CNN
+F 1 "AC out2" H 4227 3485 50  0000 L CNN
 F 2 "" H 4200 3550 50  0001 C CNN
 F 3 "docs/TME-IEC-D-X.pdf" H 4200 3550 50  0001 C CNN
 F 4 "Adam Tech" H 4200 3550 50  0001 C CNN "Manufacture"
@@ -341,7 +341,7 @@ L conn:Conn_01x03_Male J807
 U 1 1 5B73D3F8
 P 4600 3200
 F 0 "J807" H 4706 3478 50  0000 C CNN
-F 1 "AC IN" H 4706 3387 50  0000 C CNN
+F 1 "AC IN1" H 4706 3387 50  0000 C CNN
 F 2 "" H 4600 3200 50  0001 C CNN
 F 3 "docs/1786187.pdf" H 4600 3200 50  0001 C CNN
 F 4 "Phoenix Contact" H 4600 3200 50  0001 C CNN "Manufacture"
@@ -360,7 +360,7 @@ L conn:Conn_01x03_Female J808
 U 1 1 5B73D864
 P 4800 3550
 F 0 "J808" H 4827 3576 50  0000 L CNN
-F 1 "AC out" H 4827 3485 50  0000 L CNN
+F 1 "AC out1" H 4827 3485 50  0000 L CNN
 F 2 "" H 4800 3550 50  0001 C CNN
 F 3 "docs/1757022.pdf" H 4800 3550 50  0001 C CNN
 F 4 "Phoenix Contact" H 4800 3550 50  0001 C CNN "Manufacture"
@@ -380,24 +380,6 @@ NoConn ~ 4800 3300
 NoConn ~ 4600 3450
 NoConn ~ 4600 3550
 NoConn ~ 4600 3650
-L device:Jumper_NC_Small JP804
-U 1 1 5B730FD8
-P 3050 2550
-F 0 "JP804" H 3050 2762 50  0000 C CNN
-F 1 "CAB 4 GS" H 3050 2671 50  0000 C CNN
-F 2 "" H 3050 2550 50  0001 C CNN
-F 3 "" H 3050 2550 50  0001 C CNN
-F 4 "Fischer Elektronik" H 3050 2550 50  0001 C CNN "Manufacture"
-F 5 "CAB 4 GS" H 3050 2550 50  0001 C CNN "ManuPart#"
-F 6 "TME" H 3050 2550 50  0001 C CNN "Source"
-F 7 "CAB4GS" H 3050 2550 50  0001 C CNN "SupplPart#"
-F 8 "https://www.tme.eu/de/details/cab4gs/stiftleisten-und-buchsen/fischer-elektronik/cab-4-gs/" H 3050 2550 50  0001 C CNN "SupplLink"
-F 9 "EXT" H 3050 2550 50  0001 C CNN "assemble"
-F 10 "N" H 3050 2550 50  0001 C CNN "Critical"
-F 11 "CONN JUMPER SHORTING .100\"" H 3050 2550 50  0001 C CNN "Description"
-	1    3050 2550
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2950 2550
 NoConn ~ 3150 2550
 $Comp
@@ -421,4 +403,23 @@ F 11 "CONN JUMPER SHORTING .100\"" H 3050 2900 50  0001 C CNN "Description"
 $EndComp
 NoConn ~ 2950 2900
 NoConn ~ 3150 2900
+$Comp
+L device:Jumper_NC_Small JP804
+U 1 1 5B733DC9
+P 3050 2550
+F 0 "JP804" H 3050 2762 50  0000 C CNN
+F 1 "CAB 4 GS" H 3050 2671 50  0000 C CNN
+F 2 "" H 3050 2550 50  0001 C CNN
+F 3 "" H 3050 2550 50  0001 C CNN
+F 4 "Fischer Elektronik" H 3050 2550 50  0001 C CNN "Manufacture"
+F 5 "CAB 4 GS" H 3050 2550 50  0001 C CNN "ManuPart#"
+F 6 "TME" H 3050 2550 50  0001 C CNN "Source"
+F 7 "CAB4GS" H 3050 2550 50  0001 C CNN "SupplPart#"
+F 8 "https://www.tme.eu/de/details/cab4gs/stiftleisten-und-buchsen/fischer-elektronik/cab-4-gs/" H 3050 2550 50  0001 C CNN "SupplLink"
+F 9 "EXT" H 3050 2550 50  0001 C CNN "assemble"
+F 10 "N" H 3050 2550 50  0001 C CNN "Critical"
+F 11 "CONN JUMPER SHORTING .100\"" H 3050 2550 50  0001 C CNN "Description"
+	1    3050 2550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
