@@ -743,6 +743,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KIPRJMOD}/3D/pxc_1757255_08_MSTBA-2-5-3-G-5-08_3D.stp
+      (offset (xyz -3.5 1.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
   )
 
   (module Meanwell:IRM-20 (layer F.Cu) (tedit 5B6A9B29) (tstamp 5A987843)
@@ -2241,10 +2246,10 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${KIPRJMOD}/modules/packages3D/Connector_Phoenix_MSTB.3dshapes/PhoenixContact_MSTB_2,5_3-GF-5,08_1x03_P5.08mm_Horizontal_ThreadedFlange.wrl
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3D/pxc_1757255_08_MSTBA-2-5-3-G-5-08_3D.stp
+      (offset (xyz -3.5 2 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -3002,7 +3007,7 @@
     )
   )
 
-  (module mkkdsn:PhoenixContact_MKKDSN_1,5_3-GF-5,08_2x03_P5.08mm_Horizontal (layer F.Cu) (tedit 5B69EB10) (tstamp 5B71191B)
+  (module Connector_Phoenix_misc:PhoenixContact_CONNECTOR_PHOENIX_MISC_1,5_3-GF-5,08_2x03_P5.08mm_Horizontal (layer F.Cu) (tedit 5B69EB10) (tstamp 5B71191B)
     (at 106.27 59.58 180)
     (path /5A9865F7/5A639A40)
     (fp_text reference J609 (at 8.89 -1.27) (layer F.SilkS)
@@ -3065,7 +3070,7 @@
       (net 58 "Net-(J609-Pad5)"))
     (pad 6 thru_hole oval (at 6.35 5.08 180) (size 2.08 3.6) (drill 1.4) (layers *.Cu *.Mask)
       (net 48 GNDPWR))
-    (model ${KIPRJMOD}/3D/shapes3D/mkkdsn_1_5_3_5_08.wrl
+    (model ${KIPRJMOD}/3D/shapes3D/Connector_Phoenix_misc_1_5_3_5_08.wrl
       (offset (xyz -6.5 -9.5 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 0 90))

@@ -296,7 +296,7 @@ U 1 1 5A639A40
 P 7100 1900
 F 0 "J609" H 7100 2200 50  0000 C CNN
 F 1 "EXT SW" H 7100 1500 50  0000 C CNN
-F 2 "mkkdsn:PhoenixContact_MKKDSN_1,5_3-GF-5,08_2x03_P5.08mm_Horizontal" H 7100 1900 50  0001 C CNN
+F 2 "Connector_Phoenix_misc:PhoenixContact_MKKDSN_1,5_3-GF-5,08_2x03_P5.08mm_Horizontal" H 7100 1900 50  0001 C CNN
 F 3 "docs/1725669.pdf" H 7100 1900 50  0001 C CNN
 F 4 "Phoenix Contact" H 7100 1900 50  0001 C CNN "Manufacture"
 F 5 "1725669" H 7100 1900 50  0001 C CNN "ManuPart#"
