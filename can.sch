@@ -130,7 +130,7 @@ L conn_generic:Conn_02x02_Odd_Even J301
 U 1 1 595FCFB2
 P 5500 3050
 F 0 "J301" H 5500 3200 50  0000 C CNN
-F 1 "TERM" H 5500 2900 50  0000 C CNN
+F 1 "TERM" H 5550 2850 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 5500 1850 50  0001 C CNN
 F 3 "docs/DS1021.pdf" H 5500 1850 50  0001 C CNN
 F 4 "CONNFLY" H 5500 3050 60  0001 C CNN "Manufacture"
@@ -210,23 +210,23 @@ Wire Wire Line
 Wire Wire Line
 	5300 3700 5300 3200
 $Comp
-L conn:DB9_Female_MountingHoles J303
+L conn:DB9_Male_MountingHoles J303
 U 1 1 595FD2C0
 P 7200 3000
 AR Path="/595FD2C0" Ref="J303"  Part="1" 
 AR Path="/595F1C2F/595FD2C0" Ref="J303"  Part="1" 
 F 0 "J303" H 7200 3650 50  0000 C CNN
 F 1 "CAN" H 7200 3575 50  0000 C CNN
-F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 7200 3000 50  0001 C CNN
-F 3 "doc/DS1037.pdf" H 7200 3000 50  0001 C CNN
-F 4 "CONN D-SUB RCPT 9POS R/A SOLDER" H 7200 3000 60  0001 C CNN "Description"
-F 5 "CONNFLY" H 7200 3000 60  0001 C CNN "Manufacture"
-F 6 "DS1037-09FNAKT74" H 7200 3000 60  0001 C CNN "ManuPart#"
-F 7 "TME" H 7200 3000 60  0001 C CNN "Source"
-F 8 "N" H 7200 3000 60  0001 C CNN "Critical"
-F 9 "DHP8-09F" H 7200 3000 60  0001 C CNN "SupplPart#"
-F 10 "http://www.tme.eu/de/details/dhp8-09f/d-sub-steckverbinder/connfly/ds1037-09fnakt74/" H 7200 3000 60  0001 C CNN "SupplLink"
-F 11 "Y" H 7200 3000 60  0001 C CNN "assemble"
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 7200 3000 50  0001 C CNN
+F 3 "docs/DS1037.pdf" H 7200 3000 50  0001 C CNN
+F 4 "CONNFLY" H 7200 3000 60  0001 C CNN "Manufacture"
+F 5 "DS1037-09MNAKT74" H 7200 3000 60  0001 C CNN "ManuPart#"
+F 6 "TME" H 7200 3000 60  0001 C CNN "Source"
+F 7 "DHP8-09M" H 7200 3000 60  0001 C CNN "SupplPart#"
+F 8 "https://www.tme.eu/de/details/dhp8-09m/d-sub-steckverbinder/connfly/ds1037-09mnakt74/" H 7200 3000 60  0001 C CNN "SupplLink"
+F 9 "Y" H 7200 3000 60  0001 C CNN "assemble"
+F 10 "N" H 7200 3000 60  0001 C CNN "Critical"
+F 11 "CONN D-SUB RCPT 9POS R/A SOLDER" H 7200 3000 60  0001 C CNN "Description"
 	1    7200 3000
 	1    0    0    -1  
 $EndComp
