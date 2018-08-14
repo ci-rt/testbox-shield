@@ -72,13 +72,13 @@ U 1 1 5A631E13
 P 5900 3500
 F 0 "J610" H 5900 3700 50  0000 C CNN
 F 1 "AC OUT" H 5900 3300 50  0000 C CNN
-F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTB_2,5_3-GF_1x03_P5.00mm_Horizontal_ThreadedFlange" H 5900 3500 50  0001 C CNN
-F 3 "docs/1757255.pdf" H 5900 3500 50  0001 C CNN
+F 2 "Connector_Phoenix_misc:PhoenixContact_IC_2,5_3-G-5,08_03_P5.08mm_Horizontal" H 5900 3500 50  0001 C CNN
+F 3 "docs/1786417.pdf" H 5900 3500 50  0001 C CNN
 F 4 "Phoenix Contact" H 5900 3500 50  0001 C CNN "Manufacture"
-F 5 "1757255" H 5900 3500 50  0001 C CNN "ManuPart#"
+F 5 "1786417" H 5900 3500 50  0001 C CNN "ManuPart#"
 F 6 "TME" H 5900 3500 50  0001 C CNN "Source"
-F 7 "MSTBA2.5/3G5.08" H 5900 3500 50  0001 C CNN "SupplPart#"
-F 8 "https://www.tme.eu/de/details/mstba2.5_3g5.08/trennbare-klemmleisten/phoenix-contact/mstba-25-3-g-508-1757255/" H 5900 3500 50  0001 C CNN "SupplLink"
+F 7 "569638 - 62" H 5900 3500 50  0001 C CNN "SupplPart#"
+F 8 "https://www.conrad.de/de/phoenix-contact-buchsengehaeuse-kabel-ic-polzahl-gesamt-3-rastermass-508-mm-1786417-50-st-569638.html" H 5900 3500 50  0001 C CNN "SupplLink"
 F 9 "Y" H 5900 3500 60  0001 C CNN "assemble"
 F 10 "N" H 5900 3500 60  0001 C CNN "Critical"
 F 11 "TERM BLOCK HDR 3POS 90DEG 5.08MM" H 5900 3500 50  0001 C CNN "Description"
