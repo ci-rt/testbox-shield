@@ -1,6 +1,6 @@
 M48
-;DRILL file {KiCad 5.0.0+dfsg1-1} date Tue Aug 14 17:59:20 2018
-;FORMAT={-:-/ absolute / metric / decimal}
+;DRILL file {KiCad (5.0.0)} date 08/15/18 00:33:20
+;FORMAT={3:3/ absolute / metric / suppress leading zeros}
 FMAT,2
 METRIC,TZ
 T1C1.100
@@ -10,11 +10,11 @@ G90
 G05
 M71
 T1
-X70.46Y-148.54
-X73.Y-148.54
-X75.54Y-148.54
+X70460Y-148540
+X73000Y-148540
+X75540Y-148540
 T2
-X68.84Y-55.65
-X80.27Y-55.65
+X68840Y-55650
+X80270Y-55650
 T0
 M30
