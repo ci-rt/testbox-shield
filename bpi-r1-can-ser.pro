@@ -1,4 +1,4 @@
-update=12.07.2017 08:09:11
+update=Date
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,15 +6,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=library
-[eeschema/libraries]
-LibName1=library/conn
-LibName2=library/device
-LibName3=library/interface
-LibName4=library/opto
-LibName5=library/power
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -34,13 +25,16 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[eeschema]
+version=1
+LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=bpi-r1-can-ser.kicad_wks
-PlotDirectoryName=
+PlotDirectoryName=schematic/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
 LabSize=60
+ERC_TestSimilarLabels=1

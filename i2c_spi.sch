@@ -1,18 +1,13 @@
-EESchema Schematic File Version 2
-LIBS:conn
-LIBS:device
-LIBS:interface
-LIBS:opto
-LIBS:power
+EESchema Schematic File Version 4
 LIBS:bpi-r1-can-ser-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
-Title ""
-Date ""
-Rev ""
+Sheet 5 8
+Title "Banana Pi CAN serial extension board"
+Date "2018-03-01"
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -20,12 +15,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X03 J501
+L conn_generic:Conn_01x03 J501
 U 1 1 596FAFFD
 P 4200 2600
+AR Path="/596FAFFD" Ref="J501"  Part="1" 
+AR Path="/596FBB08/596FAFFD" Ref="J501"  Part="1" 
 F 0 "J501" H 4200 2800 50  0000 C CNN
 F 1 "I²C" V 4300 2600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4200 2600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4200 2600 50  0001 C CNN
 F 3 "" H 4200 2600 50  0001 C CNN
 F 4 "N" H 4200 2600 60  0001 C CNN "Critical"
 F 5 "N" H 4200 2600 60  0001 C CNN "assemble"
@@ -33,22 +30,22 @@ F 5 "N" H 4200 2600 60  0001 C CNN "assemble"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X03 J502
+L conn_generic:Conn_02x03_Odd_Even J502
 U 1 1 596FB088
-P 4250 3200
-F 0 "J502" H 4250 3400 50  0000 C CNN
-F 1 "SPI" H 4250 3000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4250 2000 50  0001 C CNN
-F 3 "" H 4250 2000 50  0001 C CNN
-F 4 "N" H 4250 3200 60  0001 C CNN "Critical"
-F 5 "N" H 4250 3200 60  0001 C CNN "assemble"
-	1    4250 3200
+P 4200 3200
+F 0 "J502" H 4200 3400 50  0000 C CNN
+F 1 "SPI" H 4200 3000 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 4200 2000 50  0001 C CNN
+F 3 "" H 4200 2000 50  0001 C CNN
+F 4 "N" H 4200 3200 60  0001 C CNN "Critical"
+F 5 "N" H 4200 3200 60  0001 C CNN "assemble"
+	1    4200 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 2500 4000 2500
+	3500 2500 3600 2500
 Wire Wire Line
-	3900 2600 4000 2600
+	3500 2600 3900 2600
 Wire Wire Line
 	3800 2700 4000 2700
 Wire Wire Line
@@ -63,15 +60,15 @@ Wire Wire Line
 	4600 3200 4500 3200
 Wire Wire Line
 	4500 3300 4700 3300
-Text HLabel 3900 2500 0    60   BiDi ~ 0
+Text HLabel 3500 2500 0    60   BiDi ~ 0
 SDA
-Text HLabel 3900 2600 0    60   Input ~ 0
+Text HLabel 3500 2600 0    60   Input ~ 0
 SCL
 $Comp
-L GND #PWR030
+L power1:GND #PWR?
 U 1 1 596FB1A1
 P 3800 2800
-F 0 "#PWR030" H 3800 2550 50  0001 C CNN
+F 0 "#PWR?" H 3800 2550 50  0001 C CNN
 F 1 "GND" H 3800 2650 50  0000 C CNN
 F 2 "" H 3800 2800 50  0001 C CNN
 F 3 "" H 3800 2800 50  0001 C CNN
@@ -81,10 +78,10 @@ $EndComp
 Wire Wire Line
 	3800 2700 3800 2800
 $Comp
-L GND #PWR031
+L power1:GND #PWR?
 U 1 1 596FB1C6
 P 4700 3400
-F 0 "#PWR031" H 4700 3150 50  0001 C CNN
+F 0 "#PWR?" H 4700 3150 50  0001 C CNN
 F 1 "GND" H 4700 3250 50  0000 C CNN
 F 2 "" H 4700 3400 50  0001 C CNN
 F 3 "" H 4700 3400 50  0001 C CNN
@@ -103,4 +100,264 @@ Text HLabel 4600 3100 2    60   Input ~ 0
 CS0
 Text HLabel 4600 3200 2    60   Input ~ 0
 CS1
+$Comp
+L memory_EEPROM:24LC08 U501
+U 1 1 5A995BE5
+P 6000 2600
+F 0 "U501" H 5750 2850 50  0000 C CNN
+F 1 "24LC08" H 6050 2850 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6050 2350 50  0001 L CNN
+F 3 "docs/21710K.pdf" H 6000 2500 50  0001 C CNN
+F 4 "Microchip Technology" H 6000 2600 50  0001 C CNN "Manufacture"
+F 5 "24LC08BT-I/SN" H 6000 2600 50  0001 C CNN "ManuPart#"
+F 6 "Digikey" H 6000 2600 50  0001 C CNN "Source"
+F 7 "24LC08BT-I/SNCT-ND" H 6000 2600 50  0001 C CNN "SupplPart#"
+F 8 "https://www.digikey.de/product-detail/de/microchip-technology/24LC08BT-I-SN/24LC08BT-I-SNCT-ND/5011021" H 6000 2600 50  0001 C CNN "SupplLink"
+F 9 "Y" H 6000 2600 50  0001 C CNN "assemble"
+F 10 "N" H 6000 2600 50  0001 C CNN "Critical"
+F 11 "IC EEPROM 8K I2C 400KHZ 8SOIC" H 6000 2600 50  0001 C CNN "Description"
+F 12 "8-SOIC" H 6000 2600 50  0001 C CNN "PackageID"
+	1    6000 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:GND #PWR?
+U 1 1 5A995FD2
+P 5500 2800
+F 0 "#PWR?" H 5500 2550 50  0001 C CNN
+F 1 "GND" H 5500 2650 50  0000 C CNN
+F 2 "" H 5500 2800 50  0001 C CNN
+F 3 "" H 5500 2800 50  0001 C CNN
+	1    5500 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2500 5500 2500
+Wire Wire Line
+	5500 2500 5500 2600
+Wire Wire Line
+	5600 2600 5500 2600
+Connection ~ 5500 2600
+Wire Wire Line
+	5600 2700 5500 2700
+Connection ~ 5500 2700
+$Comp
+L power1:GND #PWR?
+U 1 1 5A996038
+P 6000 3000
+F 0 "#PWR?" H 6000 2750 50  0001 C CNN
+F 1 "GND" H 6000 2850 50  0000 C CNN
+F 2 "" H 6000 3000 50  0001 C CNN
+F 3 "" H 6000 3000 50  0001 C CNN
+	1    6000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2900 6000 3000
+Wire Wire Line
+	6500 2500 6400 2500
+Wire Wire Line
+	6500 2600 6400 2600
+$Comp
+L power1:GND #PWR?
+U 1 1 5A996094
+P 6500 2800
+F 0 "#PWR?" H 6500 2550 50  0001 C CNN
+F 1 "GND" H 6500 2650 50  0000 C CNN
+F 2 "" H 6500 2800 50  0001 C CNN
+F 3 "" H 6500 2800 50  0001 C CNN
+	1    6500 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2700 6500 2700
+Wire Wire Line
+	6500 2700 6500 2800
+Text HLabel 6500 2500 2    60   BiDi ~ 0
+SDA
+Text HLabel 6500 2600 2    60   Input ~ 0
+SCL
+$Comp
+L power1:+3.3V #PWR?
+U 1 1 5A9963A5
+P 6000 2200
+F 0 "#PWR?" H 6000 2050 50  0001 C CNN
+F 1 "+3.3V" H 6000 2340 50  0000 C CNN
+F 2 "" H 6000 2200 50  0001 C CNN
+F 3 "" H 6000 2200 50  0001 C CNN
+	1    6000 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2300 6000 2200
+Wire Wire Line
+	5500 2600 5500 2700
+Wire Wire Line
+	5500 2700 5500 2800
+$Comp
+L memory_EEPROM:24LC08 U502
+U 1 1 5B68133A
+P 7900 2600
+F 0 "U502" H 7650 2850 50  0000 C CNN
+F 1 "ATECC608A" H 7950 2850 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7950 2350 50  0001 L CNN
+F 3 "docs/40001977A.pdf" H 7900 2500 50  0001 C CNN
+F 4 "Microchip Technology" H 7900 2600 50  0001 C CNN "Manufacture"
+F 5 "ATECC608A-SSHDA-T" H 7900 2600 50  0001 C CNN "ManuPart#"
+F 6 "Digikey" H 7900 2600 50  0001 C CNN "Source"
+F 7 "ATECC608A-SSHDA-TCT-ND" H 7900 2600 50  0001 C CNN "SupplPart#"
+F 8 "https://www.digikey.de/product-detail/de/microchip-technology/ATECC608A-SSHDA-T/ATECC608A-SSHDA-TCT-ND/7928238" H 7900 2600 50  0001 C CNN "SupplLink"
+F 9 "Y" H 7900 2600 50  0001 C CNN "assemble"
+F 10 "N" H 7900 2600 50  0001 C CNN "Critical"
+F 11 "IC AUTHENTICATION CHIP 8SOIC" H 7900 2600 50  0001 C CNN "Description"
+F 12 "8-SOIC" H 7900 2600 50  0001 C CNN "PackageID"
+	1    7900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:GND #PWR?
+U 1 1 5B681340
+P 7400 2800
+F 0 "#PWR?" H 7400 2550 50  0001 C CNN
+F 1 "GND" H 7400 2650 50  0000 C CNN
+F 2 "" H 7400 2800 50  0001 C CNN
+F 3 "" H 7400 2800 50  0001 C CNN
+	1    7400 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 2500 7400 2500
+Wire Wire Line
+	7400 2500 7400 2600
+Wire Wire Line
+	7500 2600 7400 2600
+Connection ~ 7400 2600
+Wire Wire Line
+	7500 2700 7400 2700
+Connection ~ 7400 2700
+$Comp
+L power1:GND #PWR?
+U 1 1 5B68134C
+P 7900 3000
+F 0 "#PWR?" H 7900 2750 50  0001 C CNN
+F 1 "GND" H 7900 2850 50  0000 C CNN
+F 2 "" H 7900 3000 50  0001 C CNN
+F 3 "" H 7900 3000 50  0001 C CNN
+	1    7900 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2900 7900 3000
+Wire Wire Line
+	8400 2500 8300 2500
+Wire Wire Line
+	8400 2600 8300 2600
+$Comp
+L power1:GND #PWR?
+U 1 1 5B681355
+P 8400 2800
+F 0 "#PWR?" H 8400 2550 50  0001 C CNN
+F 1 "GND" H 8400 2650 50  0000 C CNN
+F 2 "" H 8400 2800 50  0001 C CNN
+F 3 "" H 8400 2800 50  0001 C CNN
+	1    8400 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 2700 8400 2700
+Wire Wire Line
+	8400 2700 8400 2800
+Text HLabel 8400 2500 2    60   BiDi ~ 0
+SDA
+Text HLabel 8400 2600 2    60   Input ~ 0
+SCL
+$Comp
+L power1:+3.3V #PWR?
+U 1 1 5B68135F
+P 7900 2200
+F 0 "#PWR?" H 7900 2050 50  0001 C CNN
+F 1 "+3.3V" H 7900 2340 50  0000 C CNN
+F 2 "" H 7900 2200 50  0001 C CNN
+F 3 "" H 7900 2200 50  0001 C CNN
+	1    7900 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2300 7900 2200
+Wire Wire Line
+	7400 2600 7400 2700
+Wire Wire Line
+	7400 2700 7400 2800
+$Comp
+L device:R R501
+U 1 1 5B69C29F
+P 3600 2250
+F 0 "R501" H 3530 2204 50  0000 R CNN
+F 1 "R" H 3530 2295 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3530 2250 50  0001 C CNN
+F 3 "" H 3600 2250 50  0001 C CNN
+F 4 "N" H 3600 2250 50  0001 C CNN "assemble"
+F 5 "do not assemble" H 3600 2250 50  0001 C CNN "Description"
+F 6 "0603" H 3600 2250 50  0001 C CNN "PackageID"
+	1    3600 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L device:R R502
+U 1 1 5B69CA72
+P 3900 2250
+F 0 "R502" H 3830 2204 50  0000 R CNN
+F 1 "R" H 3830 2295 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 2250 50  0001 C CNN
+F 3 "" H 3900 2250 50  0001 C CNN
+F 4 "N" H 3900 2250 50  0001 C CNN "assemble"
+F 5 "do not assemble" H 3900 2250 50  0001 C CNN "Description"
+F 6 "0603" H 3900 2250 50  0001 C CNN "PackageID"
+	1    3900 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power1:+3.3V #PWR?
+U 1 1 5B69CA96
+P 3600 2000
+F 0 "#PWR?" H 3600 1850 50  0001 C CNN
+F 1 "+3.3V" H 3600 2140 50  0000 C CNN
+F 2 "" H 3600 2000 50  0001 C CNN
+F 3 "" H 3600 2000 50  0001 C CNN
+	1    3600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power1:+3.3V #PWR?
+U 1 1 5B69CAAD
+P 3900 2000
+F 0 "#PWR?" H 3900 1850 50  0001 C CNN
+F 1 "+3.3V" H 3900 2140 50  0000 C CNN
+F 2 "" H 3900 2000 50  0001 C CNN
+F 3 "" H 3900 2000 50  0001 C CNN
+	1    3900 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2000 3600 2100
+Wire Wire Line
+	3900 2000 3900 2100
+Wire Wire Line
+	3600 2400 3600 2500
+Connection ~ 3600 2500
+Wire Wire Line
+	3600 2500 4000 2500
+Wire Wire Line
+	3900 2400 3900 2600
+Connection ~ 3900 2600
+Wire Wire Line
+	3900 2600 4000 2600
+Wire Notes Line
+	3500 2150 3700 2400
+Wire Notes Line
+	3700 2150 3500 2400
+Wire Notes Line
+	3800 2150 4000 2400
+Wire Notes Line
+	4000 2150 3800 2400
 $EndSCHEMATC

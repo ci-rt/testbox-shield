@@ -1,0 +1,8 @@
+(module bene (layer F.Cu) (tedit 5965257E)
+  (fp_text reference bene@eurovibes.org (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 0.5) (thickness 0.125)))
+  )
+  (fp_text value LOGO (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)

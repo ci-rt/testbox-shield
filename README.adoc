@@ -1,0 +1,103 @@
+= TESTBOX
+:toc:
+:toclevels: 3
+
+IMPORTANT: *Final Review Pending!*
+
+image::docs/testbox-logo.png[]
+
+This git repository hosts all related drawings, layouts and schematics
+to build a TESTBOX test system.
+
+But it doesn't include the project specific libraries. However they are
+referenced as git submodules. To retrieve them use 'git submodule init' and
+'git submodule update' before opening the project in kicad.
+
+The project was verified to work with kicad version 5.
+
+== preliminary remarks
+One part of the Real Time Linux collaborative project is the continous
+integration project https://ci-rt.linutronix.de/RT-Test/[CI-RT].
+
+One part of the testsuite performs different tests on the devices under test
+(DUT). To ease the hardware integration of the DUT to the test infrastructure
+the DUT need to comply with some
+https://ci-rt.linutronix.de/download/system-requirements.pdf[hardware
+requirements].
+
+It turned out that some DUTs need special hardware extensions to meet the
+test infrastructure hardware requirements. Furthermore the wish for hardware
+assisted tests grow up.
+
+The idea of a standardized adaption system was born: the TESTBOX.
+
+image::docs/testbox.jpg[picture of the testbox]
+
+== hardware
+The TESTBOX is based on the http://www.banana-pi.org/r1.html[Banana Pi R1
+router board]. This board includes several physical interfaces:
+
+ * 5-port Ethernet Switch
+ * CAN
+ * GPIOs
+ * I2C
+ * RS232
+ * SPI
+ * USB
+
+The board is supported by the mainline
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/tree/arch/arm/boot/dts/sun7i-a20-lamobo-r1.dts?h=linux-4.9.y[Linux Kernel].
+Since most interfaces are routed to pinheaders and lack of a physical adaption
+a board shield was developed.
+
+http://kicad-pcb.org[KiCAD] is used to create all schematics and the layout.
+
+=== shield
+image:3D/bpi-r1-can-ser.png[picture of shield]
+
+==== 3D model
+A VRML model of the shield is also link:3D/bpi-r1-can-ser.wrl[available].
+
+==== schematic
+The complete schematic is available as
+link::schematic/bpi-r1-can-ser.pdf[PDF].
+
+===== overview
+image::schematic/bpi-r1-can-ser-0.png[schematic overview]
+
+===== serial ports
+image::schematic/bpi-r1-can-ser-1.png[serial port schematic]
+
+===== CAN interface
+image::schematic/bpi-r1-can-ser-2.png[CAN interface schematic]
+
+===== general purpose output
+image::schematic/bpi-r1-can-ser-3.png[GPO schematic]
+
+===== I2C / SPI
+image::schematic/bpi-r1-can-ser-4.png[I2C and SPI schematic]
+
+==== gerber
+===== PCB edges and cuts
+image::gerber/bpi-r1-can-ser-Edge.Cuts.svg[edges and cuts]
+
+===== top copper layer
+image::gerber/bpi-r1-can-ser-F.Cu.svg[PCB top layer]
+
+===== top silk screen
+image::gerber/bpi-r1-can-ser-F.SilkS.svg[PCB top silk screen]
+
+===== bottom copper layer
+image::gerber/bpi-r1-can-ser-B.Cu.svg[PCB bottom copper layer]
+
+===== bottom silk screen
+image::gerber/bpi-r1-can-ser-B.SilkS.svg[PCB bottom silk screen]
+
+== software
+To create the root file system of the TESTBOX http://elbe-rfs.org/[E.L.B.E.]
+is used. E.L.B.E. provides a reproducable way to create
+http://debian.org[Debian-based] root file systems.
+
+=== E.L.B.E. root file system
+The receipe to build a root file system for the TESTBOX can be found under
+https://github.com/ci-rt/testbox-rfs[].
