@@ -2,8 +2,6 @@
 :toc:
 :toclevels: 3
 
-IMPORTANT: *Final Review Pending!*
-
 image::docs/testbox-logo.png[]
 
 This git repository hosts all related drawings, layouts and schematics
@@ -46,52 +44,81 @@ router board]. This board includes several physical interfaces:
  * USB
 
 The board is supported by the mainline
-https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/tree/arch/arm/boot/dts/sun7i-a20-lamobo-r1.dts?h=linux-4.9.y[Linux Kernel].
+https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git/tree/arch/arm/boot/dts/sun7i-a20-lamobo-r1.dts?h=linux-4.18.y[Linux Kernel].
 Since most interfaces are routed to pinheaders and lack of a physical adaption
-a board shield was developed.
+a board shield was developed and is now available in version 2.
 
 http://kicad-pcb.org[KiCAD] is used to create all schematics and the layout.
 
 === shield
 image:3D/bpi-r1-can-ser.png[picture of shield]
 
+Changes in version 2 of the shield:
+
+ * 5V DC Powersupply added
+ * 240V AC Powerswitch added
+ * relay added
+ * serial EEPROM added
+ * secure store for private keys added (ATECC)
+ * minor fixes
+
 ==== 3D model
 A VRML model of the shield is also link:3D/bpi-r1-can-ser.wrl[available].
 
 ==== schematic
 The complete schematic is available as
-link::schematic/bpi-r1-can-ser.pdf[PDF].
+link:schematic/bpi-r1-can-ser.pdf[PDF].
 
 ===== overview
-image::schematic/bpi-r1-can-ser-0.png[schematic overview]
+image:schematic/bpi-r1-can-ser-0.png[schematic overview]
 
 ===== serial ports
-image::schematic/bpi-r1-can-ser-1.png[serial port schematic]
+image:schematic/bpi-r1-can-ser-1.png[serial port schematic]
 
 ===== CAN interface
-image::schematic/bpi-r1-can-ser-2.png[CAN interface schematic]
+image:schematic/bpi-r1-can-ser-2.png[CAN interface schematic]
 
 ===== general purpose output
-image::schematic/bpi-r1-can-ser-3.png[GPO schematic]
+image:schematic/bpi-r1-can-ser-3.png[GPO schematic]
 
 ===== I2C / SPI
-image::schematic/bpi-r1-can-ser-4.png[I2C and SPI schematic]
+image:schematic/bpi-r1-can-ser-4.png[I2C and SPI schematic]
+
+===== Power
+image:schematic/bpi-r1-can-ser-5.png[I2C and SPI schematic]
+
+===== latbox (not implemented)
+image:schematic/bpi-r1-can-ser-6.png[I2C and SPI schematic]
+
+===== miscellanea
+image:schematic/bpi-r1-can-ser-7.png[I2C and SPI schematic]
 
 ==== gerber
 ===== PCB edges and cuts
-image::gerber/bpi-r1-can-ser-Edge.Cuts.svg[edges and cuts]
+image:gerber/bpi-r1-can-ser-Edge.Cuts.svg[edges and cuts]
 
 ===== top copper layer
-image::gerber/bpi-r1-can-ser-F.Cu.svg[PCB top layer]
+image:gerber/bpi-r1-can-ser-F.Cu.svg[PCB top layer]
 
 ===== top silk screen
-image::gerber/bpi-r1-can-ser-F.SilkS.svg[PCB top silk screen]
+image:gerber/bpi-r1-can-ser-F.SilkS.svg[PCB top silk screen]
 
 ===== bottom copper layer
-image::gerber/bpi-r1-can-ser-B.Cu.svg[PCB bottom copper layer]
+image:gerber/bpi-r1-can-ser-B.Cu.svg[PCB bottom copper layer]
 
 ===== bottom silk screen
-image::gerber/bpi-r1-can-ser-B.SilkS.svg[PCB bottom silk screen]
+image:gerber/bpi-r1-can-ser-B.SilkS.svg[PCB bottom silk screen]
+
+==== Errata
+===== TIA-561 serial port
+The pinout of the RJ-45 connector was mixed up (off by one)
+
+image:errata/v2/serial.png[wire scheme]
+
+===== GPO
+The optocoupler is open collector and not TTL. Add 100 Ohm pullups.
+
+image:errata/v2/gpo.png[wire scheme]
 
 == software
 To create the root file system of the TESTBOX http://elbe-rfs.org/[E.L.B.E.]
